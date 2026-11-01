@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T19:33:46Z",
+  "generated_at": "2026-11-01T19:50:25Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -18,28 +18,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-01T19:33:47Z",
+      "fetched_at": "2026-11-01T19:50:26Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-01T19:33:47Z",
+      "fetched_at": "2026-11-01T19:50:26Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-01T19:33:51Z",
+      "fetched_at": "2026-11-01T19:50:31Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-01T19:33:48Z",
+      "fetched_at": "2026-11-01T19:50:27Z",
       "error": null
     }
   ],
@@ -107,7 +107,7 @@
       "warnings": [],
       "now": "Clear. AQI 39",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the W at 4 mph; the Nissan Fire (2 acres), 25 miles NE, is not upwind this weekend.",
+      "why": "Wind from the W at 3 mph; the Nissan Fire (2 acres), 25 miles NE, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -173,7 +173,7 @@
       "warnings": [],
       "now": "Clear. AQI 21",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the NW at 2 mph; the Nissan Fire (2 acres), 44 miles E, is not upwind this weekend.",
+      "why": "Wind from the SW at 1 mph; the Nissan Fire (2 acres), 44 miles E, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -217,7 +217,7 @@
       "warnings": [],
       "now": "Clear. AQI 21",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the W at 5 mph; the Nissan Fire (2 acres), 46 miles E, is not upwind this weekend.",
+      "why": "Wind from the W at 4 mph; the Nissan Fire (2 acres), 46 miles E, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -232,7 +232,7 @@
       "warnings": [],
       "now": "Clear. AQI 26",
       "weekend": "Clear",
-      "why": "Wind from the NW at 8 mph; no active fires within 50 miles.",
+      "why": "Wind from the NW at 7 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
