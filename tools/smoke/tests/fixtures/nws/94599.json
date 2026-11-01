@@ -1,0 +1,118 @@
+{
+ "@context": [
+  "https://geojson.org/geojson-ld/geojson-context.jsonld",
+  {
+   "@version": "1.1",
+   "wx": "https://api.weather.gov/ontology#",
+   "@vocab": "https://api.weather.gov/ontology#"
+  }
+ ],
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e8cdb3135edfabf93385aa6403cb8642450df28.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e8cdb3135edfabf93385aa6403cb8642450df28.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.0e8cdb3135edfabf93385aa6403cb8642450df28.001.1",
+    "areaDesc": "San Francisco; North Bay Interior Valleys; San Francisco Bay Shoreline; Northern Monterey Bay; Southern Monterey Bay and Big Sur Coast",
+    "geocode": {
+     "SAME": [
+      "006075",
+      "006041",
+      "006055",
+      "006097",
+      "006001",
+      "006013",
+      "006081",
+      "006085",
+      "006087",
+      "006053"
+     ],
+     "UGC": [
+      "CAZ006",
+      "CAZ506",
+      "CAZ508",
+      "CAZ529",
+      "CAZ530"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/CAZ006",
+     "https://api.weather.gov/zones/forecast/CAZ506",
+     "https://api.weather.gov/zones/forecast/CAZ508",
+     "https://api.weather.gov/zones/forecast/CAZ529",
+     "https://api.weather.gov/zones/forecast/CAZ530"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54758d54f22241a61d5e5e397478dff05a9877bd.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.54758d54f22241a61d5e5e397478dff05a9877bd.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-30T15:58:00-07:00"
+     }
+    ],
+    "sent": "2026-10-31T04:45:00-07:00",
+    "effective": "2026-10-31T04:45:00-07:00",
+    "onset": "2026-10-31T04:45:00-07:00",
+    "expires": "2026-10-31T18:00:00-07:00",
+    "ends": "2026-11-01T19:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Coastal Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Francisco CA",
+    "headline": "Coastal Flood Advisory issued October 31 at 4:45AM PDT until November 1 at 6:00PM PST by NWS San Francisco CA",
+    "description": "* WHAT...Up to 1.5 ft of inundation above ground level is\npossible in low-lying areas near shorelines and tidal\nwaterways.\n\n* WHERE...Bayshore locations along the San Francisco Bay, San Pablo\nBay, and Monterey Bay.\n\n* WHEN...Until 6 PM PDT Sunday.\n\n* IMPACTS...High tides will result in flooding of low-lying\ninfrastructure, isolated road closures, and coastal erosion.\nRising tides will bring water and waves farther up the beach\nthan normal, restricting escape from beaches and coastal\nareas. More substantial impacts are expected along bayshore\nMarin County where increased flooding is anticipated across\nlow lying areas.\n\n* ADDITIONAL DETAILS...At the San Francisco tidal gauge, high tide\nis expected to be 1.5 feet above normal (7.3 ft MLLW) at 03:44\nPM on Saturday 10/31 and 1.0 ft above normal (6.8 ft MLLW) on\nSunday 11/01 at 3:59 PM. These predictions include up to 1.5 ft\nof surge that will enhance the astronomical tide and flooding\nthreat. High tide varies up to 90 minutes earlier or later along\nthe Pacific Coast and through the San Francisco Bay,\nrespectively.",
+    "instruction": "If travel is required, allow extra time as some roads may be\nclosed. Do not drive around barricades or through water of\nunknown depth. Take the necessary actions to protect flood-prone\nproperty.",
+    "response": "Monitor",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "CFWMTR"
+     ],
+     "WMOidentifier": [
+      "WHUS46 KMTR 311145"
+     ],
+     "NWSheadline": [
+      "COASTAL FLOOD ADVISORY REMAINS IN EFFECT UNTIL 6 PM PDT SUNDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CON.KMTR.CF.Y.0014.000000T0000Z-261102T0200Z/"
+     ],
+     "eventEndingTime": [
+      "2026-11-01T19:00:00-07:00"
+     ],
+     "expiredReferences": [
+      "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.de0113702fa3f03777d691bb2397e96c5d340ff6.001.1,2026-10-29T15:10:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.469aefede061f4bf520e6d308fb60fd3fb2bb052.001.1,2026-10-29T04:23:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fb9442f21309df68f99fa20dde0a5e8992e0e68c.001.1,2026-10-28T13:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0b70f97b100d1a2b97df81c1de11e7aad29e855a.001.1,2026-10-28T00:20:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf7d0f8a6f43cc09077d0dc2c0e11efe0c25a26c.001.1,2026-10-27T15:11:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.96c7ca5f0858b0685396dce5ef16f7bde90e569d.001.1,2026-10-27T05:41:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57b07cba79fb972c5fe3f400df219d83720b3bbb.001.1,2026-10-26T20:59:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b801d6f35241030612d5a04e73e6ca2436c72d6.001.1,2026-10-26T10:55:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.51d9e89cfafae5087c38c2348ed00b61d1ce0129.001.1,2026-10-26T11:04:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.069f16f95a121f96f5e35a504a4446feac3e5d33.001.1,2026-10-26T11:03:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.802b0d2bd68cad782a3a5eb4414463253f07da56.001.1,2026-10-25T20:36:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7a4bec714787ce557b179a4072c097d12f2e503d.001.1,2026-10-25T09:06:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93d6568682d4291e355770419a397ae065564427.001.1,2026-10-25T02:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b09900d1647f9e961bd1b5601a12923444011653.001.1,2026-10-24T13:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.43cc8e0ec9ff2a247687d9b2982f8e2cbdfa1c14.001.1,2026-10-24T05:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c9f54b250a8067122e1e777ced22b42550c82a6f.001.1,2026-10-23T12:45:00-07:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "CFY"
+     ]
+    }
+   }
+  }
+ ],
+ "title": "Current watches, warnings, and advisories for 38.401 N, 122.361 W",
+ "updated": "2026-10-31T18:07:06+00:00"
+}

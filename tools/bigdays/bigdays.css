@@ -1,0 +1,121 @@
+/* Big days calendar. House register: cream ground, ink, Fraunces / Source Sans 3 / JetBrains Mono.
+   Text carries every meaning; each tag type gets a colored left rule as an accent only. Tag text is ink
+   or --mute on the cream or panel ground (ink 17.9:1, mute 7.0:1). */
+:root {
+  --ground: #FDFCF9;
+  --ink: #161614;
+  --mute: #595955;
+  --rule: #E2DFD5;
+  --panel: #FFFEFA;
+  --link: #24405E;
+  --focus: #9A4A2B;
+  --a-event: #2E6B30;
+  --a-holiday: #9A4A2B;
+  --a-break: #24405E;
+  --a-harvest: #6B4E16;
+  --a-weather: #595955;
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Source Sans 3', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html:not(.js) .js-only { display: none !important; }
+html.js .nojs-only { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 17px/1.5 var(--sans); }
+a { color: var(--link); }
+a:hover { color: var(--ink); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px 48px; }
+.top { padding: 24px 0 8px; border-bottom: 1px solid var(--rule); }
+.back { margin: 0 0 12px; font: 500 13px/1.4 var(--mono); }
+.back a { display: inline-flex; align-items: center; min-height: 44px; }
+h1 { font: 700 clamp(32px, 6vw, 52px)/1.05 var(--serif); margin: 0 0 8px; letter-spacing: -0.01em; }
+.lede { margin: 0 0 12px; font-size: 19px; }
+h2 { font: 700 24px/1.2 var(--serif); margin: 28px 0 10px; }
+h3 { font: 700 17px/1.3 var(--sans); margin: 0 0 4px; }
+
+/* ---- Controls */
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin: 20px 0 12px; }
+.toggle { display: inline-flex; border: 1.5px solid var(--ink); }
+.toggle button {
+  font: 600 16px/1 var(--sans); min-height: 44px; min-width: 96px; padding: 0 18px;
+  border: 0; background: var(--ground); color: var(--ink); cursor: pointer;
+}
+.toggle button + button { border-left: 1.5px solid var(--ink); }
+.toggle button[aria-pressed="true"] { background: var(--ink); color: var(--ground); }
+.weather-line { margin: 0; font-size: 15px; color: var(--mute); }
+.weather-line a { display: inline-flex; align-items: center; min-height: 44px; margin-left: 6px; }
+
+/* ---- Grid */
+.grid { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.grid th { font: 500 12px/1.4 var(--mono); color: var(--mute); text-align: left; padding: 4px 4px 6px; }
+.grid td { border: 1px solid var(--rule); padding: 0; vertical-align: top; height: 1px; }
+.grid td.out { background: transparent; border-color: transparent; }
+.day {
+  display: flex; flex-direction: column; align-items: stretch; gap: 4px; width: 100%; height: 100%;
+  min-height: 112px; min-width: 44px; padding: 6px; border: 0; background: var(--panel); color: var(--ink);
+  font: inherit; text-align: left; cursor: pointer;
+}
+.day:hover { background: #F4F1E8; }
+.day[aria-pressed="true"] { box-shadow: inset 0 0 0 3px var(--ink); }
+.day--today .day-num { background: var(--ink); color: var(--ground); padding: 0 4px; }
+.day--unchecked { background: #F6F4EE; }
+.day-num { font: 500 13px/1.4 var(--mono); align-self: flex-start; }
+.day-count { display: none; font: 600 13px/1 var(--mono); color: var(--mute); }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.tags { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 3px; }
+.tag { display: block; font-size: 13px; line-height: 1.25; padding: 1px 0 1px 6px; border-left: 3px solid var(--rule); overflow-wrap: anywhere; }
+.tag--event { border-color: var(--a-event); font-weight: 600; }
+.tag--holiday, .tag--weekend { border-color: var(--a-holiday); }
+.tag--break { border-color: var(--a-break); }
+.tag--harvest { border-color: var(--a-harvest); }
+.tag--weather { border-color: var(--a-weather); font-family: var(--mono); font-size: 12px; }
+.tag--quiet, .tag--unchecked { color: var(--mute); border-color: transparent; padding-left: 0; }
+.tag--unchecked { font-style: italic; }
+
+/* ---- Selected day */
+.detail { margin: 16px 0 0; padding: 12px 16px 16px; background: var(--panel); border: 1px solid var(--rule); }
+.detail h2 { margin: 0 0 8px; font-size: 22px; }
+.detail .tag { font-size: 16px; padding: 3px 0 3px 10px; border-left-width: 4px; }
+.detail .tag--weather { font-size: 15px; }
+.detail .tag--quiet, .detail .tag--unchecked { padding-left: 0; }
+
+/* ---- Agenda (no JavaScript) */
+.agenda-days { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.agenda-days > li { background: var(--panel); border: 1px solid var(--rule); padding: 10px 12px; }
+.agenda-days .tag { font-size: 15px; }
+
+/* ---- Sources page */
+.sources table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.sources th, .sources td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+.sources th { font: 600 13px/1.3 var(--mono); color: var(--mute); }
+.sources td a { overflow-wrap: anywhere; }
+.table-wrap { overflow-x: auto; }
+.note { color: var(--mute); font-size: 14px; }
+.districts { list-style: none; padding: 0; }
+.districts > li { margin: 0 0 16px; }
+.districts p { margin: 2px 0 4px; }
+
+/* ---- Footer */
+.foot { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 15px; color: var(--mute); }
+.foot p { margin: 4px 0; }
+.foot a { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* Narrow screens: the grid shows dates and a count; tapping a day shows its tags below the grid. */
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .day { min-height: 52px; padding: 4px; align-items: center; justify-content: space-between; }
+  .day-num { align-self: center; font-size: 12px; }
+  .day-mon { display: none; }
+  .day .tags { display: none; }
+  .day-count { display: block; }
+  .grid th { text-align: center; padding: 4px 0 6px; }
+}
+
+/* "subject to change" line (Jay, 2026-11-01); visible with and without JavaScript */
+.change-note { margin: 16px 0 0; font-size: 15px; color: #595955; }

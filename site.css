@@ -1,0 +1,591 @@
+/* site.css: Jay Reed, Napa and Sonoma. Tokens first, then skins (the tile is a swappable skin), then the page. */
+
+:root {
+  --ground: #FDFCF9;
+  --ink: #161614;
+  --mute: #595955;
+  --rule: #E2DFD5;
+  --accent: #4F6132;
+
+  /* the four categories */
+  --c-apps: #4F6132;
+  --c-tools: #9A4A2B;
+  --c-sites: #24405E;
+  --c-research: #6B3A5B;
+
+  --desk: #F1EFE8;
+  --card: #FFFEFA;
+  --card-ink: #161614;
+  --card-text: #3A3A36;
+  --card-mute: #595955;
+  --card-border: #E2DFD5;
+  --card-border-hot: #161614;
+  --card-radius: 0px;
+  --card-shadow: 0 10px 24px rgba(20,20,18,0.14);
+  --card-shadow-hot: 0 20px 40px rgba(20,20,18,0.2);
+  /* the same shadow in parts, so the heap can scale it by depth */
+  --shadow-x: 0px;
+  --shadow-y: 10px;
+  --shadow-blur: 24px;
+  --shadow-ink: rgba(20,20,18,0.14);
+  --name-font: 'Fraunces', serif;
+  --name-style: normal;
+  --name-weight: 500;
+  --name-size: 26px;
+  --tag-font: 'JetBrains Mono', monospace;
+  --tag-transform: none;
+  --tag-spacing: 0;
+  --num-font: 'JetBrains Mono', monospace;
+  --body-font: 'Source Sans 3', sans-serif;
+  --count-color: #595955;
+}
+.card.cat-apps { --cat: var(--c-apps); }
+.card.cat-tools { --cat: var(--c-tools); }
+.card.cat-sites { --cat: var(--c-sites); }
+.card.cat-research { --cat: var(--c-research); }
+
+/* 2 · scanned paper */
+body.skin-paper {
+  --desk: #E8E4DA;
+  --card: #F3EAD3;
+  --card-ink: #2A2418;
+  --card-text: #4A3F2C;
+  --card-mute: #6B5A3A;
+  --card-border: #D8CBAA;
+  --card-border-hot: #B9A77F;
+  --card-radius: 14px;
+  --card-shadow: 0 14px 28px rgba(60,45,20,0.22), inset 0 0 0 1px rgba(255,255,255,0.5);
+  --card-shadow-hot: 0 24px 44px rgba(60,45,20,0.28), inset 0 0 0 1px rgba(255,255,255,0.6);
+  --shadow-y: 14px;
+  --shadow-blur: 28px;
+  --shadow-ink: rgba(60,45,20,0.22);
+  --name-style: italic;
+  --name-weight: 400;
+  --tag-transform: uppercase;
+  --tag-spacing: 0.08em;
+}
+body.skin-paper .card:nth-child(3n) { --card: #EFE4C8; }
+body.skin-paper .card:nth-child(3n+1) { --card: #F6EEDA; }
+body.skin-paper .card .num { border-top: 1px solid var(--card-border); padding-top: 6px; }
+
+/* 2b · ads clipped from a magazine */
+body.skin-mag {
+  --desk: #D8D3C6;
+  --card: #FBFAF5;
+  --card-ink: #111111;
+  --card-text: #333330;
+  --card-mute: #6B6B66;
+  --card-border: #E3DFD4;
+  --card-border-hot: #111111;
+  --card-radius: 0px;
+  --card-shadow: 0 6px 18px rgba(30,25,15,0.22);
+  --card-shadow-hot: 0 16px 36px rgba(30,25,15,0.3);
+  --shadow-y: 6px;
+  --shadow-blur: 18px;
+  --shadow-ink: rgba(30,25,15,0.22);
+  --name-font: 'Bodoni Moda', serif;
+  --name-weight: 700;
+  --name-size: 32px;
+  --tag-font: 'Source Sans 3', sans-serif;
+  --tag-transform: uppercase;
+  --tag-spacing: 0.16em;
+  --num-font: 'Source Sans 3', sans-serif;
+  --count-color: #5A5750;
+}
+body.skin-mag .card { padding: 14px 16px 14px; gap: 8px; }
+body.skin-mag .card .icon { display: block; width: auto; height: 130px; margin: -14px -16px 4px; border-radius: 0; background: color-mix(in srgb, var(--cat) 55%, #FFFFFF); position: relative; }
+body.skin-mag .card .icon::after { content: '[photo, full bleed]'; position: absolute; right: 8px; bottom: 6px; font: 11px 'JetBrains Mono', monospace; color: rgba(255,255,255,0.9); }
+body.skin-mag .card .adlabel { display: block; position: absolute; top: 5px; right: 8px; font: 600 8px/1 'Source Sans 3', sans-serif; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.9); }
+body.skin-mag .card .tag { font-size: 10px; font-weight: 600; }
+body.skin-mag .card .name { line-height: 1.0; letter-spacing: -0.01em; }
+body.skin-mag .card .line { font-family: 'Fraunces', serif; font-size: 13px; line-height: 1.4; }
+body.skin-mag .card .num { border-top: 1px solid #111111; padding-top: 7px; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; display: flex; justify-content: space-between; gap: 8px; }
+body.skin-mag .card .num::after { content: 'Jay Reed · Napa'; font-weight: 400; letter-spacing: 0.06em; text-transform: none; color: var(--card-mute); white-space: nowrap; }
+body.skin-mag .card[data-half] .icon { height: 64px; }
+body.skin-mag .card[data-half] .name { font-size: 22px; }
+body.skin-mag .card[data-half] .line { display: none; }
+body.skin-mag .card:nth-child(4n) { --card: #F4F1E8; }
+
+/* 3 · app store / contemporary techno */
+body.skin-app {
+  --desk: #0F1115;
+  /* dark skin: the desk color becomes the page, so the chrome inverts */
+  --ground: var(--desk);
+  --ink: #F2F2F5;
+  --mute: #A8A8B3;
+  --rule: #2E3139;
+  --accent: #A3C77F;
+  --card: #FFFFFF;
+  --card-ink: #0B0B0C;
+  --card-text: #4B4B52;
+  --card-mute: #6B6B76;
+  --card-border: rgba(255,255,255,0);
+  --card-border-hot: rgba(255,255,255,0);
+  --card-radius: 22px;
+  --card-shadow: 0 18px 40px rgba(0,0,0,0.45);
+  --card-shadow-hot: 0 28px 60px rgba(0,0,0,0.6);
+  --shadow-y: 18px;
+  --shadow-blur: 40px;
+  --shadow-ink: rgba(0,0,0,0.45);
+  --name-font: 'Space Grotesk', sans-serif;
+  --name-weight: 700;
+  --name-size: 25px;
+  --tag-font: 'Source Sans 3', sans-serif;
+  --num-font: 'Source Sans 3', sans-serif;
+  --count-color: #8A8A94;
+}
+body.skin-app .card { padding: 20px 22px; }
+body.skin-app .card .icon { display: block; background: var(--cat); }
+body.skin-app .card .tag { display: inline-block; background: color-mix(in srgb, var(--cat) 12%, #FFFFFF); border-radius: 999px; padding: 2px 10px; font-size: 12px; font-weight: 600; align-self: flex-start; }
+body.skin-app .card .tag::before { display: none; }
+body.skin-app .card .num { font-weight: 600; color: var(--cat); }
+
+/* 4 · corporate brand deck */
+body.skin-corp {
+  --desk: #EEF0F3;
+  --card: #FFFFFF;
+  --card-ink: #111827;
+  --card-text: #374151;
+  --card-mute: #6B7280;
+  --card-border: #D1D5DB;
+  --card-border-hot: #1F3A93;
+  --card-radius: 4px;
+  --card-shadow: 0 1px 2px rgba(17,24,39,0.08);
+  --card-shadow-hot: 0 12px 28px rgba(17,24,39,0.16);
+  --shadow-y: 1px;
+  --shadow-blur: 2px;
+  --shadow-ink: rgba(17,24,39,0.08);
+  --name-font: 'Source Sans 3', sans-serif;
+  --name-weight: 600;
+  --name-size: 24px;
+  --tag-font: 'Source Sans 3', sans-serif;
+  --tag-transform: uppercase;
+  --tag-spacing: 0.1em;
+  --num-font: 'Source Sans 3', sans-serif;
+  --count-color: #6B7280;
+}
+body.skin-corp .card { border-top: 4px solid var(--cat); }
+body.skin-corp .card .tag { font-size: 11px; font-weight: 600; }
+body.skin-corp .card .tag::before { display: none; }
+body.skin-corp .card .num { font-weight: 600; }
+
+/* 5 · a deck of cards, same size, rhyming */
+body.skin-deck {
+  --desk: #3B6B59;
+  /* the felt becomes the page */
+  --ground: var(--desk);
+  --ink: #F7F9F5;
+  --mute: #E3EDE8;
+  --rule: rgba(255,255,255,0.35);
+  --accent: #F4E7B8;
+  --card: #FFFFFF;
+  --card-ink: #161614;
+  --card-text: #3A3A36;
+  --card-mute: #8A1F1F;
+  --card-border: #161614;
+  --card-border-hot: #161614;
+  --card-radius: 12px;
+  --card-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  --card-shadow-hot: 0 18px 40px rgba(0,0,0,0.45);
+  --shadow-y: 8px;
+  --shadow-blur: 20px;
+  --shadow-ink: rgba(0,0,0,0.35);
+  --name-size: 26px;
+  --count-color: #D9E6DF;
+}
+body.skin-deck .card { padding: 26px 30px; }
+body.skin-deck .card::after { content: ''; position: absolute; left: 6px; top: 6px; right: 6px; bottom: 6px; border: 1px solid var(--card-border); border-radius: 8px; pointer-events: none; }
+body.skin-deck .card .corner { display: block; color: var(--cat); }
+body.skin-deck .card .tag { display: none; }
+
+/* 6 · 1980s, early desktop */
+body.skin-80s {
+  --desk: #C9C9C9;
+  /* the grey desktop becomes the page */
+  --ground: var(--desk);
+  --ink: #000000;
+  --mute: #3A3A3A;
+  --rule: #000000;
+  --accent: #000000;
+  --card: #FFFFFF;
+  --card-ink: #000000;
+  --card-text: #000000;
+  --card-mute: #000000;
+  --card-border: #000000;
+  --card-border-hot: #000000;
+  --card-radius: 0px;
+  --card-shadow: 4px 4px 0 #000000;
+  --card-shadow-hot: 8px 8px 0 #000000;
+  --shadow-x: 4px;
+  --shadow-y: 4px;
+  --shadow-blur: 0px;
+  --shadow-ink: #000000;
+  --name-font: 'JetBrains Mono', monospace;
+  --name-weight: 700;
+  --name-size: 22px;
+  --tag-transform: uppercase;
+  --num-font: 'JetBrains Mono', monospace;
+  --count-color: #000000;
+}
+body.skin-80s .card { border-width: 2px; padding-top: 0; }
+body.skin-80s .card::before { content: ''; display: block; height: 14px; margin: 0 -20px 12px; background: repeating-linear-gradient(#000 0 1px, #fff 1px 3px); border-bottom: 2px solid #000; }
+body.skin-80s .card .line { font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+body.skin-80s .card .tag { color: #000000; }
+
+/* 7 · cinematic */
+body.skin-cine {
+  --desk: #0B0B0C;
+  /* the black becomes the page */
+  --ground: var(--desk);
+  --ink: #F4F1EA;
+  --mute: #A09B90;
+  --rule: #2A2A30;
+  --accent: #D9A441;
+  --card: #16161A;
+  --card-ink: #F4F1EA;
+  --card-text: #B9B5AC;
+  --card-mute: #8C877C;
+  --card-border: #2A2A30;
+  --card-border-hot: #D9A441;
+  --card-radius: 2px;
+  --card-shadow: 0 20px 50px rgba(0,0,0,0.7);
+  --card-shadow-hot: 0 30px 70px rgba(0,0,0,0.85);
+  --shadow-y: 20px;
+  --shadow-blur: 50px;
+  --shadow-ink: rgba(0,0,0,0.7);
+  --name-weight: 300;
+  --name-size: 30px;
+  --tag-transform: uppercase;
+  --tag-spacing: 0.18em;
+  --count-color: #8C877C;
+  --c-apps: #9FBF7A;
+  --c-tools: #E0905F;
+  --c-sites: #7FA3D1;
+  --c-research: #C98BB5;
+}
+body.skin-cine .card { border-bottom: 2px solid var(--cat); }
+body.skin-cine .card .tag { font-size: 11px; }
+body.skin-cine .card .num { color: var(--cat); }
+
+
+/* ---------- base ---------- */
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+html { scroll-behavior: smooth; }
+[hidden] { display: none !important; }
+body { background: var(--ground); color: var(--ink); font-family: var(--body-font); font-size: 18px; line-height: 1.5; transition: background 240ms ease, color 240ms ease; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 20px; }
+@media (min-width: 720px) { .wrap { padding: 0 40px; } }
+.skip { position: absolute; left: -10000px; top: 8px; background: var(--ink); color: var(--ground); padding: 10px 16px; z-index: 1000; }
+.skip:focus { left: 16px; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+
+/* ---------- header ---------- */
+header.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; padding: 24px 0; }
+.brand { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500; color: var(--ink); text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; font-size: 16px; }
+nav a { color: var(--ink); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
+nav a:hover { text-decoration: underline; }
+nav a.phone { border: 1px solid var(--ink); padding: 10px 16px; font-family: 'JetBrains Mono', monospace; font-size: 15px; }
+nav a.phone:hover { text-decoration: none; background: var(--ink); color: var(--ground); }
+
+/* ---------- sections ---------- */
+.block { padding: 64px 0; border-top: 1px solid var(--rule); }
+.block > h2, .section-head h2 { font-family: 'Fraunces', serif; font-weight: 300; font-size: 34px; line-height: 1.1; margin: 0 0 28px; }
+@media (min-width: 720px) { .block > h2, .section-head h2 { font-size: 44px; } }
+.section-note { color: var(--mute); margin: -16px 0 28px; max-width: 620px; }
+
+/* hero */
+.hero { padding: 40px 0 64px; }
+.hero h1 { font-family: 'Fraunces', serif; font-weight: 300; font-size: 42px; line-height: 1.04; letter-spacing: -0.01em; margin: 0; max-width: 18ch; }
+@media (min-width: 720px) { .hero h1 { font-size: 68px; } }
+.tagline { font-family: 'Fraunces', serif; font-style: italic; font-weight: 400; font-size: 22px; color: var(--mute); margin: 14px 0 28px; }
+.lede { margin: 0; max-width: 620px; }
+/* price range under the hero paragraph (design side, 2026-11-01); the figures are set in JetBrains Mono */
+.range { font-family: 'Fraunces', serif; font-weight: 500; font-size: 24px; line-height: 1.25; margin: 20px 0 0; max-width: 620px; }
+.range .mono, .range-intro .mono { font-size: 0.9em; font-weight: 500; letter-spacing: -0.01em; }
+.range-note { margin: 4px 0 0; font-size: 16px; color: var(--mute); max-width: 620px; }
+.photos { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-top: 44px; }
+.photo { min-width: 0; margin: 0; aspect-ratio: 4 / 3; border: 1px dashed var(--rule); background: color-mix(in srgb, var(--ink) 4%, var(--ground)); display: flex; align-items: flex-end; padding: 10px 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--mute); }
+
+/* sound familiar */
+.pains { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.pains a { display: flex; flex-direction: column; justify-content: space-between; gap: 20px; min-height: 150px; height: 100%; padding: 20px 22px; border: 1px solid var(--rule); color: var(--ink); text-decoration: none; transition: border-color 160ms ease; }
+.pains a:hover { border-color: var(--ink); }
+.pains .pain { font-family: 'Fraunces', serif; font-size: 23px; line-height: 1.2; }
+.pains .goto { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent); }
+
+/* live tools */
+.live { display: grid; gap: 10px; border: 1px solid var(--rule); border-left: 6px solid var(--c-tools); padding: 22px 24px; max-width: 720px; }
+.live h3 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 28px; margin: 0; }
+.live p { margin: 0; }
+.live .status { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--mute); }
+.live .sources { font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+
+/* who I have worked with */
+.clients { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0 32px; }
+.clients li { border-top: 1px solid var(--rule); padding: 16px 0 18px; font-size: 19px; }
+
+/* starters */
+.starters { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.starters li { border: 1px solid var(--rule); padding: 22px 22px 20px; display: flex; flex-direction: column; gap: 10px; }
+.starters h3 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 26px; line-height: 1.15; margin: 0; }
+.starters p { margin: 0; color: var(--mute); flex: 1 1 auto; }
+.starters .price { font-family: 'JetBrains Mono', monospace; font-size: 17px; color: var(--ink); border-top: 1px solid var(--rule); padding-top: 10px; flex: 0 0 auto; }
+
+/* what I am not */
+.nots { list-style: none; margin: 0; padding: 0; }
+.nots li { font-family: 'Fraunces', serif; font-weight: 300; font-size: 28px; line-height: 1.25; padding: 10px 0; }
+@media (min-width: 720px) { .nots li { font-size: 36px; } }
+
+/* contact */
+.contact-grid { display: grid; gap: 40px; }
+@media (min-width: 960px) { .contact-grid { grid-template-columns: 1fr 1.4fr; gap: 64px; } }
+.call .big-phone { display: inline-block; font-family: 'Fraunces', serif; font-weight: 300; font-size: 40px; line-height: 1.1; color: var(--ink); text-decoration: none; border-bottom: 2px solid var(--ink); }
+@media (min-width: 720px) { .call .big-phone { font-size: 52px; } }
+.call p { color: var(--mute); margin: 12px 0 24px; }
+.call .btn { margin-top: 24px; display: inline-flex; align-items: center; text-decoration: none; }
+.intake { display: grid; gap: 18px; }
+.intake + .intake { margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--rule); }
+.intake h3 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 24px; margin: 0; }
+.intake .help { margin: -8px 0 0; color: var(--mute); font-size: 16px; }
+.field { display: grid; gap: 6px; }
+.field label { font-weight: 600; font-size: 16px; }
+.field .opt { font-weight: 400; color: var(--mute); }
+.field input, .field textarea { width: 100%; font: inherit; font-size: 18px; color: var(--ink); background: var(--ground); border: 1px solid var(--ink); border-radius: 0; padding: 12px 14px; min-height: 48px; }
+.field textarea { min-height: 140px; resize: vertical; }
+.field input::placeholder { color: var(--mute); opacity: 1; }
+.field input:focus-visible, .field textarea:focus-visible { outline-offset: 1px; }
+.hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.form-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.form-status { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--ink); margin: 0; }
+
+/* footer */
+.site-foot { border-top: 1px solid var(--rule); padding: 32px 0 48px; color: var(--mute); font-size: 15px; display: grid; gap: 4px; }
+.site-foot p { margin: 0; }
+
+/* ---------- the pile (behavior spec: reference/index.html) ---------- */
+.intro { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 48px; padding: 0 0 16px; }
+.intro h2 { font-family: 'Fraunces', serif; font-weight: 300; font-size: 34px; line-height: 1.05; margin: 0 0 8px; }
+@media (min-width: 720px) { .intro h2 { font-size: 44px; } }
+.intro p { margin: 0; color: var(--mute); max-width: 620px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font-family: 'JetBrains Mono', monospace; font-size: 14px; background: transparent; color: var(--ink); border: 1px solid var(--ink); padding: 10px 16px; min-height: 44px; cursor: pointer; }
+.btn.primary { background: var(--ink); color: var(--ground); }
+.btn[aria-pressed="true"] { background: var(--ink); color: var(--ground); }
+.btn:disabled { opacity: 0.5; cursor: default; }
+select.btn { appearance: none; -webkit-appearance: none; padding-right: 36px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%23161614' stroke-width='1.5'/></svg>"); background-repeat: no-repeat; background-position: right 12px center; }
+body.skin-app select.btn, body.skin-deck select.btn, body.skin-cine select.btn { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%23F2F2F5' stroke-width='1.5'/></svg>"); }
+.skin-picker { display: inline-flex; align-items: center; gap: 8px; }
+.skin-label { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--mute); margin-left: 8px; }
+
+/* category legend, doubles as a filter */
+.cats { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 0 14px; }
+.chip { font-family: 'JetBrains Mono', monospace; font-size: 13px; background: transparent; color: var(--ink); border: 1px solid var(--rule); padding: 8px 14px 8px 10px; min-height: 44px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.chip .dot { width: 12px; height: 12px; border-radius: 3px; background: var(--dot, var(--ink)); flex: 0 0 auto; }
+.chip .n { color: var(--mute); }
+.chip[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--ground); }
+.chip[aria-pressed="true"] .n { color: var(--ground); }
+
+/* no box: the pile floats on the page ground; the desk is only the drag area */
+.desk { position: relative; }
+.desk.heap { height: var(--desk-h, 900px); overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; }
+.desk:not(.heap) { padding: 20px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+
+.card { position: relative; background: var(--card); color: var(--card-ink); border: 1px solid var(--card-border); border-radius: var(--card-radius); box-shadow: var(--card-shadow); padding: 20px 22px; display: flex; flex-direction: column; gap: 8px; transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, background 240ms ease, border-radius 240ms ease, opacity 240ms ease, filter 240ms ease; }
+.card { cursor: pointer; }
+.card .kicker, .card .say, .card .bar, .card .place { display: none; }  /* pearl plaque parts; shown by that skin */
+.card h3, .card p { margin: 0; }
+.heap .card { position: absolute; cursor: grab; transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, left 280ms ease, top 280ms ease, width 280ms ease, height 280ms ease, background 240ms ease, border-radius 240ms ease, opacity 240ms ease, filter 240ms ease; }
+/* depth: --depth is set inline by the script, 0 = buried at the bottom of the pile, 1 = on top.
+   Buried cards sit flat on the table (tight shadow, a touch darker); the top card gets the skin's full shadow. */
+.heap .card {
+  --lift: calc(0.2 + 0.8 * var(--depth, 1));
+  --depth-shadow: calc(var(--shadow-x) * var(--lift)) calc(var(--shadow-y) * var(--lift)) calc(var(--shadow-blur) * var(--lift)) var(--shadow-ink);
+  box-shadow: var(--depth-shadow);
+  filter: brightness(calc(0.95 + 0.05 * var(--depth, 1)));
+}
+body.skin-paper .heap .card { box-shadow: var(--depth-shadow), inset 0 0 0 1px rgba(255,255,255,0.5); }
+.heap .card.dragging { transition: none; cursor: grabbing; }
+.card:hover, .card.hot, .card:focus-within { border-color: var(--card-border-hot); box-shadow: var(--card-shadow-hot); filter: brightness(1); }
+body.skin-paper .heap .card:hover, body.skin-paper .heap .card.hot { box-shadow: var(--card-shadow-hot); }
+.heap .card:hover, .heap .card.hot, .heap .card:focus-within { transform: rotate(0deg) translateY(-6px) !important; }
+.card.dim { opacity: 0.28; filter: saturate(0.2); }
+.heap .card.dim:hover { transform: none !important; }
+.card .icon { display: none; width: 48px; height: 48px; border-radius: 13px; background: var(--cat); margin-bottom: 4px; }
+.card .adlabel { display: none; }
+.card .tag { font-family: var(--tag-font); font-size: 12px; color: var(--cat); text-transform: var(--tag-transform); letter-spacing: var(--tag-spacing); display: flex; align-items: center; gap: 7px; }
+.card .tag::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--cat); flex: 0 0 auto; }
+.card .name { font-family: var(--name-font); font-weight: var(--name-weight); font-style: var(--name-style); font-size: var(--name-size); line-height: 1.15; color: var(--card-ink); }
+.card .line { font-size: 15px; color: var(--card-text); flex: 1 1 auto; overflow: hidden; }
+.card .num { font-family: var(--num-font); font-size: 13px; color: var(--card-ink); }
+.card .corner { display: none; position: absolute; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 13px; color: var(--card-mute); line-height: 1; }
+.card .corner.tl { left: 12px; top: 12px; }
+.card .corner.br { right: 12px; bottom: 12px; transform: rotate(180deg); }
+.desk .count { position: absolute; right: 16px; bottom: 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--count-color); pointer-events: none; }
+.desk:not(.heap) .count { display: none; }
+
+/* phone: the heap becomes a fanned stack */
+@media (max-width: 719px) {
+  .desk.heap { height: auto; padding: 20px 12px 28px; display: flex; flex-direction: column; touch-action: auto; }
+  .heap .card { position: relative; left: auto !important; top: auto !important; width: auto !important; height: auto !important; margin-top: -14px; padding: 14px 16px 12px; flex-direction: row; justify-content: space-between; align-items: baseline; gap: 8px; min-height: 56px; cursor: pointer; border-left: 6px solid var(--cat); }
+  .heap .card:first-child { margin-top: 0; }
+  .heap .card .line, .heap .card .tag, .heap .card .icon, .heap .card .corner { display: none !important; }
+  .heap .card .name { font-size: 20px; }
+  .heap .card:hover, .heap .card:focus-within { transform: none !important; }
+  .heap .card.dim { display: none; }
+  .desk .count { position: static; text-align: center; padding-top: 18px; }
+}
+
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding: 16px 0 0; font-size: 15px; color: var(--mute); }
+.hint { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+
+/* the H button: every skin has one; it is the keyboard and screen-reader way into the hood card */
+.card .hbtn { position: absolute; right: 10px; bottom: 10px; z-index: 3; width: 28px; height: 28px; border-radius: 50%; border: 1px solid #141414; background: #F3B27A; color: #141414; font: 700 13px/1 'Fraunces', serif; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.2); }
+.card .hbtn::before { content: ''; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); }  /* 44px touch target, whatever the dot size */
+.card .hbtn:focus-visible { outline: 2px solid #141414; outline-offset: 2px; }
+
+/* the hood card (PLAN.md 11:35; reference/white-pearl-study.html, drafting-desk-bar.html). Fixed colors in every skin. */
+dialog.open-card { --card: #FFFFFF; --card-ink: #141414; --card-text: #3A3A36; --card-mute: #595955; --card-border: #E2DFD5;
+  --tag-font: 'JetBrains Mono', monospace; --tag-transform: uppercase; --tag-spacing: 0.08em;
+  width: min(440px, calc(100vw - 32px)); background: #FFFFFF; color: #141414; border: 1.5px solid #141414; border-radius: 8px; padding: 20px 22px; box-shadow: 0 16px 32px rgba(20,20,18,0.2); font-family: 'Source Sans 3', sans-serif; }
+dialog.open-card[open] { display: flex; flex-direction: column; gap: 10px; }
+dialog.open-card::backdrop { background: rgba(20,20,18,0.55); }
+.open-card .hd { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.open-card .hd .k { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--cat, #141414); }
+.open-close { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; background: transparent; border: 0; color: #595955; cursor: pointer; min-width: 44px; min-height: 44px; }
+.open-close:focus-visible, .open-ask:focus-visible, .open-card .client:focus-visible { outline: 2px solid #141414; outline-offset: 2px; }
+.open-card .client { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; border: 1px solid #E2DFD5; border-radius: 6px; background: #FAFAF7; color: #141414; text-decoration: none; }
+.open-card .client img { height: 34px; width: auto; }
+.open-card .client .who { font-size: 14px; color: #3A3A36; text-align: right; }
+.open-card .mono { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+.open-card .nm { font-family: 'Fraunces', serif; font-weight: 500; font-size: 26px; line-height: 1.15; margin: 0; }
+.open-card .p { font-size: 15px; color: #3A3A36; margin: 0; }
+.open-card table.kv { width: 100%; border-collapse: collapse; font-size: 14px; }
+.open-card table.kv th, .open-card table.kv td { padding: 6px 0; border-top: 1px solid #E2DFD5; vertical-align: top; text-align: left; font-weight: 400; }
+.open-card table.kv th { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #595955; width: 36%; padding-right: 12px; }
+.open-card .plain { font-size: 13px; color: #595955; font-style: italic; margin: 0; }
+.open-ask { font-size: 15px; font-weight: 600; color: #141414; align-self: flex-start; }
+
+/* Smoke watch: the table in the open card */
+dialog.open-card.wide { width: min(920px, calc(100vw - 32px)); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.open-live { margin: 4px 0 14px; }
+.table-wrap { position: relative; overflow-x: auto; border-top: 1px solid var(--card-border); }
+.table-wrap:focus-visible { outline: 2px solid var(--card-ink); outline-offset: 2px; }
+.smoke-table { width: 100%; min-width: 600px; border-collapse: collapse; font-size: 15px; line-height: 1.4; }
+.smoke-table th, .smoke-table td { text-align: left; vertical-align: top; padding: 9px 14px 9px 0; border-bottom: 1px solid var(--card-border); }
+.smoke-table thead th { font-family: var(--tag-font); font-size: 12px; font-weight: 600; color: var(--card-mute); text-transform: var(--tag-transform); letter-spacing: var(--tag-spacing); white-space: nowrap; }
+.smoke-table tbody th { font-weight: 600; color: var(--card-ink); white-space: nowrap; }
+/* on a phone the table scrolls sideways; the town column stays put */
+.smoke-table tbody th, .smoke-table thead th:first-child { position: sticky; left: 0; background: var(--card); z-index: 1; padding-right: 12px; }
+.smoke-table td { color: var(--card-text); }
+.smoke-table td.now, .smoke-table td.wk { color: var(--card-ink); white-space: nowrap; }
+.smoke-table td[data-band]:not([data-band="good"]) { font-weight: 600; }
+.smoke-table td.why { min-width: 260px; }
+.live-note { font-size: 13px; color: var(--card-mute); margin: 10px 0 0; }
+.live-note.stale { color: var(--card-ink); font-weight: 600; }
+
+/* ---------- skin: pearl plaque (the shipped tile; spec reference/final-tile-v3.html, PLAN.md 11:35) ----------
+   Outer slab is a pearl in the category color; ::before is the inset white pearl face; ::after is the 1.5px
+   black frame and carries the three corner pearl dots. The H button holds the fourth corner. */
+body.skin-pearl {
+  --card-radius: 14px;
+  --shadow-x: 0px; --shadow-y: 20px; --shadow-blur: 34px; --shadow-ink: rgba(20,20,18,0.28);
+  --slab-inset: inset 0 0 0 1px rgba(255,255,255,0.6), inset 0 2px 3px rgba(255,255,255,0.7), inset 0 -3px 6px rgba(0,0,0,0.18);
+}
+body.skin-pearl .card {
+  --bw: 18px;
+  border: 0; border-radius: 14px; color: #141414;
+  padding: calc(var(--bw) + 22px) calc(var(--bw) + 26px) calc(var(--bw) + 18px);
+  align-items: center; text-align: center; gap: 0; overflow: hidden;
+  background:
+    radial-gradient(ellipse 50% 40% at 20% 20%, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 50% 40% at 80% 85%, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 40% 60% at 60% 40%, color-mix(in srgb, var(--cat) 55%, #000) 0%, rgba(0,0,0,0) 70%),
+    color-mix(in srgb, var(--cat) 70%, #FFFFFF);
+  box-shadow: var(--slab-inset), 0 6px 0 -1px color-mix(in srgb, var(--cat) 45%, #000), 0 20px 34px rgba(20,20,18,0.28);
+}
+body.skin-pearl .heap .card { box-shadow: var(--slab-inset), 0 6px 0 -1px color-mix(in srgb, var(--cat) 45%, #000), var(--depth-shadow); }
+body.skin-pearl .card:hover, body.skin-pearl .card.hot, body.skin-pearl .card:focus-within { box-shadow: var(--slab-inset), 0 6px 0 -1px color-mix(in srgb, var(--cat) 45%, #000), 0 28px 44px rgba(20,20,18,0.34); }
+body.skin-pearl .card::before {
+  content: ''; position: absolute; inset: var(--bw); border-radius: 6px; pointer-events: none; z-index: 0;
+  background:
+    linear-gradient(170deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.05) 100%),
+    radial-gradient(ellipse 55% 38% at 18% 28%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 40% 60% at 78% 72%, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 65%),
+    radial-gradient(ellipse 35% 45% at 40% 85%, rgba(150,145,135,0.3) 0%, rgba(0,0,0,0) 70%),
+    #ECE9E1;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.25), inset 0 0 0 1px rgba(255,255,255,0.6);
+}
+body.skin-pearl .card::after {
+  --dot: 9px;
+  content: ''; position: absolute; inset: calc(var(--bw) + 7px); border: 1.5px solid #141414; border-radius: 3px; pointer-events: none; z-index: 1;
+  /* three pearl dots in the category color: top left, top right, bottom left (the H button takes bottom right) */
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.85), rgba(255,255,255,0) 60%) 3.5px 3.5px / var(--dot) var(--dot) no-repeat,
+    radial-gradient(circle, var(--cat) 0 calc(var(--dot) / 2 - 1px), rgba(0,0,0,0.4) calc(var(--dot) / 2 - 1px) calc(var(--dot) / 2), transparent calc(var(--dot) / 2)) 3.5px 3.5px / var(--dot) var(--dot) no-repeat,
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.85), rgba(255,255,255,0) 60%) right 3.5px top 3.5px / var(--dot) var(--dot) no-repeat,
+    radial-gradient(circle, var(--cat) 0 calc(var(--dot) / 2 - 1px), rgba(0,0,0,0.4) calc(var(--dot) / 2 - 1px) calc(var(--dot) / 2), transparent calc(var(--dot) / 2)) right 3.5px top 3.5px / var(--dot) var(--dot) no-repeat,
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.85), rgba(255,255,255,0) 60%) left 3.5px bottom 3.5px / var(--dot) var(--dot) no-repeat,
+    radial-gradient(circle, var(--cat) 0 calc(var(--dot) / 2 - 1px), rgba(0,0,0,0.4) calc(var(--dot) / 2 - 1px) calc(var(--dot) / 2), transparent calc(var(--dot) / 2)) left 3.5px bottom 3.5px / var(--dot) var(--dot) no-repeat;
+}
+body.skin-pearl .card > *:not(.hbtn) { position: relative; z-index: 2; }
+body.skin-pearl .card .tag, body.skin-pearl .card > .line, body.skin-pearl .card .num,
+body.skin-pearl .card .icon, body.skin-pearl .card .corner, body.skin-pearl .card .adlabel { display: none; }
+body.skin-pearl .card .kicker, body.skin-pearl .card .say, body.skin-pearl .card .place { display: block; }
+body.skin-pearl .card .bar { display: flex; }
+body.skin-pearl .card .nojs-link { display: block; font-size: 13px; margin-top: 6px; }
+body.skin-pearl .card .kicker { font-family: 'Fraunces', serif; font-weight: 500; font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; color: color-mix(in srgb, var(--cat) 85%, #000); text-shadow: 0 1px 0 rgba(255,255,255,0.6); }
+body.skin-pearl .card .name { font-family: 'Fraunces', serif; font-weight: 900; font-style: normal; font-size: 30px; letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.05; margin: 6px 0 4px; color: #141414; text-shadow: 0 1px 0 rgba(255,255,255,0.6); }
+body.skin-pearl .card .name.long { font-size: 23px; }
+body.skin-pearl .card .name.longer { font-size: 20px; }
+body.skin-pearl .card[data-size="small"] .name.long, body.skin-pearl .card[data-size="small"] .name.longer { font-size: 14px; }
+body.skin-pearl .card .say { font-family: 'Fraunces', serif; font-style: italic; font-size: 15px; line-height: 1.3; color: #2A2A28; max-width: 320px; text-shadow: 0 1px 0 rgba(255,255,255,0.5); }
+body.skin-pearl .card .bar { width: 100%; margin: auto 0 0; align-items: center; justify-content: center; gap: 14px; background: #FFFFFF; border: 1px solid #141414; border-radius: 3px; padding: 8px 12px; text-decoration: none; color: #141414; box-shadow: inset 0 1px 2px rgba(0,0,0,0.12), 0 1px 0 rgba(255,255,255,0.7); }
+body.skin-pearl .card a.bar:focus-visible { outline: 2px solid #141414; outline-offset: 2px; }
+body.skin-pearl .card .bar img { height: 24px; width: auto; display: block; }
+body.skin-pearl .card .bar .txt { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.15; }
+body.skin-pearl .card .bar .txt b { font-family: 'Fraunces', serif; font-weight: 500; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; }
+body.skin-pearl .card .bar .txt span { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: #595955; }
+body.skin-pearl .card .bar .fig { font-family: 'Fraunces', serif; font-weight: 700; font-size: 20px; line-height: 1; padding: 2px 4px; }
+body.skin-pearl .card .place { font-family: 'Fraunces', serif; font-weight: 500; font-size: 10px; letter-spacing: 0.26em; text-transform: uppercase; margin-top: 10px; text-shadow: 0 1px 0 rgba(255,255,255,0.6); }
+body.skin-pearl .card .hbtn { right: calc(var(--bw) + 12px); bottom: calc(var(--bw) + 11px); width: 24px; height: 24px; font-size: 12px; }
+
+body.skin-pearl .card[data-size="heavy"] { --bw: 22px; padding: calc(var(--bw) + 26px) calc(var(--bw) + 30px) calc(var(--bw) + 20px); }
+body.skin-pearl .card[data-size="heavy"] .name { font-size: 36px; }
+body.skin-pearl .card[data-size="heavy"] .say { font-size: 17px; max-width: 380px; }
+body.skin-pearl .card[data-size="heavy"] .bar .fig { font-size: 24px; }
+body.skin-pearl .card[data-size="heavy"] .hbtn { width: 28px; height: 28px; font-size: 14px; }
+
+body.skin-pearl .card[data-size="small"] { --bw: 11px; padding: calc(var(--bw) + 14px) calc(var(--bw) + 16px) calc(var(--bw) + 12px); }
+body.skin-pearl .card[data-size="small"]::after { inset: calc(var(--bw) + 5px); --dot: 7px; }
+body.skin-pearl .card[data-size="small"] .kicker { font-size: 8px; }
+body.skin-pearl .card[data-size="small"] .name { font-size: 16px; margin: 3px 0 2px; }
+body.skin-pearl .card[data-size="small"] .say { font-size: 11px; max-width: 220px; line-height: 1.25; }
+body.skin-pearl .card[data-size="small"] .bar { padding: 4px 8px; }
+body.skin-pearl .card[data-size="small"] .bar .fig { font-size: 13px; }
+body.skin-pearl .card[data-size="small"] .place { font-size: 7px; margin-top: 6px; }
+body.skin-pearl .card[data-size="small"] .hbtn { width: 18px; height: 18px; font-size: 9px; right: calc(var(--bw) + 9px); bottom: calc(var(--bw) + 8px); }
+
+/* without JavaScript the pile is a grid; give the plaques their heights */
+body.skin-pearl .desk:not(.heap) { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+body.skin-pearl .desk:not(.heap) .card { min-height: 280px; }
+body.skin-pearl .desk:not(.heap) .card[data-size="heavy"] { min-height: 330px; }
+body.skin-pearl .desk:not(.heap) .card[data-size="small"] { min-height: 180px; }
+
+/* phone: the fanned stack keeps the pearl slab and face, name only */
+@media (max-width: 719px) {
+  body.skin-pearl .heap .card, body.skin-pearl .heap .card[data-size] { --bw: 6px; padding: 16px 52px 16px 20px; text-align: left; align-items: center; min-height: 64px; border-left: 0; overflow: visible; }
+  body.skin-pearl .heap .card::after { inset: calc(var(--bw) + 3px); background: none; }
+  body.skin-pearl .heap .card .kicker, body.skin-pearl .heap .card .say, body.skin-pearl .heap .card .bar, body.skin-pearl .heap .card .place { display: none !important; }
+  body.skin-pearl .heap .card .name, body.skin-pearl .heap .card .name.long { font-size: 17px; margin: 0; }
+  body.skin-pearl .heap .card .hbtn, body.skin-pearl .heap .card[data-size] .hbtn { width: 28px; height: 28px; font-size: 13px; right: 16px; top: 50%; bottom: auto; transform: translateY(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0ms !important; }
+}

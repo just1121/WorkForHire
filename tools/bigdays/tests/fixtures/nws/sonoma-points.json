@@ -1,0 +1,112 @@
+{
+ "@context": [
+  "https://geojson.org/geojson-ld/geojson-context.jsonld",
+  {
+   "@version": "1.1",
+   "wx": "https://api.weather.gov/ontology#",
+   "s": "https://schema.org/",
+   "geo": "http://www.opengis.net/ont/geosparql#",
+   "unit": "http://codes.wmo.int/common/unit/",
+   "@vocab": "https://api.weather.gov/ontology#",
+   "geometry": {
+    "@id": "s:GeoCoordinates",
+    "@type": "geo:wktLiteral"
+   },
+   "city": "s:addressLocality",
+   "state": "s:addressRegion",
+   "distance": {
+    "@id": "s:Distance",
+    "@type": "s:QuantitativeValue"
+   },
+   "bearing": {
+    "@type": "s:QuantitativeValue"
+   },
+   "value": {
+    "@id": "s:value"
+   },
+   "unitCode": {
+    "@id": "s:unitCode",
+    "@type": "@id"
+   },
+   "forecastOffice": {
+    "@type": "@id"
+   },
+   "forecastGridData": {
+    "@type": "@id"
+   },
+   "publicZone": {
+    "@type": "@id"
+   },
+   "county": {
+    "@type": "@id"
+   }
+  }
+ ],
+ "id": "https://api.weather.gov/points/38.4404,-122.7141",
+ "type": "Feature",
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   -122.7141,
+   38.4404
+  ]
+ },
+ "properties": {
+  "@id": "https://api.weather.gov/points/38.4404,-122.7141",
+  "@type": "wx:Point",
+  "cwa": "MTR",
+  "type": "land",
+  "forecastOffice": "https://api.weather.gov/offices/MTR",
+  "gridId": "MTR",
+  "gridX": 81,
+  "gridY": 137,
+  "forecast": "https://api.weather.gov/gridpoints/MTR/81,137/forecast",
+  "forecastHourly": "https://api.weather.gov/gridpoints/MTR/81,137/forecast/hourly",
+  "forecastGridData": "https://api.weather.gov/gridpoints/MTR/81,137",
+  "observationStations": "https://api.weather.gov/gridpoints/MTR/81,137/stations",
+  "relativeLocation": {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.7061814,
+     38.4458238
+    ]
+   },
+   "properties": {
+    "city": "Santa Rosa",
+    "state": "CA",
+    "distance": {
+     "unitCode": "wmoUnit:m",
+     "value": 0
+    },
+    "bearing": {
+     "unitCode": "wmoUnit:degree_(angle)",
+     "value": 0
+    }
+   }
+  },
+  "forecastZone": "https://api.weather.gov/zones/forecast/CAZ506",
+  "county": "https://api.weather.gov/zones/county/CAC097",
+  "fireWeatherZone": "https://api.weather.gov/zones/fire/CAZ506",
+  "timeZone": "America/Los_Angeles",
+  "radarStation": "KDAX",
+  "astronomicalData": {
+   "sunrise": "2026-10-31T07:36:36-07:00",
+   "sunset": "2026-10-31T18:12:18-07:00",
+   "transit": "2026-10-31T12:54:27-07:00",
+   "civilTwilightBegin": "2026-10-31T07:09:18-07:00",
+   "civilTwilightEnd": "2026-10-31T18:39:36-07:00",
+   "nauticalTwilightBegin": "2026-10-31T06:38:03-07:00",
+   "nauticalTwilightEnd": "2026-10-31T19:10:51-07:00",
+   "astronomicalTwilightBegin": "2026-10-31T06:07:12-07:00",
+   "astronomicalTwilightEnd": "2026-10-31T19:41:42-07:00"
+  },
+  "nwr": {
+   "transmitter": "WZ2504",
+   "sameCode": "006097",
+   "areaBroadcast": "https://api.weather.gov/radio/WZ2504/broadcast",
+   "pointBroadcast": "https://api.weather.gov/points/38.4404,-122.7141/radio"
+  }
+ }
+}

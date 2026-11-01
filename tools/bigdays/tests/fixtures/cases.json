@@ -1,0 +1,1960 @@
+{
+ "_doc": "Shared cases: tests/test_bigdays.py and tests/bigdays.test.js both run every one of these against bigdays.py and bigdays.js.",
+ "add_days": [
+  [
+   "2026-12-31",
+   1,
+   "2027-01-01"
+  ],
+  [
+   "2027-01-01",
+   -1,
+   "2026-12-31"
+  ],
+  [
+   "2028-02-28",
+   1,
+   "2028-02-29"
+  ],
+  [
+   "2026-11-01",
+   55,
+   "2026-12-26"
+  ],
+  [
+   "2026-03-07",
+   1,
+   "2026-03-08"
+  ],
+  [
+   "2026-11-01",
+   1,
+   "2026-11-02"
+  ]
+ ],
+ "window": [
+  [
+   "2026-11-01",
+   "2026-12-26"
+  ],
+  [
+   "2026-12-15",
+   "2027-02-08"
+  ],
+  [
+   "2027-12-20",
+   "2028-02-13"
+  ]
+ ],
+ "grid": [
+  [
+   "2026-11-01",
+   8,
+   0,
+   "2026-12-26"
+  ],
+  [
+   "2026-12-16",
+   9,
+   3,
+   "2027-02-09"
+  ],
+  [
+   "2027-01-02",
+   9,
+   6,
+   "2027-02-26"
+  ]
+ ],
+ "weekday": [
+  [
+   "2026-11-01",
+   6
+  ],
+  [
+   "2027-01-01",
+   4
+  ],
+  [
+   "2028-02-29",
+   1
+  ]
+ ],
+ "fmt_date": [
+  [
+   "2026-12-31",
+   true,
+   true,
+   "Thursday, December 31, 2026"
+  ],
+  [
+   "2027-01-01",
+   true,
+   false,
+   "January 1, 2027"
+  ],
+  [
+   "2026-11-08",
+   false,
+   false,
+   "November 8"
+  ]
+ ],
+ "holiday_tags": [
+  [
+   "2026-12-25",
+   [
+    "Christmas Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-12-26",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-12-27",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-12-28",
+   []
+  ],
+  [
+   "2027-01-01",
+   [
+    "New Year's Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-01-03",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-07-03",
+   [
+    "Independence Day (observed)",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-07-04",
+   [
+    "Independence Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-07-05",
+   [
+    "Independence Day (observed)",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-12-31",
+   [
+    "New Year's Day (observed)",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2028-01-01",
+   [
+    "New Year's Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2028-01-02",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-11-26",
+   [
+    "Thanksgiving Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-11-27",
+   [
+    "Day after Thanksgiving",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-11-28",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-11-11",
+   [
+    "Veterans Day"
+   ]
+  ],
+  [
+   "2027-01-16",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-01-18",
+   [
+    "Martin Luther King Jr. Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-03-31",
+   [
+    "Cesar Chavez Day"
+   ]
+  ],
+  [
+   "2024-03-31",
+   [
+    "Cesar Chavez Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2024-04-01",
+   [
+    "Cesar Chavez Day (observed)",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2024-03-30",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2029-03-30",
+   []
+  ],
+  [
+   "2029-03-31",
+   [
+    "Cesar Chavez Day"
+   ]
+  ],
+  [
+   "2027-05-29",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-05-31",
+   [
+    "Memorial Day",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2027-06-18",
+   [
+    "Juneteenth (observed)",
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-11-29",
+   [
+    "holiday weekend"
+   ]
+  ],
+  [
+   "2026-11-30",
+   []
+  ],
+  [
+   "2027-11-26",
+   [
+    "Day after Thanksgiving",
+    "holiday weekend"
+   ]
+  ]
+ ],
+ "rule_dates": [
+  [
+   2026,
+   "Thanksgiving Day",
+   "2026-11-26"
+  ],
+  [
+   2027,
+   "Memorial Day",
+   "2027-05-31"
+  ],
+  [
+   2026,
+   "Memorial Day",
+   "2026-05-25"
+  ],
+  [
+   2027,
+   "Martin Luther King Jr. Day",
+   "2027-01-18"
+  ],
+  [
+   2026,
+   "Labor Day",
+   "2026-09-07"
+  ],
+  [
+   2028,
+   "Columbus Day",
+   "2028-10-09"
+  ],
+  [
+   2026,
+   "Day after Thanksgiving",
+   "2026-11-27"
+  ],
+  [
+   2027,
+   "Day after Thanksgiving",
+   "2027-11-26"
+  ]
+ ],
+ "harvest": [
+  [
+   "2026-08-14",
+   false
+  ],
+  [
+   "2026-08-15",
+   true
+  ],
+  [
+   "2026-10-31",
+   true
+  ],
+  [
+   "2026-11-01",
+   false
+  ],
+  [
+   "2027-09-30",
+   true
+  ]
+ ],
+ "data": {
+  "events": {
+   "meta": {
+    "verified_through": "2026-12-10",
+    "last_reviewed": "2026-11-01"
+   },
+   "events": [
+    {
+     "id": "n",
+     "name": "Napa Thing",
+     "county": "napa",
+     "start": "2026-12-30",
+     "end": "2027-01-02",
+     "status": "confirmed",
+     "source_url": "https://example.org/",
+     "last_checked": "2026-11-01"
+    },
+    {
+     "id": "s",
+     "name": "Sonoma Thing",
+     "county": "sonoma",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "status": "confirmed",
+     "source_url": "https://example.org/",
+     "last_checked": "2026-11-01"
+    },
+    {
+     "id": "b",
+     "name": "Both Thing",
+     "county": "both",
+     "start": "2026-12-01",
+     "end": "2026-12-01",
+     "status": "confirmed",
+     "source_url": "https://example.org/",
+     "last_checked": "2026-11-01"
+    },
+    {
+     "id": "t",
+     "name": "Maybe Thing",
+     "county": "sonoma",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "status": "tentative",
+     "source_url": "https://example.org/",
+     "last_checked": "2026-11-01"
+    },
+    {
+     "id": "c",
+     "name": "Gone Thing",
+     "county": "napa",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "status": "canceled",
+     "source_url": "https://example.org/",
+     "last_checked": "2026-11-01"
+    },
+    {
+     "id": "u",
+     "name": "Undated Thing",
+     "county": "both",
+     "start": null,
+     "end": null,
+     "status": "tentative",
+     "source_url": "https://example.org/",
+     "last_checked": "2026-11-01"
+    }
+   ]
+  },
+  "school_breaks": {
+   "meta": {
+    "school_year": "2026-27"
+   },
+   "districts": [
+    {
+     "id": "AUSD",
+     "breaks": [
+      {
+       "kind": "winter",
+       "tag": "AUSD winter break",
+       "start": "2026-12-21",
+       "end": "2027-01-04"
+      }
+     ]
+    },
+    {
+     "id": "BUSD",
+     "breaks": [
+      {
+       "kind": "thanksgiving",
+       "tag": "BUSD Thanksgiving break",
+       "start": "2026-11-25",
+       "end": "2026-11-27"
+      },
+      {
+       "kind": "winter",
+       "tag": "BUSD winter break",
+       "start": "2026-12-21",
+       "end": "2027-01-01"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "event_tags": [
+  [
+   "2026-12-30",
+   "napa",
+   [
+    "Napa Thing"
+   ]
+  ],
+  [
+   "2026-12-30",
+   "sonoma",
+   []
+  ],
+  [
+   "2026-12-31",
+   "napa",
+   [
+    "Napa Thing"
+   ]
+  ],
+  [
+   "2026-12-31",
+   "sonoma",
+   [
+    "Sonoma Thing"
+   ]
+  ],
+  [
+   "2026-12-01",
+   "napa",
+   [
+    "Both Thing"
+   ]
+  ],
+  [
+   "2026-12-01",
+   "sonoma",
+   [
+    "Both Thing"
+   ]
+  ],
+  [
+   "2026-12-05",
+   "napa",
+   []
+  ],
+  [
+   "2026-12-05",
+   "sonoma",
+   [
+    "Maybe Thing (tentative)"
+   ]
+  ],
+  [
+   "2027-01-02",
+   "napa",
+   [
+    "Napa Thing"
+   ]
+  ],
+  [
+   "2027-01-03",
+   "napa",
+   []
+  ]
+ ],
+ "break_tags": [
+  [
+   "2026-11-24",
+   []
+  ],
+  [
+   "2026-11-25",
+   [
+    "BUSD Thanksgiving break"
+   ]
+  ],
+  [
+   "2026-11-27",
+   [
+    "BUSD Thanksgiving break"
+   ]
+  ],
+  [
+   "2026-11-28",
+   []
+  ],
+  [
+   "2026-12-20",
+   []
+  ],
+  [
+   "2026-12-21",
+   [
+    "AUSD winter break",
+    "BUSD winter break"
+   ]
+  ],
+  [
+   "2027-01-01",
+   [
+    "AUSD winter break",
+    "BUSD winter break"
+   ]
+  ],
+  [
+   "2027-01-02",
+   [
+    "AUSD winter break"
+   ]
+  ],
+  [
+   "2027-01-04",
+   [
+    "AUSD winter break"
+   ]
+  ],
+  [
+   "2027-01-05",
+   []
+  ]
+ ],
+ "day_tags": [
+  [
+   "2026-12-09",
+   "napa",
+   [
+    "quiet"
+   ]
+  ],
+  [
+   "2026-12-10",
+   "napa",
+   [
+    "quiet"
+   ]
+  ],
+  [
+   "2026-12-11",
+   "napa",
+   [
+    "not yet checked past December 10, 2026"
+   ]
+  ],
+  [
+   "2026-12-01",
+   "sonoma",
+   [
+    "Both Thing"
+   ]
+  ],
+  [
+   "2026-12-05",
+   "sonoma",
+   [
+    "Maybe Thing (tentative)"
+   ]
+  ],
+  [
+   "2026-12-05",
+   "napa",
+   [
+    "quiet"
+   ]
+  ],
+  [
+   "2026-12-25",
+   "napa",
+   [
+    "Christmas Day",
+    "holiday weekend",
+    "AUSD winter break",
+    "BUSD winter break",
+    "not yet checked past December 10, 2026"
+   ]
+  ],
+  [
+   "2026-12-31",
+   "sonoma",
+   [
+    "Sonoma Thing",
+    "AUSD winter break",
+    "BUSD winter break",
+    "not yet checked past December 10, 2026"
+   ]
+  ],
+  [
+   "2026-11-26",
+   "napa",
+   [
+    "Thanksgiving Day",
+    "holiday weekend",
+    "BUSD Thanksgiving break"
+   ]
+  ],
+  [
+   "2026-08-15",
+   "sonoma",
+   [
+    "harvest"
+   ]
+  ]
+ ],
+ "weather_word": [
+  [
+   {
+    "shortForecast": "Rain Showers Likely",
+    "temperature": 63,
+    "temperatureUnit": "F"
+   },
+   95,
+   "rain"
+  ],
+  [
+   {
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "temperature": 99,
+    "temperatureUnit": "F"
+   },
+   95,
+   "rain"
+  ],
+  [
+   {
+    "shortForecast": "Sunny",
+    "temperature": 95,
+    "temperatureUnit": "F"
+   },
+   95,
+   "heat"
+  ],
+  [
+   {
+    "shortForecast": "Sunny",
+    "temperature": 94,
+    "temperatureUnit": "F"
+   },
+   95,
+   "clear"
+  ],
+  [
+   {
+    "shortForecast": "Patchy Fog then Sunny",
+    "temperature": 96,
+    "temperatureUnit": "F"
+   },
+   95,
+   "heat"
+  ],
+  [
+   {
+    "shortForecast": "Patchy Fog then Sunny",
+    "temperature": 66,
+    "temperatureUnit": "F"
+   },
+   95,
+   "fog"
+  ],
+  [
+   {
+    "shortForecast": "Areas Of Fog then Partly Cloudy",
+    "temperature": 66,
+    "temperatureUnit": "F"
+   },
+   95,
+   "fog"
+  ],
+  [
+   {
+    "shortForecast": "Mostly Cloudy",
+    "temperature": 60,
+    "temperatureUnit": "F"
+   },
+   95,
+   "cloudy"
+  ],
+  [
+   {
+    "shortForecast": "Partly Sunny",
+    "temperature": 60,
+    "temperatureUnit": "F"
+   },
+   95,
+   "clear"
+  ],
+  [
+   {
+    "shortForecast": "Mostly Sunny",
+    "temperature": 35,
+    "temperatureUnit": "C"
+   },
+   95,
+   "heat"
+  ],
+  [
+   {
+    "shortForecast": "Sunny",
+    "temperature": 90,
+    "temperatureUnit": "F"
+   },
+   90,
+   "heat"
+  ],
+  [
+   {
+    "shortForecast": "Sunny",
+    "temperature": null,
+    "temperatureUnit": "F"
+   },
+   95,
+   "clear"
+  ],
+  [
+   {
+    "shortForecast": "Sunny",
+    "temperature": 95,
+    "temperatureUnit": null
+   },
+   95,
+   "heat"
+  ],
+  [
+   {
+    "shortForecast": "Patchy Drizzle",
+    "temperature": 58,
+    "temperatureUnit": "F"
+   },
+   95,
+   "rain"
+  ],
+  [
+   {
+    "shortForecast": "Drizzle Likely",
+    "temperature": 61,
+    "temperatureUnit": "F"
+   },
+   95,
+   "rain"
+  ],
+  [
+   {
+    "shortForecast": "Overcast",
+    "temperature": 60,
+    "temperatureUnit": "F"
+   },
+   95,
+   "cloudy"
+  ],
+  [
+   {
+    "shortForecast": "Overcast then Sunny",
+    "temperature": 72,
+    "temperatureUnit": "F"
+   },
+   95,
+   "cloudy"
+  ]
+ ],
+ "reduce": [
+  {
+   "fixture": "synthetic-forecast.json",
+   "today": "2026-12-30",
+   "threshold": 95,
+   "want": {
+    "2026-12-30": "rain",
+    "2026-12-31": "rain",
+    "2027-01-01": "rain",
+    "2027-01-02": "heat",
+    "2027-01-03": "clear",
+    "2027-01-04": "fog",
+    "2027-01-05": "cloudy"
+   },
+   "why": "rain, showers, thunderstorms; heat at 95 not 94; heat loses to rain; fog before cloudy; nights ignored; nothing past day seven (2027-01-06 Rain dropped); across the year end"
+  },
+  {
+   "fixture": "synthetic-forecast.json",
+   "today": "2027-01-03",
+   "threshold": 95,
+   "want": {
+    "2027-01-03": "clear",
+    "2027-01-04": "fog",
+    "2027-01-05": "cloudy",
+    "2027-01-06": "rain"
+   },
+   "why": "days before today are dropped"
+  },
+  {
+   "fixture": "napa-forecast.json",
+   "today": "2026-11-01",
+   "threshold": 95,
+   "want": {
+    "2026-11-01": "fog",
+    "2026-11-02": "fog",
+    "2026-11-03": "rain",
+    "2026-11-04": "fog",
+    "2026-11-05": "fog",
+    "2026-11-06": "clear",
+    "2026-11-07": "clear"
+   },
+   "why": "recorded live NWS response for the Napa point, 2026-11-01; the 11-02 night says rain showers and is ignored"
+  },
+  {
+   "fixture": "sonoma-forecast.json",
+   "today": "2026-11-01",
+   "threshold": 95,
+   "want": {
+    "2026-11-01": "fog",
+    "2026-11-02": "clear",
+    "2026-11-03": "rain",
+    "2026-11-04": "fog",
+    "2026-11-05": "fog",
+    "2026-11-06": "clear",
+    "2026-11-07": "clear"
+   },
+   "why": "recorded live NWS response for the Santa Rosa point, 2026-11-01"
+  },
+  {
+   "fixture": "synthetic-forecast.json",
+   "today": "2026-12-29",
+   "threshold": 95,
+   "want": {
+    "2026-12-30": "rain",
+    "2026-12-31": "rain",
+    "2027-01-01": "rain",
+    "2027-01-02": "heat",
+    "2027-01-03": "clear",
+    "2027-01-04": "fog"
+   },
+   "why": "no daytime period for today; day seven is 2027-01-04"
+  }
+ ],
+ "weather_tag": [
+  {
+   "doc": "ok",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2026-12-30",
+   "want": "rain, Napa area"
+  },
+  {
+   "doc": "ok",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "sonoma",
+   "iso": "2027-01-02",
+   "want": "heat, Santa Rosa area"
+  },
+  {
+   "doc": "ok",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2027-01-06",
+   "want": null
+  },
+  {
+   "doc": "ok",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2026-12-29",
+   "want": null
+  },
+  {
+   "doc": "ok",
+   "now": "2027-01-01T14:00:00Z",
+   "today": "2027-01-01",
+   "county": "napa",
+   "iso": "2027-01-07",
+   "want": "no forecast available, Napa area"
+  },
+  {
+   "doc": "stale",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2026-12-31",
+   "want": "no forecast available, Napa area"
+  },
+  {
+   "doc": "failed_point",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "sonoma",
+   "iso": "2026-12-31",
+   "want": "no forecast available, Santa Rosa area"
+  },
+  {
+   "doc": "failed_point",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2026-12-31",
+   "want": "rain, Napa area"
+  },
+  {
+   "doc": null,
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2026-12-30",
+   "want": "no forecast available, Napa area"
+  },
+  {
+   "doc": "ok",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-29",
+   "county": "napa",
+   "iso": "2026-12-29",
+   "want": null
+  },
+  {
+   "doc": "naive",
+   "now": "2026-12-30T18:00:00Z",
+   "today": "2026-12-30",
+   "county": "napa",
+   "iso": "2026-12-31",
+   "want": "no forecast available, Napa area"
+  }
+ ],
+ "docs": {
+  "ok": {
+   "generated_at": "2026-12-30T14:00:00Z",
+   "points": {
+    "napa": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    },
+    "sonoma": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    }
+   }
+  },
+  "stale": {
+   "generated_at": "2026-12-28T17:00:00Z",
+   "points": {
+    "napa": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    },
+    "sonoma": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    }
+   }
+  },
+  "failed_point": {
+   "generated_at": "2026-12-30T14:00:00Z",
+   "points": {
+    "napa": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    },
+    "sonoma": {
+     "ok": false,
+     "periods": []
+    }
+   }
+  },
+  "naive": {
+   "generated_at": "2026-12-30T14:00:00",
+   "points": {
+    "napa": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    },
+    "sonoma": {
+     "ok": true,
+     "periods": [
+      {
+       "startTime": "2026-12-30T06:00:00-08:00",
+       "endTime": "2026-12-30T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 55,
+       "temperatureUnit": "F",
+       "shortForecast": "Light Rain"
+      },
+      {
+       "startTime": "2026-12-30T18:00:00-08:00",
+       "endTime": "2026-12-30T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 40,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2026-12-31T06:00:00-08:00",
+       "endTime": "2026-12-31T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 100,
+       "temperatureUnit": "F",
+       "shortForecast": "Scattered Showers"
+      },
+      {
+       "startTime": "2026-12-31T18:00:00-08:00",
+       "endTime": "2026-12-31T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 41,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-01T06:00:00-08:00",
+       "endTime": "2027-01-01T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 70,
+       "temperatureUnit": "F",
+       "shortForecast": "Slight Chance Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-01T18:00:00-08:00",
+       "endTime": "2027-01-01T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 42,
+       "temperatureUnit": "F",
+       "shortForecast": "Fog"
+      },
+      {
+       "startTime": "2027-01-02T06:00:00-08:00",
+       "endTime": "2027-01-02T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 95,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-02T18:00:00-08:00",
+       "endTime": "2027-01-02T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 43,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-03T06:00:00-08:00",
+       "endTime": "2027-01-03T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Sunny"
+      },
+      {
+       "startTime": "2027-01-03T18:00:00-08:00",
+       "endTime": "2027-01-03T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 44,
+       "temperatureUnit": "F",
+       "shortForecast": "Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T06:00:00-08:00",
+       "endTime": "2027-01-04T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 94,
+       "temperatureUnit": "F",
+       "shortForecast": "Patchy Fog then Mostly Cloudy"
+      },
+      {
+       "startTime": "2027-01-04T18:00:00-08:00",
+       "endTime": "2027-01-04T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 45,
+       "temperatureUnit": "F",
+       "shortForecast": "Showers"
+      },
+      {
+       "startTime": "2027-01-05T06:00:00-08:00",
+       "endTime": "2027-01-05T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 60,
+       "temperatureUnit": "F",
+       "shortForecast": "Partly Cloudy"
+      },
+      {
+       "startTime": "2027-01-05T18:00:00-08:00",
+       "endTime": "2027-01-05T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 46,
+       "temperatureUnit": "F",
+       "shortForecast": "Thunderstorms"
+      },
+      {
+       "startTime": "2027-01-06T06:00:00-08:00",
+       "endTime": "2027-01-06T06:00:00-08:00",
+       "isDaytime": true,
+       "temperature": 61,
+       "temperatureUnit": "F",
+       "shortForecast": "Rain"
+      },
+      {
+       "startTime": "2027-01-06T18:00:00-08:00",
+       "endTime": "2027-01-06T18:00:00-08:00",
+       "isDaytime": false,
+       "temperature": 47,
+       "temperatureUnit": "F",
+       "shortForecast": "Clear"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "points": {
+  "source": "National Weather Service, api.weather.gov (public domain)",
+  "heat_threshold_f": 95,
+  "days": 7,
+  "points": {
+   "napa": {
+    "label": "Napa area",
+    "place": "City of Napa",
+    "lat": 38.2975,
+    "lon": -122.2869
+   },
+   "sonoma": {
+    "label": "Santa Rosa area",
+    "place": "City of Santa Rosa",
+    "lat": 38.4404,
+    "lon": -122.7141
+   }
+  }
+ }
+}

@@ -1,0 +1,3818 @@
+{
+ "meta": {
+  "last_reviewed": "2026-11-01"
+ },
+ "promotions": [
+  {
+   "id": "napa-2027",
+   "name": "Napa Valley Restaurant Month",
+   "start": "2027-01-01",
+   "end": "2027-01-31",
+   "source_url": "https://www.visitnapavalley.com/restaurant-month/",
+   "dates_confirmed": true
+  },
+  {
+   "id": "napa-2026",
+   "name": "Napa Valley Restaurant Month",
+   "start": "2026-01-01",
+   "end": "2026-01-31",
+   "source_url": "https://web.archive.org/web/20260112202245/https://www.visitnapavalley.com/restaurant-month/",
+   "dates_confirmed": true
+  },
+  {
+   "id": "sonoma-2027",
+   "name": "Sonoma County Restaurant Week",
+   "start": null,
+   "end": null,
+   "source_url": "https://socorestaurantweek.org/",
+   "dates_confirmed": false
+  },
+  {
+   "id": "sonoma-2026",
+   "name": "Sonoma County Restaurant Week",
+   "start": "2026-02-23",
+   "end": "2026-03-01",
+   "source_url": "https://socorestaurantweek.org/",
+   "dates_confirmed": true
+  }
+ ],
+ "entries": [
+  {
+   "id": "sonoma-2026-38-north-cocktail-bar-lounge",
+   "promotion_id": "sonoma-2026",
+   "name": "38° North Cocktail Bar & Lounge",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "100 Boyes Blvd, Sonoma, CA 95476",
+   "lat": 38.31445,
+   "lon": -122.483387,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://www.fairmont.com/en/hotels/sonoma/fairmont-sonoma-mission-inn-spa/dining/38-north-bar.bar.html",
+   "phone": "(707) 938-9000",
+   "source_url": "https://socorestaurantweek.org/restaurants/38-north-cocktail-bar-lounge/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-a-la-heart-kitchen-catering",
+   "promotion_id": "sonoma-2026",
+   "name": "A La Heart Kitchen & Catering",
+   "town": "Forestville",
+   "county": "Sonoma",
+   "address": "6490 Mirabel Rd, Forestville, CA 95436",
+   "lat": 38.475751,
+   "lon": -122.894922,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Bakery, Coffee / Cafe, Deli, Italian, Mediterranean, Vegetarian",
+   "booking_url": null,
+   "website": "https://www.alaheart.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/a-la-heart-kitchen-catering/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-acre-pizza",
+   "promotion_id": "sonoma-2026",
+   "name": "Acre Pizza (Sebastopol)",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "6761 McKinley St, Sebastopol, CA 95472",
+   "lat": 38.403669,
+   "lon": -122.821796,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.acrepizza.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/acre-pizza/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-acre-pizza-cotati",
+   "promotion_id": "sonoma-2026",
+   "name": "Acre Pizza (Cotati)",
+   "town": "Cotati",
+   "county": "Sonoma",
+   "address": "8175 Gravenstein Hwy, Cotati, CA 94931",
+   "lat": 38.332383,
+   "lon": -122.721063,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.acrepizza.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/acre-pizza-cotati/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-acre-pizza-petaluma",
+   "promotion_id": "sonoma-2026",
+   "name": "Acre Pizza (Petaluma)",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "1080 Petaluma Blvd N, Petaluma, CA 94952",
+   "lat": 38.246393,
+   "lon": -122.645073,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.acrepizza.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/acre-pizza-petaluma/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-allikai-eatery",
+   "promotion_id": "sonoma-2026",
+   "name": "Allikai Eatery",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "678 W Napa St, Sonoma, CA 95476",
+   "lat": 38.293309,
+   "lon": -122.471446,
+   "geo_source": "census",
+   "cuisine": "Deli, South American",
+   "booking_url": null,
+   "website": "https://allikaigroup.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/allikai-eatery/",
+   "last_checked": "2026-11-01",
+   "offers": []
+  },
+  {
+   "id": "sonoma-2026-arcre-pasta",
+   "promotion_id": "sonoma-2026",
+   "name": "Arcre Pasta",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "6751 McKinley St, Sebastopol, CA 95472",
+   "lat": 38.403675,
+   "lon": -122.821739,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": null,
+   "website": "https://www.acrepasta.com/",
+   "phone": "(707) 329-6734",
+   "source_url": "https://socorestaurantweek.org/restaurants/arcre-pasta/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-augies-french",
+   "promotion_id": "sonoma-2026",
+   "name": "Augie’s French",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "535 4th St, Santa Rosa, CA 95401",
+   "lat": 38.440032,
+   "lon": -122.715095,
+   "geo_source": "census",
+   "cuisine": "French",
+   "booking_url": "https://www.opentable.com/r/augies-french-santa-rosa",
+   "website": "https://augiesfrench.com/",
+   "phone": "(707) 531-4400",
+   "source_url": "https://socorestaurantweek.org/restaurants/augies-french/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-ausiellos-homeslice",
+   "promotion_id": "sonoma-2026",
+   "name": "Ausiello’s Homeslice",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "5755 Mountain Hawk Dr, Santa Rosa, CA 95409",
+   "lat": 38.46327,
+   "lon": -122.64317,
+   "geo_source": "manual",
+   "cuisine": "American, Italian, Pizza",
+   "booking_url": "https://www.opentable.com/booking/restref/availability?rid=1343842&lang=en-US&color=1&r3uid=cfe&dark=false&correlationId=a5df8445-5ed2-4342-b643-9cdf98892083&restRef=1343842&partySize=2&dateTime=2026-01-22T15%3A30&otSource=Restaurant%20website",
+   "website": "https://www.ausielloshomeslice.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/ausiellos-homeslice/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-baked-on-the-river-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "Baked on the River Restaurant",
+   "town": "Guerneville",
+   "county": "Sonoma",
+   "address": "16390 4th St, Guerneville, CA 95446",
+   "lat": 38.503223,
+   "lon": -123.000115,
+   "geo_source": "census",
+   "cuisine": "Californian, Scandinavian, Barbecue, Coffee / Cafe, Wine Bar",
+   "booking_url": "https://tables.toasttab.com/restaurants/2a38278b-87c2-4184-8cb7-96c3ebf2f4b1/findTime",
+   "website": "http://bakedontheriver.com",
+   "phone": "(707) 865-6060",
+   "source_url": "https://socorestaurantweek.org/restaurants/baked-on-the-river-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-basque-boulangerie-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "Basque Boulangerie Café",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "460 1st St E, Sonoma, CA 95476",
+   "lat": 38.292508,
+   "lon": -122.456543,
+   "geo_source": "census",
+   "cuisine": "Bakery, Coffee / Cafe, Deli",
+   "booking_url": null,
+   "website": "https://basqueboulangerie.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/basque-boulangerie-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-beer-baron-bar-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "Beer Baron Bar & Kitchen",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "614 4th St, Santa Rosa, CA 95404",
+   "lat": 38.440534,
+   "lon": -122.713683,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://www.beerbaronsr.com/",
+   "website": "https://www.beerbaronsr.com/",
+   "phone": "(707) 757-9294",
+   "source_url": "https://socorestaurantweek.org/restaurants/beer-baron-bar-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-belly-left-coast-kitchen-taproom",
+   "promotion_id": "sonoma-2026",
+   "name": "Belly Left Coast Kitchen & Taproom",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "523 4th St, Santa Rosa, CA 95401",
+   "lat": 38.439947,
+   "lon": -122.715281,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://bellyleftcoastkitchenandtaproom.com",
+   "phone": "(707) 526-5787",
+   "source_url": "https://socorestaurantweek.org/restaurants/belly-left-coast-kitchen-taproom/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-bijou-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "Bijou Restaurant",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "190 Kentucky St, Petaluma, CA 94952",
+   "lat": 38.235285,
+   "lon": -122.641884,
+   "geo_source": "census",
+   "cuisine": "Californian, French",
+   "booking_url": "https://www.opentable.com/r/bijou-restaurant-petaluma",
+   "website": "https://restaurantbijou.com/",
+   "phone": "(707) 753-9155",
+   "source_url": "https://socorestaurantweek.org/restaurants/bijou-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-bird-the-bottle",
+   "promotion_id": "sonoma-2026",
+   "name": "Bird & the Bottle",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1055 4th St, Santa Rosa, CA 95404",
+   "lat": 38.444032,
+   "lon": -122.706355,
+   "geo_source": "census",
+   "cuisine": "Asian Misc",
+   "booking_url": "https://www.opentable.com/bird-and-the-bottle",
+   "website": "https://www.birdandthebottle.com/",
+   "phone": "(707) 568-4000",
+   "source_url": "https://socorestaurantweek.org/restaurants/bird-the-bottle/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-bistecca-vino-bv-whiskey-bar-grille",
+   "promotion_id": "sonoma-2026",
+   "name": "Bistecca & Vino, BV Whiskey Bar & Grille",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "400 1st St E, Sonoma, CA 95476",
+   "lat": 38.29348,
+   "lon": -122.456316,
+   "geo_source": "census",
+   "cuisine": "Italian, Seafood, Vegetarian",
+   "booking_url": "https://bvsonoma.com/reservations",
+   "website": "https://bvsonoma.com/",
+   "phone": "(707) 938-7110",
+   "source_url": "https://socorestaurantweek.org/restaurants/bistecca-vino-bv-whiskey-bar-grille/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-bistro-lagniappe",
+   "promotion_id": "sonoma-2026",
+   "name": "Bistro Lagniappe",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "330 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.611341,
+   "lon": -122.870737,
+   "geo_source": "census",
+   "cuisine": "French",
+   "booking_url": "https://www.opentable.com/r/bistro-lagniappe-healdsburg",
+   "website": "https://lagniappehealdsburg.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/bistro-lagniappe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-bloom-carneros",
+   "promotion_id": "sonoma-2026",
+   "name": "Bloom Carneros",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "22910 Broadway, Sonoma, CA 95476",
+   "lat": 38.245057,
+   "lon": -122.449169,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://www.exploretock.com/bloom-carneros-sonoma?_gl=1*154u6cf*_gcl_au*MzExMTA3Njk4LjE3NjQ2MTg4NTc.*_ga*MTQzMjkwODkyNi4xNzU2MzM3NDEy*_ga_FFJ6SVS0C4*czE3Njg4OTMzNTMkbzY2JGcwJHQxNzY4ODkzMzUyJGo2MCRsMCRoMTY4NTMzMTEyNw..&_ga=2.192055342.584597496.1768893019-1432908926.1756337412",
+   "website": "https://www.bloomcarneros.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/bloom-carneros/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 50,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-boho-manor-riverfront-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "Boho Manor Riverfront Restaurant",
+   "town": "Monte Rio",
+   "county": "Sonoma",
+   "address": "20822 River Blvd, Monte Rio, CA 95462",
+   "lat": 38.46756,
+   "lon": -123.006869,
+   "geo_source": "census",
+   "cuisine": "American, French",
+   "booking_url": "https://bohomanor.com/menu/",
+   "website": "https://bohomanor.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/boho-manor-riverfront-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-boon-eat-drink",
+   "promotion_id": "sonoma-2026",
+   "name": "boon eat + drink",
+   "town": "Guerneville",
+   "county": "Sonoma",
+   "address": "16248 Main St, Guerneville, CA 95446",
+   "lat": 38.50213,
+   "lon": -122.99699,
+   "geo_source": "manual",
+   "cuisine": "Californian, American",
+   "booking_url": null,
+   "website": "https://eatatboon.com/",
+   "phone": "(707) 869-0780",
+   "source_url": "https://socorestaurantweek.org/restaurants/boon-eat-drink/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-bubbles-delights-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "Bubbles & Delights Café",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "359 E Washington St, Petaluma, CA 94952",
+   "lat": 38.23748,
+   "lon": -122.636657,
+   "geo_source": "census",
+   "cuisine": null,
+   "booking_url": null,
+   "website": null,
+   "phone": "(707) 377-2490",
+   "source_url": "https://socorestaurantweek.org/restaurants/bubbles-delights-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-cabianca-ristorante-italiano",
+   "promotion_id": "sonoma-2026",
+   "name": "Ca’Bianca Ristorante Italiano",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "835 2nd St, Santa Rosa, CA 95404",
+   "lat": 38.44129,
+   "lon": -122.70848,
+   "geo_source": "manual",
+   "cuisine": "Italian, Seafood, Wine Bar",
+   "booking_url": "https://www.cabianca.com/reservations",
+   "website": "https://www.cabianca.com",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/cabianca-ristorante-italiano/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-cafe-bellini",
+   "promotion_id": "sonoma-2026",
+   "name": "Cafe Bellini",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "100 S McDowell Blvd, Petaluma, CA 94954",
+   "lat": 38.249106,
+   "lon": -122.625812,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://www.thecafebellini.com/",
+   "phone": "(707) 774-6160",
+   "source_url": "https://socorestaurantweek.org/restaurants/cafe-bellini/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-canneti-roadhouse-italiana",
+   "promotion_id": "sonoma-2026",
+   "name": "Canneti Roadhouse Italiana",
+   "town": "Forestville",
+   "county": "Sonoma",
+   "address": "6675 Front St, Forestville, CA 95436",
+   "lat": 38.473681,
+   "lon": -122.893258,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": null,
+   "website": "https://cannetiroadhouse.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/canneti-roadhouse-italiana/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-chick-fil-a-rohnert-park",
+   "promotion_id": "sonoma-2026",
+   "name": "Chick-fil-A Rohnert Park",
+   "town": "Rohnert Park",
+   "county": "Sonoma",
+   "address": "5080 Redwood Dr, Rohnert Park, CA 94928",
+   "lat": 38.362455,
+   "lon": -122.714738,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://www.chick-fil-a.com/locations/ca/rohnert-park",
+   "phone": "(707) 585-7462",
+   "source_url": "https://socorestaurantweek.org/restaurants/chick-fil-a-rohnert-park/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-china-village-cotati",
+   "promotion_id": "sonoma-2026",
+   "name": "China Village (Cotati)",
+   "town": "Cotati",
+   "county": "Sonoma",
+   "address": "8501 Gravenstein Hwy, Cotati, CA 94931",
+   "lat": 38.331217,
+   "lon": -122.71198,
+   "geo_source": "census",
+   "cuisine": "Chinese",
+   "booking_url": null,
+   "website": null,
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/china-village-cotati/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-china-village-santa-rosa",
+   "promotion_id": "sonoma-2026",
+   "name": "China Village (Santa Rosa)",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "138B Calistoga Rd, Santa Rosa, CA 95409",
+   "lat": 38.465837,
+   "lon": -122.653381,
+   "geo_source": "census",
+   "cuisine": "Chinese",
+   "booking_url": null,
+   "website": null,
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/china-village-santa-rosa/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-cibo-rustico-pizzeria-and-wine-bar",
+   "promotion_id": "sonoma-2026",
+   "name": "Cibo Rustico Pizzeria and Wine Bar",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1305 Cleveland Ave, Santa Rosa, CA 95401",
+   "lat": 38.448946,
+   "lon": -122.726579,
+   "geo_source": "census",
+   "cuisine": "Italian, Pizza, Vegetarian, Wine Bar",
+   "booking_url": "https://www.yelp.com/biz/cibo-rustico-pizzeria-santa-rosa-3?osq=Cibo+Rustico+Pizzeria",
+   "website": "https://ciborustico.com",
+   "phone": "(707) 623-9906",
+   "source_url": "https://socorestaurantweek.org/restaurants/cibo-rustico-pizzeria-and-wine-bar/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-coast-kitchen-timber-cove",
+   "promotion_id": "sonoma-2026",
+   "name": "Coast Kitchen/Timber Cove",
+   "town": "Jenner",
+   "county": "Sonoma",
+   "address": "21780 CA-1, Jenner, CA 95450",
+   "lat": 38.533755,
+   "lon": -123.27641,
+   "geo_source": "census",
+   "cuisine": "American, Asian Misc, Bakery, Coffee / Cafe, Italian, Mexican, Seafood, South American, Vegetarian",
+   "booking_url": "https://resy.com/cities/sonoma-ca/venues/coast-kitchen",
+   "website": "https://www.timbercoveresort.com/",
+   "phone": "(707) 847-3231",
+   "source_url": "https://socorestaurantweek.org/restaurants/coast-kitchen-timber-cove/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-colibri-grill-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "Colibri Grill Cafe",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "4233 Montgomery Dr, Santa Rosa, CA 95405",
+   "lat": 38.455477,
+   "lon": -122.672086,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Barbecue, Coffee / Cafe, Mexican",
+   "booking_url": null,
+   "website": "https://colibrigrill.com/",
+   "phone": "(707) 538-2726",
+   "source_url": "https://socorestaurantweek.org/restaurants/colibri-grill-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-cookietake-a-bite",
+   "promotion_id": "sonoma-2026",
+   "name": "COOKIE…take a bite!",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "430 Larkfield Center, Santa Rosa, CA 95403",
+   "lat": 38.5011,
+   "lon": -122.75132,
+   "geo_source": "manual",
+   "cuisine": "Bakery",
+   "booking_url": null,
+   "website": "https://www.cookietakeabite.com/",
+   "phone": "(707) 291-1785",
+   "source_url": "https://socorestaurantweek.org/restaurants/cookietake-a-bite/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-costeaux-at-big-johns-market",
+   "promotion_id": "sonoma-2026",
+   "name": "Costeaux at Big John’s Market",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "1345 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.627012,
+   "lon": -122.872721,
+   "geo_source": "census",
+   "cuisine": "French",
+   "booking_url": null,
+   "website": "https://www.costeaux.com/bakery-cafe/costeaux-bjm/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/costeaux-at-big-johns-market/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-costeaux-french-bakery",
+   "promotion_id": "sonoma-2026",
+   "name": "Costeaux French Bakery",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "417 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.612164,
+   "lon": -122.871132,
+   "geo_source": "census",
+   "cuisine": "American, French",
+   "booking_url": "https://tables.toasttab.com/restaurants/91b680eb-8353-4f96-bc32-671e457c9b09/reserve?partySize=2&dateTime=2026-01-12T15:30:00.000-08:00",
+   "website": "https://www.costeaux.com/",
+   "phone": "(707) 364-8663",
+   "source_url": "https://socorestaurantweek.org/restaurants/costeaux-french-bakery/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-costeaux-on-the-go",
+   "promotion_id": "sonoma-2026",
+   "name": "Costeaux On The Go",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "2266 Airport Blvd, Santa Rosa, CA 95403",
+   "lat": 38.510943,
+   "lon": -122.803437,
+   "geo_source": "census",
+   "cuisine": "French",
+   "booking_url": null,
+   "website": "https://www.costeaux.com/bakery-cafe/on-the-go/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/costeaux-on-the-go/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-costeaux-petaluma",
+   "promotion_id": "sonoma-2026",
+   "name": "Costeaux Petaluma",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "110 Washington St. Petaluma, CA 94952",
+   "lat": 38.235419,
+   "lon": -122.642329,
+   "geo_source": "census",
+   "cuisine": "French",
+   "booking_url": null,
+   "website": "https://www.costeaux.com/bakery-cafe/costeaux-petaluma/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/costeaux-petaluma/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-criminal-baking-co",
+   "promotion_id": "sonoma-2026",
+   "name": "Criminal Baking Co",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "808 Donahue St, Santa Rosa, CA 95401",
+   "lat": 38.44047,
+   "lon": -122.724479,
+   "geo_source": "census",
+   "cuisine": "Bakery, Coffee / Cafe",
+   "booking_url": null,
+   "website": "https://criminalbakingcompany.com/",
+   "phone": "(707) 888-3546",
+   "source_url": "https://socorestaurantweek.org/restaurants/criminal-baking-co/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 50,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-darbar-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "Darbar Kitchen",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "615 4th St, Santa Rosa, CA 95404",
+   "lat": 38.440633,
+   "lon": -122.713756,
+   "geo_source": "census",
+   "cuisine": "Indian / Himalayan",
+   "booking_url": "https://form.jotform.com/252026291628153",
+   "website": "https://darbarkitchensr.com/",
+   "phone": "(773) 319-2804",
+   "source_url": "https://socorestaurantweek.org/restaurants/darbar-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-dargenzio-winery",
+   "promotion_id": "sonoma-2026",
+   "name": "D’Argenzio Winery",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1301 Cleveland Ave, Santa Rosa, CA 95401",
+   "lat": 38.448821,
+   "lon": -122.726587,
+   "geo_source": "census",
+   "cuisine": "Italian, Pizza, Vegetarian, Wine Bar",
+   "booking_url": "https://www.yelp.com/biz/d-argenzio-winery-santa-rosa?osq=D’Argenzio+Winery",
+   "website": "https://www.dargenziowinery.com",
+   "phone": "(707) 546-2466",
+   "source_url": "https://socorestaurantweek.org/restaurants/dargenzio-winery/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-dinuccis-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "Dinucci’s Restaurant",
+   "town": "Valley Ford",
+   "county": "Sonoma",
+   "address": "14485 Valley Ford Rd",
+   "lat": 38.317875,
+   "lon": -122.924175,
+   "geo_source": "census",
+   "cuisine": null,
+   "booking_url": null,
+   "website": "https://www.dinuccisrestaurantandbar.com/",
+   "phone": "(707) 876-3260",
+   "source_url": "https://socorestaurantweek.org/restaurants/dinuccis-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-dry-creek-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "Dry Creek Kitchen",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "317 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.610737,
+   "lon": -122.87071,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://drycreekkitchen.com/",
+   "website": "https://drycreekkitchen.com/",
+   "phone": "(707) 431-0330",
+   "source_url": "https://socorestaurantweek.org/restaurants/dry-creek-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-eddies-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "Eddie’s Kitchen",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "409 Mendocino Ave, Santa Rosa, CA 95401",
+   "lat": 38.441209,
+   "lon": -122.714649,
+   "geo_source": "census",
+   "cuisine": "American, Italian, Wine Bar",
+   "booking_url": "https://www.yelp.com/reservations/eddie-s-kitchen-santa-rosa?source=yelp_biz&date=2023-08-08&time=2100&covers=2",
+   "website": "https://www.eddieskitchen.org/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/eddies-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-el-coqui-puerto-rican-cuisine",
+   "promotion_id": "sonoma-2026",
+   "name": "El Coqui Puerto Rican Cuisine",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "400 Mendocino Ave, Santa Rosa, CA 95401",
+   "lat": 38.441191,
+   "lon": -122.714466,
+   "geo_source": "census",
+   "cuisine": "Caribbean / Puerto Rican",
+   "booking_url": null,
+   "website": "http://elcoqui2eat.com/",
+   "phone": "(707) 542-8868",
+   "source_url": "https://socorestaurantweek.org/restaurants/el-coqui-puerto-rican-cuisine/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-el-dorado-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "El Dorado Kitchen",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "405 1st St W, Sonoma, CA 95476",
+   "lat": 38.293652,
+   "lon": -122.458704,
+   "geo_source": "census",
+   "cuisine": "Californian",
+   "booking_url": "https://www.opentable.com/booking/restref/availability?rtype=ism&correlationId=64e35d2c-e766-4e9a-97d7-c3eb639de6a8&restRef=4419",
+   "website": "https://eldoradosonoma.com/el-dorado-kitchen/",
+   "phone": "(707) 996-3030",
+   "source_url": "https://socorestaurantweek.org/restaurants/el-dorado-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-fieldwork-brewing",
+   "promotion_id": "sonoma-2026",
+   "name": "Fieldwork Brewing",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "2400 Midway Dr, Santa Rosa, CA 95405",
+   "lat": 38.446054,
+   "lon": -122.687001,
+   "geo_source": "census",
+   "cuisine": "American, Pizza, Vegetarian",
+   "booking_url": "https://www.google.com/maps/reserve/v/dine/c/nHWkxw-BdAU?source=pa&opi=89978449&hl=en-US&gei=GqyXaa2DE6Gh0PEPz7_40A4&sourceurl=https://www.google.com/search?q%3Dfieldwork%2Bsanta%2Brosa%26sca_esv%3D98ddbb682043a34e%26sxsrf%3DANbL-n5e-Eq5WMbmEVkIlv9iOttM37Nj1A:1771547669871%26source%3Dhp%26ei%3DFayXad7OM9a7ur8Pk62KmAI%26iflsig%3DAFdpzrgAAAAAaZe6JX_TQl6iEW0mahzGLpRiwFy102iP%26gs_ssp%3DeJzj4tVP1zc0rCw0Nkorijc0YLRSNaiwMLAwMbE0MDBKtUwztjQ1tTKoMEyySDIxSjEzs0wzNzNIMfASSctMzUkpzy_KVihOzCtJVCjKL04EABGbFiE%26oq%3Dfeidlwork%2B%26gs_lp%3DEgdnd3Mtd2l6IgpmZWlkbHdvcmsgKgIIADIQEC4YgAQYxwEYDRiOBRivATIHEAAYgAQYDTINEC4YgAQYxwEYDRivATINEC4YgAQYxwEYDRivATINEC4YgAQYxwEYDRivATINEC4YgAQYxwEYDRivATIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTINEC4YgAQYxwEYDRivAUimGFAAWLMIcAB4AJABAJgBjwGgAbEIqgEDNC42uAEByAEA-AEBmAIKoALlCMICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAgsQABiABBixAxiDAcICFBAuGIAEGLEDGNEDGIMBGMcBGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgUQLhiABMICCBAuGIAEGLEDwgIOEAAYgAQYsQMYgwEYigXCAgUQABiABMICDRAuGIAEGNEDGMcBGArCAhUQLhiABBixAxjRAxiDARjHARgKGAvCAgcQABiABBgKwgILEC4YgAQYxwEYrwHCAg8QABiABBixAxiDARgKGAvCAgcQLhiABBgKwgISEC4YgAQYxwEYChgLGI4FGK8BwgIJEAAYgAQYChgLwgIPEC4YgAQYxwEYChgLGK8BwgIYEC4YgAQYsQMYgwEYxwEYChgLGI4FGK8BmAMAkgcDMy43oAe8ywGyBwMzLje4B-UIwgcFMC40LjbIByOACAA%26sclient%3Dgws-wiz",
+   "website": "https://fieldworkbrewing.com/santa-rosa/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/fieldwork-brewing/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-fogbelt-brewing-company-healdsburg",
+   "promotion_id": "sonoma-2026",
+   "name": "Fogbelt Brewing Company Healdsburg",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "410 Hudson St, Healdsburg, CA 95448",
+   "lat": 38.606334,
+   "lon": -122.862608,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Barbecue, Italian, Mediterranean, Mexican, Pizza, Vegetarian",
+   "booking_url": "https://www.fogbeltbrewing.com/reservations-healdsburg",
+   "website": "https://www.fogbeltbrewing.com/healdsburg",
+   "phone": "(707) 473-8532",
+   "source_url": "https://socorestaurantweek.org/restaurants/fogbelt-brewing-company-healdsburg/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-fogbelt-brewing-company-santa-rosa",
+   "promotion_id": "sonoma-2026",
+   "name": "Fogbelt Brewing Company Santa Rosa",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1305 Cleveland Ave, Santa Rosa, CA 95401",
+   "lat": 38.448946,
+   "lon": -122.726579,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Barbecue, Mediterranean, Mexican",
+   "booking_url": "https://www.fogbeltbrewing.com/reservations-santa-rosa",
+   "website": "https://www.fogbeltbrewing.com/santarosa",
+   "phone": "(707) 978-3400",
+   "source_url": "https://socorestaurantweek.org/restaurants/fogbelt-brewing-company-santa-rosa/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-folia-bar-and-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "Folia Bar and Kitchen",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "101 Dovetail Ln, Healdsburg, CA 95448",
+   "lat": 38.61391,
+   "lon": -122.87707,
+   "geo_source": "manual",
+   "cuisine": "American",
+   "booking_url": "https://www.foliabarandkitchen.com/",
+   "website": "https://www.foliabarandkitchen.com/",
+   "phone": "(707) 723-2000",
+   "source_url": "https://socorestaurantweek.org/restaurants/folia-bar-and-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-fresh-fuji",
+   "promotion_id": "sonoma-2026",
+   "name": "Fresh Fuji",
+   "town": "Rohnert Park",
+   "county": "Sonoma",
+   "address": "1708 E Cotati Ave, Rohnert Park, CA 94928",
+   "lat": 38.336013,
+   "lon": -122.677422,
+   "geo_source": "census",
+   "cuisine": "Japanese",
+   "booking_url": null,
+   "website": "https://freshfujica.kwickmenu.com/",
+   "phone": "(707) 750-4610",
+   "source_url": "https://socorestaurantweek.org/restaurants/fresh-fuji/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-gather-restaurant-bar",
+   "promotion_id": "sonoma-2026",
+   "name": "Gather Restaurant & Bar",
+   "town": "Rohnert Park",
+   "county": "Sonoma",
+   "address": "1 Doubletree, Rohnert Park, CA 94928",
+   "lat": 38.36546,
+   "lon": -122.70819,
+   "geo_source": "manual",
+   "cuisine": "Californian, Mediterranean",
+   "booking_url": "https://www.opentable.com/r/gather-restaurant-and-bar-reservations-rohnert-park?restref=63562&lang=en-US&ot_source=Restaurant%20website",
+   "website": "https://www.hilton.com/en/hotels/rlsc-dt-doubletree-sonoma-wine-country/dining/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/gather-restaurant-bar/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-ginochios-kitchen",
+   "promotion_id": "sonoma-2026",
+   "name": "Ginochio’s Kitchen",
+   "town": "Bodega Bay",
+   "county": "Sonoma",
+   "address": "1410 Bay Flat Rd, Bodega Bay, CA 94923",
+   "lat": 38.335474,
+   "lon": -123.049687,
+   "geo_source": "census",
+   "cuisine": "American, Barbecue, Seafood",
+   "booking_url": null,
+   "website": "https://www.ginochioskitchen.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/ginochios-kitchen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-glen-ellen-star",
+   "promotion_id": "sonoma-2026",
+   "name": "Glen Ellen Star",
+   "town": "Glen Ellen",
+   "county": "Sonoma",
+   "address": "13648 Arnold Dr, Glen Ellen, CA 95442",
+   "lat": 38.364802,
+   "lon": -122.524478,
+   "geo_source": "census",
+   "cuisine": "American, Mediterranean, Pizza, Seafood",
+   "booking_url": "https://resy.com/cities/napa-ca/venues/glen-ellen-star",
+   "website": "https://www.glenellenstar.com",
+   "phone": "(707) 343-1384",
+   "source_url": "https://socorestaurantweek.org/restaurants/glen-ellen-star/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-golden-state-cider-taproom",
+   "promotion_id": "sonoma-2026",
+   "name": "Golden State Cider Taproom",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "180 Morris St #150, Sebastopol, CA 95472",
+   "lat": 38.404445,
+   "lon": -122.819509,
+   "geo_source": "census",
+   "cuisine": "Californian",
+   "booking_url": null,
+   "website": "https://drinkgoldenstate.com/",
+   "phone": "(707) 827-3765",
+   "source_url": "https://socorestaurantweek.org/restaurants/golden-state-cider-taproom/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-goldfinch",
+   "promotion_id": "sonoma-2026",
+   "name": "Goldfinch",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "119 S Main St, Sebastopol, CA 95472",
+   "lat": 38.401975,
+   "lon": -122.824032,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://www.goldfinchsebastopol.com/",
+   "website": "https://www.goldfinchsebastopol.com/",
+   "phone": "(707) 827-9882",
+   "source_url": "https://socorestaurantweek.org/restaurants/goldfinch/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-grata-italian-eatery",
+   "promotion_id": "sonoma-2026",
+   "name": "Grata Italian Eatery",
+   "town": "Windsor",
+   "county": "Sonoma",
+   "address": "186 Windsor River Rd, Windsor, CA 95492",
+   "lat": 38.547267,
+   "lon": -122.812564,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": "https://www.opentable.com/r/grata-italian-eatery-windsor",
+   "website": "https://grataitalianeatery.toast.site/",
+   "phone": "(707) 620-0508",
+   "source_url": "https://socorestaurantweek.org/restaurants/grata-italian-eatery/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-handline",
+   "promotion_id": "sonoma-2026",
+   "name": "Handline",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "935 Gravenstein Hwy S, Sebastopol, CA 95472",
+   "lat": 38.3923,
+   "lon": -122.81736,
+   "geo_source": "manual",
+   "cuisine": "Californian",
+   "booking_url": null,
+   "website": "https://www.handline.com/",
+   "phone": "(707) 827-3744",
+   "source_url": "https://socorestaurantweek.org/restaurants/handline/",
+   "last_checked": "2026-11-01",
+   "offers": []
+  },
+  {
+   "id": "sonoma-2026-hazel-hill",
+   "promotion_id": "sonoma-2026",
+   "name": "Hazel Hill",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "100 Montage Way, Healdsburg, CA 95448",
+   "lat": 38.64663,
+   "lon": -122.85505,
+   "geo_source": "manual",
+   "cuisine": "French",
+   "booking_url": "https://www.montage.com/healdsburg/dining/hazel-hill/",
+   "website": "https://www.montage.com/healdsburg/dining/hazel-hill/",
+   "phone": "(707) 354-6900",
+   "source_url": "https://socorestaurantweek.org/restaurants/hazel-hill/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-himalayan-restaurant-2",
+   "promotion_id": "sonoma-2026",
+   "name": "Himalayan Restaurant",
+   "town": "Windsor",
+   "county": "Sonoma",
+   "address": "810 McClelland Dr, Windsor, CA 95492",
+   "lat": 38.54824,
+   "lon": -122.815519,
+   "geo_source": "census",
+   "cuisine": "Indian / Himalayan",
+   "booking_url": null,
+   "website": null,
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/himalayan-restaurant-2/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 50,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-homerun-pizza",
+   "promotion_id": "sonoma-2026",
+   "name": "Homerun Pizza",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "484 Larkfield Center",
+   "lat": 38.50112,
+   "lon": -122.75131,
+   "geo_source": "manual",
+   "cuisine": "Californian, Italian",
+   "booking_url": null,
+   "website": "https://www.homerunpizzalarkfield.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/homerun-pizza/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-hopmonk-tavern-sonoma",
+   "promotion_id": "sonoma-2026",
+   "name": "HopMonk Tavern Sonoma",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "691 Broadway, Sonoma, CA 95476",
+   "lat": 38.288587,
+   "lon": -122.458447,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://www.hopmonk.com/reservations",
+   "website": "https://www.hopmonk.com/sonoma",
+   "phone": "(707) 935-9100",
+   "source_url": "https://socorestaurantweek.org/restaurants/hopmonk-tavern-sonoma/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-iggys-burger-sebastopol",
+   "promotion_id": "sonoma-2026",
+   "name": "Iggy’s Burger Sebastopol",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "6700 Sebastopol Ave, Sebastopol, CA 95472",
+   "lat": 38.402944,
+   "lon": -122.819168,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://www.iggysburger.com/",
+   "phone": "(925) 817-9502",
+   "source_url": "https://socorestaurantweek.org/restaurants/iggys-burger-sebastopol/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-incas-peruvian-cuisine-llc",
+   "promotion_id": "sonoma-2026",
+   "name": "Inca’s Peruvian Cuisine LLC",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "799 Gravenstein Hwy S, Sebastopol, CA 95472",
+   "lat": 38.395084,
+   "lon": -122.819223,
+   "geo_source": "census",
+   "cuisine": "South American",
+   "booking_url": null,
+   "website": "https://www.incasrestaurant.net/",
+   "phone": "(707) 861-9057",
+   "source_url": "https://socorestaurantweek.org/restaurants/incas-peruvian-cuisine-llc/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-iron-vine-restaurant-bar-events",
+   "promotion_id": "sonoma-2026",
+   "name": "Iron & Vine Restaurant Bar & Events",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "3330 Yulupa Ave, Santa Rosa, CA 95405",
+   "lat": 38.420601,
+   "lon": -122.664803,
+   "geo_source": "census",
+   "cuisine": "Californian, American",
+   "booking_url": "https://www.yelp.com/biz/iron-and-vine-restaurant-bar-and-events-santa-rosa",
+   "website": "https://bennettvalleygolf.com/ironandvine/",
+   "phone": "(707) 852-1171",
+   "source_url": "https://socorestaurantweek.org/restaurants/iron-vine-restaurant-bar-events/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-jacksons-bar-oven",
+   "promotion_id": "sonoma-2026",
+   "name": "Jacksons Bar & Oven",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "135 4th St, Santa Rosa, CA 95401",
+   "lat": 38.437674,
+   "lon": -122.720279,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://www.opentable.com/r/jacksons-bar-and-oven-santa-rosa",
+   "website": "https://jacksonsbarandoven.com/",
+   "phone": "(707) 545-6900",
+   "source_url": "https://socorestaurantweek.org/restaurants/jacksons-bar-oven/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-jimtown-and-then-sum",
+   "promotion_id": "sonoma-2026",
+   "name": "Jimtown and Then Sum",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "6706 CA-128, Healdsburg, CA 95448",
+   "lat": 38.66879,
+   "lon": -122.81715,
+   "geo_source": "manual",
+   "cuisine": "American, Asian Misc, Bakery, Chinese, Coffee / Cafe, Deli",
+   "booking_url": "https://www.yelp.com/reservations/jimtown-and-then-sum-healdsburg?social_id=DbV4RDRecDewd7pAOJYmOg",
+   "website": "https://jimtown.com/",
+   "phone": "(707) 756-5022",
+   "source_url": "https://socorestaurantweek.org/restaurants/jimtown-and-then-sum/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-john-ash-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "John Ash Restaurant",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "4330 Barnes Rd, Santa Rosa, CA 95403",
+   "lat": 38.494191,
+   "lon": -122.760552,
+   "geo_source": "census",
+   "cuisine": "Californian, Mediterranean",
+   "booking_url": null,
+   "website": "https://vinarosaresort.com/dining/john-ash/",
+   "phone": "(707) 527-7687",
+   "source_url": "https://socorestaurantweek.org/restaurants/john-ash-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-korbel-delicatessen-market",
+   "promotion_id": "sonoma-2026",
+   "name": "Korbel Delicatessen & Market",
+   "town": "Guerneville",
+   "county": "Sonoma",
+   "address": "13250 River Road Guerneville, CA 95446",
+   "lat": 38.513337,
+   "lon": -122.967103,
+   "geo_source": "census",
+   "cuisine": "American, Deli, Wine Bar",
+   "booking_url": null,
+   "website": "https://www.korbel.com/the-winery/",
+   "phone": "(707) 824-7313",
+   "source_url": "https://socorestaurantweek.org/restaurants/korbel-delicatessen-market/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-la-gare-french-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "La Gare French Restaurant",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "208 Wilson St, Santa Rosa, CA 95401",
+   "lat": 38.43671,
+   "lon": -122.720098,
+   "geo_source": "census",
+   "cuisine": "French, German",
+   "booking_url": "https://lagarerestaurant.com/reservations/",
+   "website": "https://lagarerestaurant.com",
+   "phone": "(707) 528-4355",
+   "source_url": "https://socorestaurantweek.org/restaurants/la-gare-french-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-layla-at-macarthur-place",
+   "promotion_id": "sonoma-2026",
+   "name": "Layla at MacArthur Place",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "29 E MacArthur St, Sonoma, CA 95476",
+   "lat": 38.284647,
+   "lon": -122.458335,
+   "geo_source": "census",
+   "cuisine": "Californian",
+   "booking_url": "https://www.opentable.com/restref/client/?restref=3957&rid=3957&covers=1&partysize=1&corrid=1541aa89-395b-45d0-ac86-c06d54ee0e7d",
+   "website": "https://www.macarthurplace.com/food-drink/layla-restaurant/",
+   "phone": "(707) 938-2929",
+   "source_url": "https://socorestaurantweek.org/restaurants/layla-at-macarthur-place/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-litas-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "Lita’s Cafe",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1973 Mendocino Ave, Santa Rosa, CA 95401",
+   "lat": 38.459582,
+   "lon": -122.717213,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://litascafe.com/",
+   "phone": "(707) 575-1628",
+   "source_url": "https://socorestaurantweek.org/restaurants/litas-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-little-saint",
+   "promotion_id": "sonoma-2026",
+   "name": "Little Saint",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "25 North St, Healdsburg, CA 95448",
+   "lat": 38.611858,
+   "lon": -122.87175,
+   "geo_source": "census",
+   "cuisine": "Californian, Bakery, Coffee / Cafe, Vegetarian, Wine Bar",
+   "booking_url": "https://www.opentable.com/booking/restref/availability?lang=en-US&correlationId=6db069a5-aedd-41dd-8a70-347aecf68c42&otCampaign=LS%20WEBSITE&otSource=Restaurant%20website&restRef=1321324",
+   "website": "https://littlesainthealdsburg.com",
+   "phone": "(707) 433-8207",
+   "source_url": "https://socorestaurantweek.org/restaurants/little-saint/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-loro-di-napoli-petaluma",
+   "promotion_id": "sonoma-2026",
+   "name": "L’Oro di Napoli (Petaluma)",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "208 Petaluma Blvd N, Petaluma, CA 94952",
+   "lat": 38.236007,
+   "lon": -122.641236,
+   "geo_source": "census",
+   "cuisine": "Italian, Pizza",
+   "booking_url": "https://www.lorodinapolica.com/reservations-2",
+   "website": "https://www.lorodinapolica.com/petaluma",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/loro-di-napoli-petaluma/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-loro-di-napoli-santa-rosa",
+   "promotion_id": "sonoma-2026",
+   "name": "L’Oro di Napoli (Santa Rosa)",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "629 4th St, Santa Rosa, CA 95404",
+   "lat": 38.440732,
+   "lon": -122.713541,
+   "geo_source": "census",
+   "cuisine": "Italian, Pizza",
+   "booking_url": "https://www.lorodinapolica.com/",
+   "website": "https://www.lorodinapolica.com/",
+   "phone": "(707) 541-6394",
+   "source_url": "https://socorestaurantweek.org/restaurants/loro-di-napoli-santa-rosa/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-lucha-sabina",
+   "promotion_id": "sonoma-2026",
+   "name": "Lucha Sabina",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "100 Sebastopol Rd, Santa Rosa, CA 95407",
+   "lat": 38.431248,
+   "lon": -122.722318,
+   "geo_source": "census",
+   "cuisine": "Mexican, Vegetarian",
+   "booking_url": null,
+   "website": "https://luchasabina.com/",
+   "phone": "(707) 393-8370",
+   "source_url": "https://socorestaurantweek.org/restaurants/lucha-sabina/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-luma-bar-eatery",
+   "promotion_id": "sonoma-2026",
+   "name": "Luma Bar & Eatery",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "50 E Washington St, Petaluma, CA 94952",
+   "lat": 38.236285,
+   "lon": -122.639102,
+   "geo_source": "census",
+   "cuisine": "Californian",
+   "booking_url": "https://resy.com/cities/petaluma-ca/venues/luma-bar-and-eatery?seats=2&date=2026-02-02",
+   "website": "https://www.lumaeatery.com/",
+   "phone": "(707) 772-5037",
+   "source_url": "https://socorestaurantweek.org/restaurants/luma-bar-eatery/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-mamma-taninos-ristorante",
+   "promotion_id": "sonoma-2026",
+   "name": "Mamma Taninos Ristorante",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "500 W Napa St, suite 512, Sonoma, CA 95476",
+   "lat": 38.292982,
+   "lon": -122.46812,
+   "geo_source": "census",
+   "cuisine": "Italian, Mediterranean, Seafood",
+   "booking_url": "https://www.opentable.com/mamma-taninos-ristorante",
+   "website": "http://www.mammataninos.com/",
+   "phone": "(707) 933-8826",
+   "source_url": "https://socorestaurantweek.org/restaurants/mamma-taninos-ristorante/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-mezzeluna-cotati",
+   "promotion_id": "sonoma-2026",
+   "name": "Mezzeluna Cotati",
+   "town": "Cotati",
+   "county": "Sonoma",
+   "address": "8099 La Plaza, Cotati, CA 94931",
+   "lat": 38.326742,
+   "lon": -122.707588,
+   "geo_source": "census",
+   "cuisine": "Mediterranean",
+   "booking_url": "https://mezzeluna.com/make-a-reservation/",
+   "website": "https://mezzeluna.com/",
+   "phone": "(707) 992-0101",
+   "source_url": "https://socorestaurantweek.org/restaurants/mezzeluna-cotati/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-mountain-mikes-pizza-cleveland-ave",
+   "promotion_id": "sonoma-2026",
+   "name": "Mountain Mike’s Pizza (Cleveland Ave)",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "3125 Cleveland Ave, Santa Rosa CA 95403",
+   "lat": 38.469881,
+   "lon": -122.729816,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.mountainmikespizza.com/locations/santa-rosa-cleveland/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/mountain-mikes-pizza-cleveland-ave/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-mountain-mikes-pizza-montgomery-dr",
+   "promotion_id": "sonoma-2026",
+   "name": "Mountain Mike’s Pizza (Montgomery Dr)",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "4501 Montgomery Dr, Santa Rosa CA 95409",
+   "lat": 38.457376,
+   "lon": -122.671308,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.mountainmikespizza.com/locations/santa-rosa-montgomery/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/mountain-mikes-pizza-montgomery-dr/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-mountain-mikes-pizza-rohnert-park",
+   "promotion_id": "sonoma-2026",
+   "name": "Mountain Mike’s Pizza (Rohnert Park)",
+   "town": "Rohnert Park",
+   "county": "Sonoma",
+   "address": "6314 Commerce Blvd, Rohnert Park CA 94928",
+   "lat": 38.348168,
+   "lon": -122.709489,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.mountainmikespizza.com/locations/rohnert-park-commerce/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/mountain-mikes-pizza-rohnert-park/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-mountain-mikes-pizza-santa-rosa-ave",
+   "promotion_id": "sonoma-2026",
+   "name": "Mountain Mike’s Pizza (Santa Rosa Ave)",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1150 Santa Rosa Ave, Santa Rosa, CA 95404",
+   "lat": 38.426492,
+   "lon": -122.71338,
+   "geo_source": "census",
+   "cuisine": "Pizza",
+   "booking_url": null,
+   "website": "https://www.mountainmikespizza.com/locations/santa-rosa-santa-rosa-ave/",
+   "phone": "(707) 544-2828",
+   "source_url": "https://socorestaurantweek.org/restaurants/mountain-mikes-pizza-santa-rosa-ave/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-nimble-finns",
+   "promotion_id": "sonoma-2026",
+   "name": "Nimble & Finn’s",
+   "town": "Guerneville",
+   "county": "Sonoma",
+   "address": "123 4th St, Santa Rosa, CA 95401 and 16290 Main Street, Guerneville, CA 95446",
+   "lat": 38.50226,
+   "lon": -122.99622,
+   "geo_source": "manual",
+   "cuisine": "Californian, American, Bakery, Coffee / Cafe",
+   "booking_url": null,
+   "website": "https://nimbleandfinns.com/",
+   "phone": "(707) 666-9590",
+   "source_url": "https://socorestaurantweek.org/restaurants/nimble-finns/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-nothing-bundt-cakes-santa-rosa",
+   "promotion_id": "sonoma-2026",
+   "name": "Nothing Bundt Cakes- Santa Rosa",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "266 Coddingtown Center, Santa Rosa, CA 95401",
+   "lat": 38.458114,
+   "lon": -122.727255,
+   "geo_source": "census",
+   "cuisine": "Bakery",
+   "booking_url": null,
+   "website": "https://www.nothingbundtcakes.com/cakes/?bakery=379",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/nothing-bundt-cakes-santa-rosa/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-oak-at-valley-of-the-moon-club",
+   "promotion_id": "sonoma-2026",
+   "name": "Oak at Valley of the Moon Club",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "7035 Oakmont Dr, Santa Rosa, CA 95409",
+   "lat": 38.432624,
+   "lon": -122.594055,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://www.playvom.com/the-club/dining",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/oak-at-valley-of-the-moon-club/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-osito-style-tacos",
+   "promotion_id": "sonoma-2026",
+   "name": "Osito Style Tacos",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "6760 McKinley St suite 140, Sebastopol, CA 95472",
+   "lat": 38.403861,
+   "lon": -122.82118,
+   "geo_source": "census",
+   "cuisine": "Californian, Mexican",
+   "booking_url": null,
+   "website": "https://ositostyletacos.com/",
+   "phone": "(707) 494-1416",
+   "source_url": "https://socorestaurantweek.org/restaurants/osito-style-tacos/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-oso",
+   "promotion_id": "sonoma-2026",
+   "name": "Oso",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "9 E Napa St, Sonoma, CA 95476",
+   "lat": 38.291884,
+   "lon": -122.457714,
+   "geo_source": "census",
+   "cuisine": "Californian, Seafood",
+   "booking_url": "https://www.opentable.com/oso-reservations-sonoma?restref=150826&lang=en-US&ot_source=Restaurant%20website",
+   "website": "https://ososonoma.com/",
+   "phone": "(707) 931-6926",
+   "source_url": "https://socorestaurantweek.org/restaurants/oso/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-patisserie-angelica",
+   "promotion_id": "sonoma-2026",
+   "name": "Patisserie Angelica",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "6821 Laguna Park Way, Sebastopol, CA 95472",
+   "lat": 38.40438,
+   "lon": -122.82254,
+   "geo_source": "manual",
+   "cuisine": "Bakery",
+   "booking_url": null,
+   "website": "https://patisserieangelica.com/",
+   "phone": "(707) 494-2547",
+   "source_url": "https://socorestaurantweek.org/restaurants/patisserie-angelica/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-piacere-ristorante-italino",
+   "promotion_id": "sonoma-2026",
+   "name": "Piacere Ristorante Italino",
+   "town": "Cloverdale",
+   "county": "Sonoma",
+   "address": "504 N Cloverdale Blvd, Cloverdale, CA 95425",
+   "lat": 38.810838,
+   "lon": -123.021019,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": null,
+   "website": "https://www.piacereristorante.com/",
+   "phone": "(707) 490-5676",
+   "source_url": "https://socorestaurantweek.org/restaurants/piacere-ristorante-italino/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-pizzando",
+   "promotion_id": "sonoma-2026",
+   "name": "Pizzando",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "301 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.610378,
+   "lon": -122.870613,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": null,
+   "website": "https://pizzandohealdsburg.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/pizzando/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-rocker-oysterfellers-at-the-wharf",
+   "promotion_id": "sonoma-2026",
+   "name": "Rocker Oysterfeller’s at the Wharf",
+   "town": "Bodega Bay",
+   "county": "Sonoma",
+   "address": "595 CA-1, Bodega Bay, CA 94923",
+   "lat": 38.3262,
+   "lon": -123.04093,
+   "geo_source": "manual",
+   "cuisine": "Seafood",
+   "booking_url": "https://tables.toasttab.com/restaurants/16f3bc28-1d71-4a3a-9b7d-b87b3798adce/reserve?partySize=4&dateTime=2026-02-18T16:30:00.000-08:00",
+   "website": "https://www.rockeroysterfellers.com/",
+   "phone": "(707) 772-5670",
+   "source_url": "https://socorestaurantweek.org/restaurants/rocker-oysterfellers-at-the-wharf/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-rockers-roadhouse",
+   "promotion_id": "sonoma-2026",
+   "name": "Rocker’s Roadhouse",
+   "town": "Valley Ford",
+   "county": "Sonoma",
+   "address": "14415 CA-1, Valley Ford, CA 94972",
+   "lat": 38.317589,
+   "lon": -122.923413,
+   "geo_source": "census",
+   "cuisine": "Cajun",
+   "booking_url": "https://tables.toasttab.com/restaurants/38994f21-e17c-4119-9ae3-1ce0c1163299/reserve?partySize=5&dateTime=2026-02-18T16:00:00.000-08:00",
+   "website": "https://www.rockeroysterfellers.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/rockers-roadhouse/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-roof-106",
+   "promotion_id": "sonoma-2026",
+   "name": "Roof 106",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "106 Matheson St, Healdsburg, CA 95448",
+   "lat": 38.610358,
+   "lon": -122.870105,
+   "geo_source": "census",
+   "cuisine": "American, Pizza, Vegetarian",
+   "booking_url": "https://www.opentable.com/r/roof-106-healdsburg?ref=1068",
+   "website": "https://www.thematheson.com/roof-106",
+   "phone": "(707) 723-1106",
+   "source_url": "https://socorestaurantweek.org/restaurants/roof-106/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-rosso-pizzeria-wine-bar",
+   "promotion_id": "sonoma-2026",
+   "name": "Rosso Pizzeria & Wine Bar",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "53 Montgomery Dr, Santa Rosa, CA 95404",
+   "lat": 38.44207,
+   "lon": -122.70353,
+   "geo_source": "manual",
+   "cuisine": "Italian, Wine Bar",
+   "booking_url": "https://rossopizzeria.com/",
+   "website": "https://rossopizzeria.com/",
+   "phone": "(707) 615-7893",
+   "source_url": "https://socorestaurantweek.org/restaurants/rosso-pizzeria-wine-bar/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-rustic-francis-ford-coppola-winery",
+   "promotion_id": "sonoma-2026",
+   "name": "Rustic, Francis Ford Coppola Winery",
+   "town": "Geyserville",
+   "county": "Sonoma",
+   "address": "300 Via Archimedes, Geyserville, CA 95441",
+   "lat": 38.67967,
+   "lon": -122.888,
+   "geo_source": "manual",
+   "cuisine": "Italian",
+   "booking_url": "https://www.opentable.com/restref/client/?restref=47230&lang=en-US&ot_source=Restaurant%20website&corrid=72d128d9-fed0-471a-809d-cd0a60ed84d5",
+   "website": "https://www.francisfordcoppolawinery.com/rustic-restaurant/",
+   "phone": "(707) 398-3021",
+   "source_url": "https://socorestaurantweek.org/restaurants/rustic-francis-ford-coppola-winery/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-sals-pizzeria-cotati",
+   "promotion_id": "sonoma-2026",
+   "name": "Sal’s Pizzeria Cotati",
+   "town": "Cotati",
+   "county": "Sonoma",
+   "address": "8270 Old Redwood Hwy, Cotati, CA 94931",
+   "lat": 38.325144,
+   "lon": -122.70495,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": null,
+   "website": "https://salspizzacotati.com/",
+   "phone": "(707) 992-0659",
+   "source_url": "https://socorestaurantweek.org/restaurants/sals-pizzeria-cotati/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-salt-stone",
+   "promotion_id": "sonoma-2026",
+   "name": "Salt & Stone",
+   "town": "Kenwood",
+   "county": "Sonoma",
+   "address": "9900 Sonoma Hwy, Kenwood, CA 95452",
+   "lat": 38.40888,
+   "lon": -122.54368,
+   "geo_source": "manual",
+   "cuisine": "American",
+   "booking_url": "https://www.opentable.com/restref/client/?rid=1018753&restref=1018753",
+   "website": "https://www.saltstonekenwood.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/salt-stone/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-salt-straw",
+   "promotion_id": "sonoma-2026",
+   "name": "Salt & Straw",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "700 Village Ct, Santa Rosa, CA 95405",
+   "lat": 38.443711,
+   "lon": -122.686086,
+   "geo_source": "census",
+   "cuisine": null,
+   "booking_url": null,
+   "website": "https://saltandstraw.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/salt-straw/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-saucy-mamas-jook-joint",
+   "promotion_id": "sonoma-2026",
+   "name": "Saucy Mama’s Jook Joint",
+   "town": "Guerneville",
+   "county": "Sonoma",
+   "address": "16632 CA-116, Guerneville, CA 95446",
+   "lat": 38.501677,
+   "lon": -123.004565,
+   "geo_source": "census",
+   "cuisine": "Barbecue",
+   "booking_url": null,
+   "website": "https://saucymamasjookjoint.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/saucy-mamas-jook-joint/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-sazon-peruvian-cuisine",
+   "promotion_id": "sonoma-2026",
+   "name": "Sazon Peruvian Cuisine",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1129 Sebastopol Rd, Santa Rosa, CA 95407",
+   "lat": 38.428893,
+   "lon": -122.732795,
+   "geo_source": "census",
+   "cuisine": "South American",
+   "booking_url": "https://sazonsr.com/reservations#",
+   "website": "https://sazonsr.com/",
+   "phone": "(707) 799-7714",
+   "source_url": "https://socorestaurantweek.org/restaurants/sazon-peruvian-cuisine/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-seared-steak-seafood",
+   "promotion_id": "sonoma-2026",
+   "name": "Seared Steak & Seafood",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "170 Petaluma Blvd N, Petaluma, CA 94952",
+   "lat": 38.235342,
+   "lon": -122.640851,
+   "geo_source": "census",
+   "cuisine": "Californian, Seafood",
+   "booking_url": "https://www.petalumaseared.com/reservation/",
+   "website": "https://www.petalumaseared.com/",
+   "phone": "(707) 762-5997",
+   "source_url": "https://socorestaurantweek.org/restaurants/seared-steak-seafood/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-simmer-claw-bar",
+   "promotion_id": "sonoma-2026",
+   "name": "Simmer Claw Bar",
+   "town": "Rohnert Park",
+   "county": "Sonoma",
+   "address": "595 Rohnert Park Expy, Rohnert Park, CA 94928",
+   "lat": 38.348869,
+   "lon": -122.723543,
+   "geo_source": "census",
+   "cuisine": "Cajun, Vietnamese, Seafood",
+   "booking_url": null,
+   "website": "https://simmerfamily.com/simmers-claw-bar/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/simmer-claw-bar/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-songbird-parlour-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "Songbird Parlour Restaurant",
+   "town": "Glen Ellen",
+   "county": "Sonoma",
+   "address": "14301 Arnold Dr #3, Glen Ellen, CA 95442",
+   "lat": 38.353679,
+   "lon": -122.523782,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": "https://tables.toasttab.com/restaurants/73f2977e-f880-43c7-b9b7-0d1bafd3359f/reserve?partySize=2&dateTime=2026-01-11T14:30:00.000-08:00",
+   "website": "https://www.songbirdparlour.com/",
+   "phone": "(707) 343-1308",
+   "source_url": "https://socorestaurantweek.org/restaurants/songbird-parlour-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-sonoma-pizza-co",
+   "promotion_id": "sonoma-2026",
+   "name": "Sonoma Pizza Co.",
+   "town": "Forestville",
+   "county": "Sonoma",
+   "address": "6615 Front Street, Forestville, CA 95436",
+   "lat": 38.47368,
+   "lon": -122.891848,
+   "geo_source": "census",
+   "cuisine": "Californian, Pizza",
+   "booking_url": "https://resy.com/cities/forestville-ca/venues/sonoma-pizza-co?",
+   "website": "https://www.sonomapizzaco.com/contact",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/sonoma-pizza-co/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-sonoma-valley-farmhouse",
+   "promotion_id": "sonoma-2026",
+   "name": "Sonoma Valley Farmhouse",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "18999 Sonoma Hwy, Sonoma, CA 95476",
+   "lat": 38.302758,
+   "lon": -122.476062,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Pizza",
+   "booking_url": "https://www.opentable.com/r/sonoma-valley-farmhouse?corrid=53bfc391-e321-4255-9281-72ecff4e24da&avt=eyJ2IjoyLCJtIjowLCJwIjowLCJzIjoxLCJuIjowfQ&p=2&sd=2025-05-24T19%253A30%253A00",
+   "website": "https://www.farmhouse-sonoma.com/",
+   "phone": "(707) 210-0515",
+   "source_url": "https://socorestaurantweek.org/restaurants/sonoma-valley-farmhouse/",
+   "last_checked": "2026-11-01",
+   "offers": []
+  },
+  {
+   "id": "sonoma-2026-sonoma-wine-shop-la-bodega",
+   "promotion_id": "sonoma-2026",
+   "name": "Sonoma Wine Shop & La Bodega",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "2295 Gravenstein Hwy S, Sebastopol, CA 95472",
+   "lat": 38.378891,
+   "lon": -122.797766,
+   "geo_source": "census",
+   "cuisine": "Vegetarian, Wine Bar",
+   "booking_url": null,
+   "website": "https://www.sonomawineshop.com/events/kristen",
+   "phone": "(707) 996-1230",
+   "source_url": "https://socorestaurantweek.org/restaurants/sonoma-wine-shop-la-bodega/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-spoonbar",
+   "promotion_id": "sonoma-2026",
+   "name": "spoonbar",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "219 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.608814,
+   "lon": -122.870171,
+   "geo_source": "census",
+   "cuisine": "Californian",
+   "booking_url": "https://www.opentable.com/spoonbar-h2hotel-reservations-healdsburg?p=2&restref=45181",
+   "website": "https://spoonbar.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/spoonbar/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-stella",
+   "promotion_id": "sonoma-2026",
+   "name": "Stella",
+   "town": "Kenwood",
+   "county": "Sonoma",
+   "address": "9049 Sonoma Hwy, Kenwood, CA 95452",
+   "lat": 38.41808,
+   "lon": -122.55035,
+   "geo_source": "manual",
+   "cuisine": "Italian",
+   "booking_url": "https://resy.com/cities/napa-ca/venues/stella-ca",
+   "website": "https://www.stellakenwood.com",
+   "phone": "(707) 801-8043",
+   "source_url": "https://socorestaurantweek.org/restaurants/stella/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-stockhome-restaurant",
+   "promotion_id": "sonoma-2026",
+   "name": "Stockhome Restaurant",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "220 Western Ave, Petaluma, CA 94952",
+   "lat": 38.233338,
+   "lon": -122.642632,
+   "geo_source": "census",
+   "cuisine": "Scandinavian, French, German, Mediterranean",
+   "booking_url": "https://www.stockhomepetaluma.com/shop/%20stockhome-restaurant/7",
+   "website": "https://www.stockhomepetaluma.com/shop/%20stockhome-restaurant/7",
+   "phone": "(707) 981-8511",
+   "source_url": "https://socorestaurantweek.org/restaurants/stockhome-restaurant/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-street-social",
+   "promotion_id": "sonoma-2026",
+   "name": "Street Social",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "29 Petaluma Blvd N ste f, Petaluma, CA 94952",
+   "lat": 38.233467,
+   "lon": -122.639622,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Wine Bar",
+   "booking_url": "https://www.streetsocial.social/",
+   "website": "https://www.streetsocial.social/",
+   "phone": "(707) 774-6185",
+   "source_url": "https://socorestaurantweek.org/restaurants/street-social/",
+   "last_checked": "2026-11-01",
+   "offers": []
+  },
+  {
+   "id": "sonoma-2026-sushi-kosho",
+   "promotion_id": "sonoma-2026",
+   "name": "Sushi Kosho",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "6750 McKinley St, Sebastopol, CA 95472",
+   "lat": 38.403871,
+   "lon": -122.821107,
+   "geo_source": "census",
+   "cuisine": "Japanese",
+   "booking_url": "https://www.opentable.com/r/sushi-kosho-sebastopol",
+   "website": "https://www.koshosushi.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/sushi-kosho/",
+   "last_checked": "2026-11-01",
+   "offers": []
+  },
+  {
+   "id": "sonoma-2026-sushi-qimura",
+   "promotion_id": "sonoma-2026",
+   "name": "Sushi Qimura",
+   "town": "Windsor",
+   "county": "Sonoma",
+   "address": "8960 Brooks Rd S, Windsor, CA 95492",
+   "lat": 38.5492,
+   "lon": -122.807293,
+   "geo_source": "census",
+   "cuisine": "Japanese",
+   "booking_url": null,
+   "website": "https://www.qimura.us/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/sushi-qimura/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-sushi-tozai",
+   "promotion_id": "sonoma-2026",
+   "name": "Sushi Tozai",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "7531 Healdsburg Ave, Sebastopol, CA 95472",
+   "lat": 38.405228,
+   "lon": -122.83167,
+   "geo_source": "census",
+   "cuisine": "Japanese",
+   "booking_url": null,
+   "website": "https://sushitozai.com/",
+   "phone": "(707) 824-9886",
+   "source_url": "https://socorestaurantweek.org/restaurants/sushi-tozai/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-tea-room-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "Tea Room Cafe",
+   "town": "Petaluma",
+   "county": "Sonoma",
+   "address": "316 Western Ave, Petaluma, CA 94952",
+   "lat": 38.233159,
+   "lon": -122.6432,
+   "geo_source": "census",
+   "cuisine": "American, Bakery, Coffee / Cafe",
+   "booking_url": null,
+   "website": "https://www.tearoomcafe.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/tea-room-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-dining-room-at-the-sea-ranch-lodge",
+   "promotion_id": "sonoma-2026",
+   "name": "The Dining Room at The Sea Ranch Lodge",
+   "town": "Sea Ranch",
+   "county": "Sonoma",
+   "address": "60 Sea Walk Dr, Sea Ranch, CA 95412",
+   "lat": 38.679611,
+   "lon": -123.427839,
+   "geo_source": "census",
+   "cuisine": null,
+   "booking_url": "https://www.opentable.com/r/the-sea-ranch-lodge-sea-ranch",
+   "website": "https://www.thesearanchlodge.com/food-and-drink/the-dining-room",
+   "phone": "(707) 266-4615",
+   "source_url": "https://socorestaurantweek.org/restaurants/the-dining-room-at-the-sea-ranch-lodge/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-grove-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "The Grove Cafe",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "3033 Cleveland Ave, Santa Rosa, CA 95403",
+   "lat": 38.467257,
+   "lon": -122.728503,
+   "geo_source": "census",
+   "cuisine": "American",
+   "booking_url": null,
+   "website": "https://www.thegrovecafe.org",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/the-grove-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-lodge-at-dawn-ranch",
+   "promotion_id": "sonoma-2026",
+   "name": "The Lodge at Dawn Ranch",
+   "town": "Guerneville",
+   "county": "Sonoma",
+   "address": "16467 CA-116, Guerneville, CA 95446",
+   "lat": 38.50083,
+   "lon": -123.00346,
+   "geo_source": "manual",
+   "cuisine": "South American",
+   "booking_url": null,
+   "website": "https://dawnranch.com/dine/",
+   "phone": "(707) 869-0656",
+   "source_url": "https://socorestaurantweek.org/restaurants/the-lodge-at-dawn-ranch/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-matheson",
+   "promotion_id": "sonoma-2026",
+   "name": "The Matheson",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "106 Matheson St, Healdsburg, CA 95448",
+   "lat": 38.610358,
+   "lon": -122.870105,
+   "geo_source": "census",
+   "cuisine": "American, Seafood, Vegetarian, Wine Bar",
+   "booking_url": "https://www.opentable.com/r/the-matheson-healdsburg",
+   "website": "https://www.thematheson.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/the-matheson/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-parish-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "The Parish Cafe",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "60 Mill St, Healdsburg, CA 95448",
+   "lat": 38.608141,
+   "lon": -122.869984,
+   "geo_source": "census",
+   "cuisine": "Cajun, American, Seafood",
+   "booking_url": "https://www.opentable.com/r/the-parish-cafe-healdsburg?corrid=e3a6bf70-ca8a-4c82-817f-b5c4ae73a90d&p=2&sd=2025-01-06T19%3A00%3A00",
+   "website": "https://theparishcafe.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/the-parish-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-plaza-bistro",
+   "promotion_id": "sonoma-2026",
+   "name": "The Plaza Bistro",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "420 1st St E, Sonoma, CA 95476",
+   "lat": 38.293167,
+   "lon": -122.456401,
+   "geo_source": "census",
+   "cuisine": "Italian, Mediterranean",
+   "booking_url": "https://www.opentable.com/the-plaza-bistro",
+   "website": "https://theplazabistro.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/the-plaza-bistro/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-rooftop",
+   "promotion_id": "sonoma-2026",
+   "name": "The Rooftop",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "227 Healdsburg Avenue Healdsburg, CA 95448",
+   "lat": 38.608959,
+   "lon": -122.870211,
+   "geo_source": "census",
+   "cuisine": "Californian",
+   "booking_url": null,
+   "website": "https://harmonguesthouse.com/the-rooftop/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/the-rooftop/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-spinster-sisters",
+   "promotion_id": "sonoma-2026",
+   "name": "The Spinster Sisters",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "401 S A St, Santa Rosa, CA 95401",
+   "lat": 38.433,
+   "lon": -122.714987,
+   "geo_source": "census",
+   "cuisine": "Californian, American, Italian, Vegetarian, Wine Bar",
+   "booking_url": "https://resy.com/cities/santa-rosa-ca/venues/the-spinster-sisters?date=2026-02-06&seats=2&query=the%20spinster%20sisters",
+   "website": "https://thespinstersisters.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/the-spinster-sisters/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-the-wooden-petal-pretzel-parlor",
+   "promotion_id": "sonoma-2026",
+   "name": "The Wooden Petal Pretzel Parlor",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "4984 Sonoma Hwy, Santa Rosa, CA 95409",
+   "lat": 38.464175,
+   "lon": -122.662969,
+   "geo_source": "census",
+   "cuisine": null,
+   "booking_url": "https://www.woodenpetal.com/",
+   "website": "https://www.woodenpetal.com/",
+   "phone": "(707) 695-1880",
+   "source_url": "https://socorestaurantweek.org/restaurants/the-wooden-petal-pretzel-parlor/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-tia-maria-by-costeaux",
+   "promotion_id": "sonoma-2026",
+   "name": "Tia Maria by Costeaux",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "44 Sebastopol Ave Santa Rosa, CA 95407",
+   "lat": 38.431776,
+   "lon": -122.720063,
+   "geo_source": "census",
+   "cuisine": "French",
+   "booking_url": null,
+   "website": "https://www.costeaux.com/bakery-cafe/tia-maria/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/tia-maria-by-costeaux/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "any",
+     "price": 6,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-tisza-bistro",
+   "promotion_id": "sonoma-2026",
+   "name": "Tisza Bistro",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "165 Healdsburg Ave, Healdsburg, CA 95448",
+   "lat": 38.607265,
+   "lon": -122.869563,
+   "geo_source": "census",
+   "cuisine": "American, French, German",
+   "booking_url": null,
+   "website": "https://www.tiszabistro.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/tisza-bistro/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-tlahco-mexican-grill",
+   "promotion_id": "sonoma-2026",
+   "name": "Tlahco Mexican Grill",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "1800 Mendocino Ave, Santa Rosa, CA 95401",
+   "lat": 38.45741,
+   "lon": -122.717168,
+   "geo_source": "census",
+   "cuisine": "Mexican",
+   "booking_url": null,
+   "website": "https://www.tlahcomexicangrill.com/",
+   "phone": "(707) 595-3841",
+   "source_url": "https://socorestaurantweek.org/restaurants/tlahco-mexican-grill/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 70,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-tomatina",
+   "promotion_id": "sonoma-2026",
+   "name": "Tomatina",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "2323 Sonoma Ave",
+   "lat": 38.444624,
+   "lon": -122.68749,
+   "geo_source": "census",
+   "cuisine": "Italian",
+   "booking_url": null,
+   "website": "https://tomatina.com/",
+   "phone": "(707) 583-0035",
+   "source_url": "https://socorestaurantweek.org/restaurants/tomatina/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-ulias-delicatessen",
+   "promotion_id": "sonoma-2026",
+   "name": "Ulia’s Delicatessen",
+   "town": "Santa Rosa",
+   "county": "Sonoma",
+   "address": "130 Stony Point Rd, Santa Rosa, CA 95401",
+   "lat": 38.440663,
+   "lon": -122.745088,
+   "geo_source": "census",
+   "cuisine": "Deli, Mediterranean, Vegetarian",
+   "booking_url": null,
+   "website": "https://uliasdeli.com/",
+   "phone": "(707) 525-8542",
+   "source_url": "https://socorestaurantweek.org/restaurants/ulias-delicatessen/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "brunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 15,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-ume-japanese-bistro",
+   "promotion_id": "sonoma-2026",
+   "name": "Umé Japanese Bistro",
+   "town": "Windsor",
+   "county": "Sonoma",
+   "address": "8710 Old Redwood Hwy, Windsor, CA 95492",
+   "lat": 38.54576,
+   "lon": -122.805097,
+   "geo_source": "census",
+   "cuisine": "Japanese",
+   "booking_url": null,
+   "website": "https://umebistro.com/",
+   "phone": "(707) 838-6700",
+   "source_url": "https://socorestaurantweek.org/restaurants/ume-japanese-bistro/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 30,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-underwood-bar-and-bistro",
+   "promotion_id": "sonoma-2026",
+   "name": "Underwood Bar and Bistro",
+   "town": "Graton",
+   "county": "Sonoma",
+   "address": "9113 Graton Rd, Graton, CA 95444",
+   "lat": 38.436148,
+   "lon": -122.872121,
+   "geo_source": "census",
+   "cuisine": "American, French, Mediterranean, Thai",
+   "booking_url": null,
+   "website": "https://underwoodgraton.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/underwood-bar-and-bistro/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-valette-healdsburg",
+   "promotion_id": "sonoma-2026",
+   "name": "Valette Healdsburg",
+   "town": "Healdsburg",
+   "county": "Sonoma",
+   "address": "344 Center St, Healdsburg, CA 95448",
+   "lat": 38.611712,
+   "lon": -122.869651,
+   "geo_source": "census",
+   "cuisine": "American, French, Seafood, Vegetarian",
+   "booking_url": "https://www.opentable.com/valette?ref=1068",
+   "website": "https://www.valettehealdsburg.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/valette-healdsburg/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-viva-mexicana-viva-joon",
+   "promotion_id": "sonoma-2026",
+   "name": "Viva Mexicana/Viva Joon",
+   "town": "Sebastopol",
+   "county": "Sonoma",
+   "address": "841 Gravenstein Hwy S, Sebastopol, CA 95472",
+   "lat": 38.393609,
+   "lon": -122.818391,
+   "geo_source": "census",
+   "cuisine": "Persian, Iranian, Mediterranean",
+   "booking_url": "https://www.opentable.com/booking/restref/availability?lang=en-US&correlationId=16f2e924-c0bd-4409-b090-c5560944bac8&restRef=1481575&otSource=Restaurant%20website",
+   "website": "https://vivamexicana.com",
+   "phone": "(707) 823-5555",
+   "source_url": "https://socorestaurantweek.org/restaurants/viva-mexicana-viva-joon/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-waterhawk-lake-club",
+   "promotion_id": "sonoma-2026",
+   "name": "Waterhawk Lake Club",
+   "town": "Rohnert Park",
+   "county": "Sonoma",
+   "address": "5000 Roberts Lake Rd, Rohnert Park, CA 94928",
+   "lat": 38.365366,
+   "lon": -122.711547,
+   "geo_source": "census",
+   "cuisine": "Californian, American",
+   "booking_url": "https://www.thewaterhawk.com/",
+   "website": "https://www.thewaterhawk.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/waterhawk-lake-club/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "lunch",
+     "price": 25,
+     "description": "Menu is on the restaurant's page."
+    },
+    {
+     "meal": "dinner",
+     "price": 40,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-willow-wood-market-cafe",
+   "promotion_id": "sonoma-2026",
+   "name": "Willow Wood Market Cafe",
+   "town": "Graton",
+   "county": "Sonoma",
+   "address": "9020 Graton Rd, Graton, CA 95444",
+   "lat": 38.436399,
+   "lon": -122.86882,
+   "geo_source": "census",
+   "cuisine": "American, Coffee / Cafe",
+   "booking_url": null,
+   "website": "https://www.willowwoodgraton.com/",
+   "phone": null,
+   "source_url": "https://socorestaurantweek.org/restaurants/willow-wood-market-cafe/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  },
+  {
+   "id": "sonoma-2026-wit-wisdom",
+   "promotion_id": "sonoma-2026",
+   "name": "Wit & Wisdom",
+   "town": "Sonoma",
+   "county": "Sonoma",
+   "address": "1325 Broadway, Sonoma, CA 95476",
+   "lat": 38.27746,
+   "lon": -122.46046,
+   "geo_source": "manual",
+   "cuisine": "American",
+   "booking_url": "https://www.opentable.com/r/wit-and-wisdom-sonoma",
+   "website": "https://www.witandwisdomsonoma.com/",
+   "phone": "(707) 931-3405",
+   "source_url": "https://socorestaurantweek.org/restaurants/wit-wisdom/",
+   "last_checked": "2026-11-01",
+   "offers": [
+    {
+     "meal": "dinner",
+     "price": 60,
+     "description": "Menu is on the restaurant's page."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+# Smoke watch: refresh data/smoke.json every 3 hours from public sources. Spec: tools/SMOKE-WATCH.md.
+# No keys, no LLM. Set the repository variable SMOKE_WATCH_CONTACT (Settings > Secrets and variables >
+# Actions > Variables) to a contact string for the National Weather Service User-Agent.
+name: Smoke watch
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours at :17 (UTC); off the top of the hour, when Actions is busiest
+  workflow_dispatch:
+    inputs:
+      allow_fewer:
+        description: "Allow fewer towns than the published file (a confirmed removal)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write     # one issue when a run fails or refuses to publish
+
+concurrency:
+  group: smoke-watch
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: python -m pip install --quiet "requests>=2.31,<3"
+
+      - name: Test (offline fixtures)
+        run: python -m unittest discover -s tools/smoke/tests -t . -v
+
+      - name: Fetch
+        env:
+          SMOKE_WATCH_CONTACT: ${{ vars.SMOKE_WATCH_CONTACT }}
+        run: python tools/smoke/fetch.py ${{ inputs.allow_fewer && '--allow-fewer' || '' }}
+
+      # Commit when the readings changed, or every 6 hours as a heartbeat so the page never reaches
+      # its 12-hour "stale" mark on a quiet day. Timestamps alone are not a change.
+      - name: Decide whether to commit
+        id: decide
+        run: |
+          python - <<'PY'
+          import datetime as dt, json, os, subprocess
+          def strip(d):
+              d = dict(d); d.pop("generated_at", None)
+              d["sources"] = [{k: v for k, v in s.items() if k != "fetched_at"} for s in d.get("sources", [])]
+              return d
+          new = json.load(open("data/smoke.json"))
+          try:
+              old = json.loads(subprocess.run(["git", "show", "HEAD:data/smoke.json"], capture_output=True, check=True, text=True).stdout)
+          except Exception:
+              old = None
+          commit = old is None or strip(old) != strip(new)
+          if not commit:
+              last = dt.datetime.fromisoformat(old["generated_at"].replace("Z", "+00:00"))
+              commit = dt.datetime.now(dt.timezone.utc) - last >= dt.timedelta(hours=6)
+          print("commit" if commit else "no change worth a commit")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("commit=%s\n" % ("true" if commit else "false"))
+          PY
+
+      - name: Commit and push
+        if: steps.decide.outputs.commit == 'true'
+        run: |
+          git config user.name "smoke-watch[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/smoke.json
+          git commit -m "Smoke watch: refresh data"
+          for i in 1 2 3; do
+            git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep $((i * 10))
+          done
+          echo "push failed after 3 tries" >&2
+          exit 1
+
+      # The data rule (PLAN.md 12:20): an empty, invalid, or shrunken file is never published; the run
+      # fails instead and this step opens ONE issue for review (or comments on the open one).
+      - name: Flag for review
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Smoke watch: refresh failed or was refused"
+          body="Run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID} did not publish data/smoke.json. The last good file stays live; the page marks it stale after 12 hours."
+          # exact title match on open issues (not the search index, which lags)
+          row=$(gh issue list --state open --limit 200 --json number,title,updatedAt \
+                --jq ".[] | select(.title == \"$title\") | \"\(.number) \(.updatedAt)\"" | head -1)
+          if [ -n "$row" ]; then
+            num=${row%% *}; updated=${row#* }
+            # one comment per 12 hours at most, so an outage does not post every 3 hours
+            if [ $(( $(date -u +%s) - $(date -u -d "$updated" +%s) )) -ge 43200 ]; then
+              gh issue comment "$num" --body "$body"
+            fi
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
+

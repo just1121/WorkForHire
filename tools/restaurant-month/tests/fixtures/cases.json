@@ -1,0 +1,1163 @@
+{
+  "_about": "Shared cases for tests/test_restaurant_month.py (rules.py) and tests/restaurant-month.test.js (restaurant-month.js). Fixture data only: every restaurant here is made up and never published.",
+  "promotions": {
+    "napa-2027": {
+      "id": "napa-2027",
+      "name": "Napa Valley Restaurant Month",
+      "start": "2027-01-01",
+      "end": "2027-01-31",
+      "source_url": "https://example.org/napa",
+      "dates_confirmed": true
+    },
+    "napa-2026": {
+      "id": "napa-2026",
+      "name": "Napa Valley Restaurant Month",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "source_url": "https://example.org/napa",
+      "dates_confirmed": true
+    },
+    "sonoma-2027": {
+      "id": "sonoma-2027",
+      "name": "Sonoma County Restaurant Week",
+      "start": null,
+      "end": null,
+      "source_url": "https://example.org/sonoma",
+      "dates_confirmed": false
+    },
+    "sonoma-2026": {
+      "id": "sonoma-2026",
+      "name": "Sonoma County Restaurant Week",
+      "start": "2026-02-23",
+      "end": "2026-03-01",
+      "source_url": "https://example.org/sonoma",
+      "dates_confirmed": true
+    },
+    "yearend-2026": {
+      "id": "napa-2026",
+      "name": "Year End Test Week",
+      "start": "2026-12-28",
+      "end": "2027-01-03",
+      "source_url": "https://example.org/x",
+      "dates_confirmed": true
+    }
+  },
+  "buckets": [
+    [
+      0,
+      "under30"
+    ],
+    [
+      29,
+      "under30"
+    ],
+    [
+      29.99,
+      "under30"
+    ],
+    [
+      30,
+      "30to49"
+    ],
+    [
+      49,
+      "30to49"
+    ],
+    [
+      49.99,
+      "30to49"
+    ],
+    [
+      50,
+      "50to79"
+    ],
+    [
+      79,
+      "50to79"
+    ],
+    [
+      79.99,
+      "50to79"
+    ],
+    [
+      80,
+      "80up"
+    ],
+    [
+      250,
+      "80up"
+    ],
+    [
+      null,
+      "none"
+    ]
+  ],
+  "states": [
+    [
+      "napa-2027",
+      "2026-11-01",
+      "upcoming",
+      "today, two months before"
+    ],
+    [
+      "napa-2027",
+      "2026-12-31",
+      "upcoming",
+      "year end, the day before start"
+    ],
+    [
+      "napa-2027",
+      "2027-01-01",
+      "active",
+      "first day"
+    ],
+    [
+      "napa-2027",
+      "2027-01-31",
+      "active",
+      "last day"
+    ],
+    [
+      "napa-2027",
+      "2027-02-01",
+      "archived",
+      "day after end"
+    ],
+    [
+      "sonoma-2027",
+      "2026-11-01",
+      "archived",
+      "dates not confirmed"
+    ],
+    [
+      "sonoma-2027",
+      "2027-02-25",
+      "archived",
+      "dates not confirmed, even in the usual week"
+    ],
+    [
+      "sonoma-2026",
+      "2026-02-22",
+      "upcoming",
+      "day before start"
+    ],
+    [
+      "sonoma-2026",
+      "2026-02-23",
+      "active",
+      "start"
+    ],
+    [
+      "sonoma-2026",
+      "2026-03-01",
+      "active",
+      "end, across a month boundary"
+    ],
+    [
+      "sonoma-2026",
+      "2026-03-02",
+      "archived",
+      "day after end"
+    ],
+    [
+      "yearend-2026",
+      "2026-12-27",
+      "upcoming",
+      "before a season that spans the year end"
+    ],
+    [
+      "yearend-2026",
+      "2026-12-31",
+      "active",
+      "inside, before the year end"
+    ],
+    [
+      "yearend-2026",
+      "2027-01-01",
+      "active",
+      "inside, after the year end"
+    ],
+    [
+      "yearend-2026",
+      "2027-01-03",
+      "active",
+      "last day in the new year"
+    ],
+    [
+      "yearend-2026",
+      "2027-01-04",
+      "archived",
+      "after"
+    ]
+  ],
+  "views": [
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2026-11-01",
+      "upcoming",
+      "napa-2027",
+      null,
+      2027
+    ],
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2027-01-15",
+      "active",
+      "napa-2027",
+      null,
+      2027
+    ],
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2027-02-01",
+      "archived",
+      "napa-2027",
+      "napa-2027",
+      2028
+    ],
+    [
+      [
+        "napa-2026"
+      ],
+      "napa",
+      "2026-11-01",
+      "archived",
+      "napa-2026",
+      "napa-2026",
+      2027
+    ],
+    [
+      [
+        "sonoma-2026",
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2026-11-01",
+      "archived",
+      "sonoma-2027",
+      "sonoma-2026",
+      2027
+    ],
+    [
+      [
+        "sonoma-2026",
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2027-12-31",
+      "archived",
+      "sonoma-2027",
+      "sonoma-2026",
+      2027
+    ],
+    [
+      [
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2026-11-01",
+      "archived",
+      "sonoma-2027",
+      null,
+      2027
+    ],
+    [
+      [
+        "sonoma-2026",
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2028-02-01",
+      "archived",
+      "sonoma-2027",
+      "sonoma-2026",
+      2028
+    ],
+    [
+      [
+        "sonoma-2026",
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2026-02-25",
+      "active",
+      "sonoma-2026",
+      null,
+      2026
+    ],
+    [
+      [
+        "sonoma-2026",
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2026-02-01",
+      "upcoming",
+      "sonoma-2026",
+      null,
+      2026
+    ],
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2026-01-31",
+      "active",
+      "napa-2026",
+      null,
+      2026
+    ],
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2026-02-01",
+      "upcoming",
+      "napa-2027",
+      null,
+      2027
+    ],
+    [
+      [
+        "napa-2027"
+      ],
+      "sonoma",
+      "2026-11-01",
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "banners": [
+    [
+      [
+        "sonoma-2026",
+        "sonoma-2027"
+      ],
+      "sonoma",
+      "2026-11-01",
+      "Sonoma County Restaurant Week returns: 2027 dates to be announced."
+    ],
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2027-02-01",
+      "Napa Valley Restaurant Month returns: 2028 dates to be announced."
+    ],
+    [
+      [
+        "napa-2026",
+        "napa-2027"
+      ],
+      "napa",
+      "2026-11-01",
+      null
+    ]
+  ],
+  "countdown": [
+    [
+      "2026-11-01",
+      "2027-01-01",
+      61,
+      "Starts in 61 days."
+    ],
+    [
+      "2026-12-31",
+      "2027-01-01",
+      1,
+      "Starts tomorrow."
+    ],
+    [
+      "2026-03-07",
+      "2026-03-09",
+      2,
+      "Starts in 2 days."
+    ]
+  ],
+  "ranges": [
+    [
+      "2027-01-01",
+      "2027-01-31",
+      "January 1 to 31, 2027"
+    ],
+    [
+      "2026-02-23",
+      "2026-03-01",
+      "February 23 to March 1, 2026"
+    ],
+    [
+      "2026-12-28",
+      "2027-01-03",
+      "December 28, 2026 to January 3, 2027"
+    ],
+    [
+      "2027-01-09",
+      "2027-01-09",
+      "January 9, 2027"
+    ]
+  ],
+  "offer_on": [
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "x"
+      },
+      "napa-2027",
+      "2027-01-01",
+      true,
+      "promotion dates by default"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "x"
+      },
+      "napa-2027",
+      "2026-12-31",
+      false,
+      "before the promotion"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "x"
+      },
+      "napa-2027",
+      "2027-02-01",
+      false,
+      "after the promotion"
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": 30,
+        "description": "x",
+        "start": "2027-01-10",
+        "end": "2027-01-20"
+      },
+      "napa-2027",
+      "2027-01-09",
+      false,
+      "before the offer's own start"
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": 30,
+        "description": "x",
+        "start": "2027-01-10",
+        "end": "2027-01-20"
+      },
+      "napa-2027",
+      "2027-01-10",
+      true,
+      "offer start inclusive"
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": 30,
+        "description": "x",
+        "start": "2027-01-10",
+        "end": "2027-01-20"
+      },
+      "napa-2027",
+      "2027-01-20",
+      true,
+      "offer end inclusive"
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": 30,
+        "description": "x",
+        "start": "2027-01-10",
+        "end": "2027-01-20"
+      },
+      "napa-2027",
+      "2027-01-21",
+      false,
+      "after the offer's own end"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "weekdays": [
+          "mon",
+          "tue",
+          "wed",
+          "thu"
+        ]
+      },
+      "napa-2027",
+      "2027-01-04",
+      true,
+      "a Monday"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "weekdays": [
+          "mon",
+          "tue",
+          "wed",
+          "thu"
+        ]
+      },
+      "napa-2027",
+      "2027-01-08",
+      false,
+      "a Friday"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "exclusions": [
+          "2027-01-16"
+        ]
+      },
+      "napa-2027",
+      "2027-01-16",
+      false,
+      "excluded date"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "exclusions": [
+          "2027-01-16"
+        ]
+      },
+      "napa-2027",
+      "2027-01-17",
+      true,
+      "the day after an exclusion"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "end": "2027-01-02"
+      },
+      "yearend-2026",
+      "2027-01-02",
+      true,
+      "offer end inside a year-end promotion"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x"
+      },
+      "sonoma-2027",
+      "2027-02-25",
+      false,
+      "no confirmed dates: never available"
+    ]
+  ],
+  "offer_when": [
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "x"
+      },
+      "napa-2027",
+      ""
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "x",
+        "start": "2027-01-01",
+        "end": "2027-01-31"
+      },
+      "napa-2027",
+      ""
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": 30,
+        "description": "x",
+        "start": "2027-01-10",
+        "end": "2027-01-20"
+      },
+      "napa-2027",
+      "January 10 to 20, 2027"
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": 30,
+        "description": "x",
+        "end": "2027-01-15"
+      },
+      "napa-2027",
+      "January 1 to 15, 2027"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "weekdays": [
+          "thu",
+          "mon"
+        ]
+      },
+      "napa-2027",
+      "Mondays and Thursdays"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "weekdays": [
+          "sun",
+          "tue",
+          "mon"
+        ]
+      },
+      "napa-2027",
+      "Mondays, Tuesdays and Sundays"
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "weekdays": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ]
+      },
+      "napa-2027",
+      ""
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 45,
+        "description": "x",
+        "exclusions": [
+          "2027-01-16",
+          "2027-01-02"
+        ]
+      },
+      "napa-2027",
+      "not January 2, January 16"
+    ],
+    [
+      {
+        "meal": "brunch",
+        "price": 35,
+        "description": "x",
+        "start": "2027-01-09",
+        "weekdays": [
+          "sat",
+          "sun"
+        ],
+        "exclusions": [
+          "2027-01-17"
+        ]
+      },
+      "napa-2027",
+      "January 9 to 31, 2027; Saturdays and Sundays; not January 17"
+    ]
+  ],
+  "labels": [
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "First Course:\nSoup"
+      },
+      true
+    ],
+    [
+      {
+        "meal": "any",
+        "price": 6,
+        "description": "Sweet Perk: Cookie"
+      },
+      false
+    ],
+    [
+      {
+        "meal": "brunch",
+        "price": 25,
+        "description": "Breakfast: First Course:\nEggs"
+      },
+      false
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 70,
+        "description": "Dinner Shared Meal for 4: Pasta"
+      },
+      false
+    ],
+    [
+      {
+        "meal": "dinner",
+        "price": 60,
+        "description": "Menu is on the restaurant's page."
+      },
+      true
+    ],
+    [
+      {
+        "meal": "lunch",
+        "price": null,
+        "description": "20% off lunch"
+      },
+      true
+    ]
+  ],
+  "prices": [
+    [
+      60,
+      "$60"
+    ],
+    [
+      32.5,
+      "$32.50"
+    ],
+    [
+      0,
+      "$0"
+    ],
+    [
+      null,
+      null
+    ]
+  ],
+  "stale": [
+    [
+      "2027-01-01",
+      "2027-01-08",
+      false,
+      "7 days is not older than 7"
+    ],
+    [
+      "2027-01-01",
+      "2027-01-09",
+      true,
+      "8 days"
+    ],
+    [
+      "2026-12-30",
+      "2027-01-07",
+      true,
+      "across the year end"
+    ],
+    [
+      null,
+      "2027-01-07",
+      true,
+      "never checked"
+    ]
+  ],
+  "entries": [
+    {
+      "id": "fx-a",
+      "promotion_id": "napa-2027",
+      "name": "Alder Room",
+      "town": "Yountville",
+      "booking_url": "https://example.org/book/a",
+      "offers": [
+        {
+          "meal": "lunch",
+          "price": 25,
+          "description": "Two-course lunch"
+        },
+        {
+          "meal": "dinner",
+          "price": 65,
+          "description": "Three-course dinner"
+        }
+      ]
+    },
+    {
+      "id": "fx-b",
+      "promotion_id": "napa-2027",
+      "name": "birch kitchen",
+      "town": "Napa",
+      "booking_url": null,
+      "offers": [
+        {
+          "meal": "dinner",
+          "price": 49,
+          "description": "Prix fixe"
+        },
+        {
+          "meal": "any",
+          "price": null,
+          "description": "Complimentary glass with any entree"
+        }
+      ]
+    },
+    {
+      "id": "fx-c",
+      "promotion_id": "napa-2027",
+      "name": "Cedar",
+      "town": "Calistoga",
+      "booking_url": "https://example.org/book/c",
+      "offers": [
+        {
+          "meal": "dinner",
+          "price": 80,
+          "description": "Tasting menu"
+        },
+        {
+          "meal": "brunch",
+          "price": 30,
+          "description": "Brunch",
+          "end": "2027-01-10"
+        }
+      ]
+    },
+    {
+      "id": "fx-d",
+      "promotion_id": "napa-2027",
+      "name": "Dogwood",
+      "town": "Napa",
+      "booking_url": "https://example.org/book/d",
+      "offers": [
+        {
+          "meal": "lunch",
+          "price": null,
+          "description": "20% off lunch"
+        }
+      ]
+    },
+    {
+      "id": "fx-e",
+      "promotion_id": "napa-2027",
+      "name": "Elm",
+      "town": "Napa",
+      "booking_url": null,
+      "offers": []
+    }
+  ],
+  "match": [
+    [
+      "2027-01-05",
+      {},
+      [
+        "fx-a",
+        "fx-b",
+        "fx-c",
+        "fx-d",
+        "fx-e"
+      ],
+      "no filters: every entry, even one without offers"
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "under30"
+      },
+      [
+        "fx-a"
+      ],
+      "any offer: Alder's $25 lunch"
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "30to49"
+      },
+      [
+        "fx-b",
+        "fx-c"
+      ],
+      "$49 is in 30 to 49; Cedar's $30 brunch still current"
+    ],
+    [
+      "2027-01-15",
+      {
+        "bucket": "30to49"
+      },
+      [
+        "fx-b"
+      ],
+      "Cedar's brunch ended January 10, so it no longer matches"
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "50to79"
+      },
+      [
+        "fx-a"
+      ],
+      "$65 dinner"
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "80up"
+      },
+      [
+        "fx-c"
+      ],
+      "$80 is 80 and up"
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "none"
+      },
+      [
+        "fx-b",
+        "fx-d"
+      ],
+      "price null"
+    ],
+    [
+      "2027-01-05",
+      {
+        "meal": "lunch"
+      },
+      [
+        "fx-a",
+        "fx-d"
+      ],
+      "an any-meal offer does not match a chosen meal"
+    ],
+    [
+      "2027-01-05",
+      {
+        "meal": "brunch"
+      },
+      [
+        "fx-c"
+      ],
+      "brunch only"
+    ],
+    [
+      "2027-01-05",
+      {
+        "meal": "dinner"
+      },
+      [
+        "fx-a",
+        "fx-b",
+        "fx-c"
+      ],
+      "dinner offers only"
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "none",
+        "meal": "lunch"
+      },
+      [
+        "fx-d"
+      ],
+      "Birch's no-price offer is any-meal, so it drops out once Lunch is chosen"
+    ],
+    [
+      "2027-01-05",
+      {
+        "meal": "dinner",
+        "bucket": "under30"
+      },
+      [],
+      "one offer must match both: the $25 lunch is not a dinner"
+    ],
+    [
+      "2027-01-05",
+      {
+        "meal": "dinner",
+        "bucket": "50to79"
+      },
+      [
+        "fx-a"
+      ],
+      "the $65 dinner"
+    ],
+    [
+      "2027-01-05",
+      {
+        "booking": true
+      },
+      [
+        "fx-a",
+        "fx-c",
+        "fx-d"
+      ],
+      "has a booking link"
+    ],
+    [
+      "2027-01-05",
+      {
+        "town": "Napa"
+      },
+      [
+        "fx-b",
+        "fx-d",
+        "fx-e"
+      ],
+      "town"
+    ],
+    [
+      "2027-01-05",
+      {
+        "promotion": "sonoma-2026"
+      },
+      [],
+      "promotion"
+    ]
+  ],
+  "lowest": [
+    [
+      "2027-01-05",
+      {},
+      {
+        "fx-a": 25,
+        "fx-b": 49,
+        "fx-c": 80,
+        "fx-d": null,
+        "fx-e": null
+      }
+    ],
+    [
+      "2027-01-15",
+      {},
+      {
+        "fx-a": 25,
+        "fx-b": 49,
+        "fx-c": 80,
+        "fx-d": null,
+        "fx-e": null
+      }
+    ],
+    [
+      "2027-01-05",
+      {
+        "meal": "dinner"
+      },
+      {
+        "fx-a": 65,
+        "fx-b": 49,
+        "fx-c": 80,
+        "fx-d": null,
+        "fx-e": null
+      }
+    ],
+    [
+      "2027-01-05",
+      {
+        "bucket": "50to79"
+      },
+      {
+        "fx-a": 65,
+        "fx-b": null,
+        "fx-c": null,
+        "fx-d": null,
+        "fx-e": null
+      }
+    ]
+  ],
+  "sorts": [
+    [
+      "2027-01-05",
+      "price",
+      {},
+      [
+        "fx-a",
+        "fx-b",
+        "fx-c",
+        "fx-d",
+        "fx-e"
+      ],
+      "lowest lunch or dinner price first (Cedar's $30 brunch does not count); no price last, by name"
+    ],
+    [
+      "2027-01-05",
+      "price",
+      {
+        "meal": "dinner"
+      },
+      [
+        "fx-b",
+        "fx-a",
+        "fx-c",
+        "fx-d",
+        "fx-e"
+      ],
+      "lowest among dinner offers only"
+    ],
+    [
+      "2027-01-15",
+      "price",
+      {},
+      [
+        "fx-a",
+        "fx-b",
+        "fx-c",
+        "fx-d",
+        "fx-e"
+      ],
+      "Cedar's ended brunch no longer sets its price"
+    ],
+    [
+      "2027-01-05",
+      "town",
+      {},
+      [
+        "fx-c",
+        "fx-b",
+        "fx-d",
+        "fx-e",
+        "fx-a"
+      ],
+      "town, then name ignoring case"
+    ]
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "verified_through": "2026-11-01",
+    "last_reviewed": "2026-11-01",
+    "note": "Events whose dates are not yet published are listed here but do not appear on the calendar.",
+    "last_sweep": null
+  },
+  "events": [
+    {
+      "id": "siff-awards-buzz-minifest-2026",
+      "name": "SIFF Awards Buzz MiniFest",
+      "county": "sonoma",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "status": "confirmed",
+      "source_url": "https://sonomafilmfest.org/",
+      "last_checked": "2026-11-01",
+      "note": "Listed by the Sonoma International Film Festival as its inaugural Awards Buzz MiniFest."
+    },
+    {
+      "id": "napa-valley-restaurant-month-2027",
+      "name": "Napa Valley Restaurant Month",
+      "county": "napa",
+      "start": "2027-01-01",
+      "end": "2027-01-31",
+      "status": "confirmed",
+      "source_url": "https://www.visitnapavalley.com/restaurant-month/",
+      "last_checked": "2026-11-01",
+      "note": "Page body says January 1-31, 2027; the page title still says January 2026."
+    },
+    {
+      "id": "healdsburg-jazz-winterfest-2027",
+      "name": "Healdsburg Jazz Winterfest",
+      "county": "sonoma",
+      "start": "2027-01-28",
+      "end": "2027-01-31",
+      "status": "confirmed",
+      "source_url": "https://healdsburgjazz.org/",
+      "last_checked": "2026-11-01",
+      "note": null
+    },
+    {
+      "id": "sonoma-county-restaurant-week-2027",
+      "name": "Sonoma County Restaurant Week",
+      "county": "sonoma",
+      "start": null,
+      "end": null,
+      "status": "tentative",
+      "source_url": "https://www.sonomacounty.com/restaurant-week",
+      "last_checked": "2026-11-01",
+      "note": "Page still shows the 2026 dates (February 23 to March 1, 2026) and says to stay tuned; 2027 dates not published."
+    },
+    {
+      "id": "sonoma-international-film-festival-2027",
+      "name": "Sonoma International Film Festival",
+      "county": "sonoma",
+      "start": "2027-03-16",
+      "end": "2027-03-21",
+      "status": "confirmed",
+      "source_url": "https://sonomafilmfest.org/",
+      "last_checked": "2026-11-01",
+      "note": null
+    },
+    {
+      "id": "bottlerock-napa-valley-2027",
+      "name": "BottleRock Napa Valley",
+      "county": "napa",
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "status": "confirmed",
+      "source_url": "https://www.bottlerocknapavalley.com/",
+      "last_checked": "2026-11-01",
+      "note": null
+    },
+    {
+      "id": "auction-napa-valley-2027",
+      "name": "Auction Napa Valley",
+      "county": "napa",
+      "start": "2027-06-03",
+      "end": "2027-06-05",
+      "status": "confirmed",
+      "source_url": "https://www.collectivenapavalley.org/events/",
+      "last_checked": "2026-11-01",
+      "note": "auctionnapavalley.org redirects to Collective Napa Valley's events page, which lists Auction Napa Valley 2027."
+    },
+    {
+      "id": "healdsburg-jazz-summerfest-2027",
+      "name": "Healdsburg Jazz Summerfest",
+      "county": "sonoma",
+      "start": "2027-06-11",
+      "end": "2027-06-20",
+      "status": "confirmed",
+      "source_url": "https://healdsburgjazz.org/",
+      "last_checked": "2026-11-01",
+      "note": null
+    },
+    {
+      "id": "sonoma-county-fair-2027",
+      "name": "Sonoma County Fair",
+      "county": "sonoma",
+      "start": null,
+      "end": null,
+      "status": "tentative",
+      "source_url": "https://www.sonomacountyfair.com/",
+      "last_checked": "2026-11-01",
+      "note": "Official site returned HTTP 429 on every try on 2026-11-01; dates not read."
+    },
+    {
+      "id": "napa-town-country-fair-2027",
+      "name": "Napa Town & Country Fair",
+      "county": "napa",
+      "start": null,
+      "end": null,
+      "status": "tentative",
+      "source_url": "https://www.napafair.org/",
+      "last_checked": "2026-11-01",
+      "note": "Official site still shows the 2026 fair (August 6-9, 2026); 2027 dates not published."
+    },
+    {
+      "id": "sonoma-county-harvest-fair-2027",
+      "name": "Sonoma County Harvest Fair",
+      "county": "sonoma",
+      "start": null,
+      "end": null,
+      "status": "tentative",
+      "source_url": "https://www.harvestfair.org/",
+      "last_checked": "2026-11-01",
+      "note": "Official site shows 2026 results only; 2027 dates not published."
+    },
+    {
+      "id": "russian-river-jazz-blues-2027",
+      "name": "Russian River Jazz & Blues Festival",
+      "county": "sonoma",
+      "start": null,
+      "end": null,
+      "status": "tentative",
+      "source_url": "https://www.russianriverfestivals.com/",
+      "last_checked": "2026-11-01",
+      "note": "Official site refused the connection on 2026-11-01; not verified that the festival still runs."
+    },
+    {
+      "id": "napa-valley-film-festival-2027",
+      "name": "Napa Valley Film Festival",
+      "county": "napa",
+      "start": null,
+      "end": null,
+      "status": "tentative",
+      "source_url": "https://www.napavalleyfilmfest.org/",
+      "last_checked": "2026-11-01",
+      "note": "Site describes a 2026 relaunch event (no date given) and the full festival's return in 2027 (no dates given)."
+    }
+  ]
+}

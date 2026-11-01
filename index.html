@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jay Reed. Software for Napa and Sonoma.</title>
+<meta name="description" content="Software for the valley, built by someone who lives in it. Jay Reed builds custom software for restaurants, wineries, hotels, and small businesses in Napa and Sonoma counties.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&amp;family=Source+Sans+3:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;family=Space+Grotesk:wght@500;700&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,700;0,6..96,900;1,6..96,400&amp;display=swap">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="site.css">
+</head>
+<body class="skin-pearl">
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+
+  <header class="top">
+    <a class="brand" href="#main">Jay Reed</a>
+    <nav aria-label="Main">
+      <a href="#built">Built</a>
+      <a href="#starters">Starters</a>
+      <a href="#contact">Contact</a>
+      <!-- PHONE: when the number exists, set href="tel:+1707NNNNNNN" here and in #contact -->
+      <a class="phone" href="#contact">(707) [YOUR NUMBER]</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Software for the valley, built by someone who lives in it.</h1>
+      <p class="tagline">A way to feel good about AI. Or at least okay.</p>
+      <p class="lede">[one paragraph: who this is for and what you do]</p>
+      <p class="range">Any job, <span class="mono">$200</span> to <span class="mono">$15,000</span>.</p>
+      <p class="range-note">Plenty of jobs are too big. None are too small.</p>
+      <div class="photos">
+        <figure class="photo">[photo: a kitchen pass mid-service]</figure>
+        <figure class="photo">[photo: Jay to camera]</figure>
+        <figure class="photo">[photo: the scanner on a desk]</figure>
+      </div>
+    </section>
+
+    <section class="block" id="familiar" aria-labelledby="familiar-title">
+      <h2 id="familiar-title">Sound familiar?</h2>
+      <ul class="pains">
+        <li><a href="#contact"><span class="pain">Reservations in three places.</span><span class="goto">Twenty minutes, free</span></a></li>
+        <li><a href="#starters"><span class="pain">Built it in Lovable and it broke.</span><span class="goto">Lovable rescue</span></a></li>
+        <li><a href="#contact"><span class="pain">Paying $300 a month for one feature.</span><span class="goto">Twenty minutes, free</span></a></li>
+        <li><a href="#starters"><span class="pain">A spreadsheet runs the business.</span><span class="goto">Spreadsheet to tool</span></a></li>
+        <li><a href="#starters"><span class="pain">40,000 photos and can’t find the one.</span><span class="goto">Photo library search</span></a></li>
+        <li><a href="#contact"><span class="pain">Repeat guests in someone’s old inbox.</span><span class="goto">Twenty minutes, free</span></a></li>
+      </ul>
+    </section>
+
+    <section class="block" id="built" aria-labelledby="built-title">
+      <div class="intro">
+        <div>
+          <h2 id="built-title">Things I have built</h2>
+          <p>Apps, tools, websites, and research systems, in a heap. Drag them around, click one to open it. The numbers are measured, not rounded up.</p>
+        </div>
+        <div class="controls" id="pile-controls" hidden>
+          <button class="btn primary" id="shuffle" type="button">shuffle</button>
+          <button class="btn" id="play" type="button" aria-pressed="false">play</button>
+          <button class="btn" id="tidy" type="button" aria-pressed="false">tidy</button>
+          <!-- dev tool: shown only with ?skins=1 (PLAN.md section 3) -->
+          <span class="skin-picker" id="skin-picker" hidden>
+            <label class="skin-label" for="skin">skin</label>
+            <select class="btn" id="skin">
+              <option value="pearl">pearl plaque</option>
+              <option value="plain">plain index card</option>
+              <option value="paper">scanned paper</option>
+              <option value="mag">magazine ads</option>
+              <option value="app">app store</option>
+              <option value="corp">corporate</option>
+              <option value="deck">deck of cards</option>
+              <option value="80s">1980s desktop</option>
+              <option value="cine">cinematic</option>
+            </select>
+          </span>
+        </div>
+      </div>
+
+      <div class="cats" id="cats" role="group" aria-label="Filter by category"></div>
+
+      <!-- The 20 cards. Content must match PLAN.md section 6. Without JavaScript these render as a grid.
+           data-w/h: base size in the heap. data-shape: port | square (else landscape). -->
+      <div class="desk" id="desk">
+
+        <article class="card cat-apps" data-id="1" data-cat="apps" data-no="18" data-size="heavy" data-w="380" data-h="250">
+          <p class="kicker">Apps · Tool No. 18</p>
+          <p class="tag">macOS · hardware</p>
+          <h3 class="name long">A scanner driver</h3>
+          <p class="line">Talks straight to a large-format scanner. Refuses if anything looks wrong.</p>
+          <p class="say">Runs a big archival scanner from a Mac, carefully.</p>
+          <p class="num">843 tests · 0 rows dropped</p>
+          <p class="bar"><span class="fig">Built in 25 to 30 hours</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Mac software that talks directly to a large-format scanner. Moves a 1.72 GB scan to disk without dropping a row, and refuses to touch the hardware if anything looks wrong.</p>
+            <table class="kv"><tr><th scope="row">tests</th><td>843, zero failures</td></tr><tr><th scope="row">largest scan</th><td>1.72 GB, 14,040 by 20,400 pixels, lossless</td></tr><tr><th scope="row">rows dropped</th><td>0</td></tr><tr><th scope="row">built</th><td>October 2026, 25 to 30 hours</td></tr><tr><th scope="row">runs on</th><td>Swift and C, macOS</td></tr></table>
+            <p class="plain">Plainly: drivers are what manufacturers write. This one was written for one scanner, one Mac, one archive.</p>
+          </div>
+        </article>
+
+        <article class="card cat-apps" data-id="2" data-cat="apps" data-no="08" data-size="standard" data-shape="port" data-w="330" data-h="230">
+          <p class="kicker">Apps · Tool No. 08</p>
+          <p class="tag">macOS · utility</p>
+          <h3 class="name">MacMinder</h3>
+          <p class="line">Shows you the list. Asks before it touches anything.</p>
+          <p class="say">Cleans up a Mac, and asks before it touches anything.</p>
+          <p class="num">dry run by default</p>
+          <p class="bar"><span class="fig">Dry run by default</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Cleans up a Mac. Every module proposes; nothing deletes until you say so, and then it goes to the Trash, not the void.</p>
+            <table class="kv"><tr><th scope="row">default</th><td>dry run</td></tr><tr><th scope="row">deletes</th><td>to Trash</td></tr><tr><th scope="row">built</th><td>March 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-apps" data-id="3" data-cat="apps" data-no="11" data-size="standard" data-w="360" data-h="240">
+          <p class="kicker">Apps · Tool No. 11</p>
+          <p class="tag">macOS · Swift</p>
+          <h3 class="name">Clipgrabber</h3>
+          <p class="line">Press start, press stop. Clips four to five times smaller, same picture.</p>
+          <p class="say">Press start, press stop. Screen clips four to five times smaller, same picture.</p>
+          <p class="num">ScreenCaptureKit</p>
+          <p class="bar"><span class="fig">4 to 5x smaller</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Press start, press stop. Clips four to five times smaller, same picture.</p>
+            <table class="kv"><tr><th scope="row">clips</th><td>4 to 5x smaller</td></tr><tr><th scope="row">runs on</th><td>Swift, ScreenCaptureKit, macOS</td></tr><tr><th scope="row">built</th><td>July 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-apps" data-id="4" data-cat="apps" data-no="07" data-size="standard" data-shape="square" data-w="340" data-h="230">
+          <p class="kicker">Apps · Tool No. 07</p>
+          <p class="tag">iOS</p>
+          <h3 class="name longer">An app in the App Store</h3>
+          <p class="line">Went through Apple review and came out the other side.</p>
+          <p class="say">An iPhone app that went through Apple review and came out the other side.</p>
+          <p class="num">passed review</p>
+          <p class="bar"><span class="fig">Passed Apple review</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Went through Apple review and came out the other side.</p>
+            <table class="kv"><tr><th scope="row">store</th><td>passed Apple review</td></tr><tr><th scope="row">runs on</th><td>iOS</td></tr><tr><th scope="row">built</th><td>March 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-apps" data-id="5" data-cat="apps" data-no="15" data-size="standard" data-shape="port" data-w="330" data-h="220">
+          <p class="kicker">Apps · Tool No. 15</p>
+          <p class="tag">macOS · local</p>
+          <h3 class="name long">Transcription</h3>
+          <p class="line">Audio in, text out, on your own machine. Nothing is sent anywhere.</p>
+          <p class="say">Turns recordings into text on your own computer. Nothing is sent anywhere.</p>
+          <p class="num">runs offline</p>
+          <p class="bar"><span class="fig">Runs offline</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Audio in, text out, on your own machine. Nothing is sent anywhere.</p>
+            <table class="kv"><tr><th scope="row">network</th><td>none; runs offline</td></tr><tr><th scope="row">runs on</th><td>macOS</td></tr><tr><th scope="row">built</th><td>August 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="6" data-cat="tools" data-no="03" data-size="standard" data-w="350" data-h="240">
+          <p class="kicker">Tools · Tool No. 03</p>
+          <p class="tag">hospitality</p>
+          <h3 class="name long">Hotel caption desk</h3>
+          <p class="line">Captions for a hotel group, in their voice, from their photos.</p>
+          <p class="say">Writes photo captions for a hotel group, in their voice.</p>
+          <p class="num">153 revisions</p>
+          <p class="bar"><span class="fig">153 revisions</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Captions for a hotel group, in their voice, from their photos.</p>
+            <table class="kv"><tr><th scope="row">revisions</th><td>153</td></tr><tr><th scope="row">built</th><td>July 2025</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="7" data-cat="tools" data-no="14" data-size="standard" data-shape="port" data-w="340" data-h="240">
+          <p class="kicker">Tools · Tool No. 14</p>
+          <p class="tag">hospitality</p>
+          <h3 class="name">Shot list</h3>
+          <p class="line">A shared shot list for a lodge photo shoot. Passcode, photos, PDF out.</p>
+          <p class="say">A shared shot list for a lodge photo shoot: passcode, photos, PDF out.</p>
+          <p class="num">one page, two tiny APIs</p>
+          <p class="bar"><span class="fig">One page</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">A shared shot list for a lodge photo shoot. Passcode, photos, PDF out.</p>
+            <table class="kv"><tr><th scope="row">size</th><td>one page, two tiny APIs</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="8" data-cat="tools" data-no="13" data-size="standard" data-w="330" data-h="220">
+          <p class="kicker">Tools · Tool No. 13</p>
+          <p class="tag">hospitality</p>
+          <h3 class="name long">Instagram planners</h3>
+          <p class="line">A month of posts on one screen. Posts nothing itself.</p>
+          <p class="say">A month of posts on one screen. It never posts anything itself.</p>
+          <p class="num">two feeds</p>
+          <p class="bar"><span class="fig">Two feeds</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">A month of posts on one screen. Posts nothing itself.</p>
+            <table class="kv"><tr><th scope="row">feeds</th><td>two</td></tr><tr><th scope="row">built</th><td>July 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="9" data-cat="tools" data-no="05" data-size="standard" data-shape="square" data-w="340" data-h="230">
+          <p class="kicker">Tools · Tool No. 05</p>
+          <p class="tag">design</p>
+          <h3 class="name long">Asset dashboard</h3>
+          <p class="line">A freeform canvas for a client’s image library. Drag, group, find.</p>
+          <p class="say">A big canvas for a client’s image library. Drag, group, find.</p>
+          <p class="num">HEIC, TIFF, PDF in</p>
+          <p class="bar"><span class="fig">HEIC, TIFF, PDF in</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">A freeform canvas for a client’s image library. Drag, group, find.</p>
+            <table class="kv"><tr><th scope="row">reads</th><td>HEIC, TIFF, PDF</td></tr><tr><th scope="row">built</th><td>January 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="10" data-cat="tools" data-no="10" data-size="standard" data-w="380" data-h="240">
+          <p class="kicker">Tools · Tool No. 10</p>
+          <p class="tag">wine</p>
+          <h3 class="name longer">Express ordering portal</h3>
+          <p class="line">Existing customers reorder in [measured reorder time]. Email code, no password.</p>
+          <p class="say">Lets regular customers reorder with a code by email. No password.</p>
+          <p class="num">Salesforce-ready</p>
+          <p class="bar"><span class="fig">Email code, no password</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Existing customers reorder with an email code, no password.</p>
+            <table class="kv"><tr><th scope="row">sign-in</th><td>email code, no password</td></tr><tr><th scope="row">ready for</th><td>Salesforce</td></tr><tr><th scope="row">built</th><td>June 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="11" data-cat="tools" data-no="01" data-size="standard" data-shape="port" data-w="350" data-h="240">
+          <p class="kicker">Tools · Tool No. 01</p>
+          <p class="tag">wine</p>
+          <h3 class="name long">Drafting Desk</h3>
+          <p class="line">A statement of work in minutes, from the last [count of SOWs].</p>
+          <p class="say">Writes the first draft of a proposal or statement of work from the ones you’ve already done.</p>
+          <p class="num">.docx out · 162 revisions</p>
+          <a class="bar" href="https://recwatersolutions.com"><img src="assets/rws-logo.png" alt="" width="64" height="24"><span class="txt"><b>Built for Recovered Water Solutions</b><span>recwatersolutions.com</span></span></a>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <a class="client" href="https://recwatersolutions.com"><img src="assets/rws-logo.png" alt="Recovered Water Solutions" width="90" height="34"><span class="who">Built for Recovered Water Solutions, winery wastewater treatment<br><span class="mono">recwatersolutions.com</span></span></a>
+            <p class="p">Drafts statements of work and technical proposals from a library of the ones already written, so the engineer edits instead of starting blank. Word file out.</p>
+            <table class="kv"><tr><th scope="row">in use since</th><td>September 2024</td></tr><tr><th scope="row">revisions</th><td>162</td></tr><tr><th scope="row">output</th><td>.docx, ready to send</td></tr><tr><th scope="row">runs on</th><td>Python, Streamlit, a vector index of past documents; hosted on Render</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="12" data-cat="tools" data-no="20" data-size="standard" data-w="390" data-h="250" data-live="smoke">
+          <p class="kicker">Tools · Tool No. 20</p>
+          <p class="tag">in progress</p>
+          <h3 class="name">Smoke watch</h3>
+          <p class="line">Will smoke reach your patio this weekend? One plain answer per zip code.</p>
+          <p class="say">Will smoke reach your patio this weekend? One plain answer per town.</p>
+          <p class="num">Open-Meteo · NWS · NIFC</p>
+          <p class="bar"><span class="fig">10 towns, every 3 hours</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <noscript><p class="line nojs-link"><a href="data/smoke.json">Smoke watch data (JSON)</a></p></noscript>
+          <div class="hood" hidden>
+            <p class="p">A summary of public air, wind, warning, and fire data for ten North Bay towns, refreshed every three hours. No map, no sign-up.</p>
+            <table class="kv"><tr><th scope="row">towns</th><td>10, Calistoga to Cloverdale</td></tr><tr><th scope="row">refreshed</th><td>every 3 hours</td></tr><tr><th scope="row">sources</th><td>Open-Meteo, National Weather Service, NIFC</td></tr><tr><th scope="row">built</th><td>October 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-sites" data-id="13" data-cat="sites" data-no="16" data-size="small" data-w="370" data-h="240">
+          <p class="kicker">Websites · No. 16</p>
+          <p class="tag">campaign page</p>
+          <h3 class="name long">No/Lo campaign</h3>
+          <p class="line">A campaign page and project planner for alcohol removal, for a wine-services company.</p>
+          <p class="say">A campaign page and planner for a wine-services company.</p>
+          <p class="num">no build step · WordPress-ready</p>
+          <p class="bar"><span class="fig">No build step</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">A campaign page and project planner for alcohol removal, for a wine-services company.</p>
+            <table class="kv"><tr><th scope="row">build step</th><td>none</td></tr><tr><th scope="row">ready for</th><td>WordPress</td></tr><tr><th scope="row">built</th><td>August 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-sites" data-id="14" data-cat="sites" data-no="17" data-size="small" data-shape="port" data-w="340" data-h="230">
+          <p class="kicker">Websites · No. 17</p>
+          <p class="tag">campaign site</p>
+          <h3 class="name longer">A Yountville campaign</h3>
+          <p class="line">Site, story, and volunteer page for a local candidate.</p>
+          <p class="say">A campaign site: story and volunteers.</p>
+          <p class="num">35 revisions</p>
+          <p class="bar"><span class="fig">35 revisions</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Site, story, and volunteer page for a local candidate.</p>
+            <table class="kv"><tr><th scope="row">revisions</th><td>35</td></tr><tr><th scope="row">built</th><td>September 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-sites" data-id="15" data-cat="sites" data-no="09" data-size="small" data-w="330" data-h="220">
+          <p class="kicker">Websites · No. 09</p>
+          <p class="tag">publishing</p>
+          <h3 class="name long">Book layout sites</h3>
+          <p class="line">Image baselines for new books, for a team spread across the world.</p>
+          <p class="say">Image layouts for new books, for a team spread across the world.</p>
+          <p class="num">two titles</p>
+          <p class="bar"><span class="fig">Two titles</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Image baselines for new books, for a team spread across the world.</p>
+            <table class="kv"><tr><th scope="row">titles</th><td>two</td></tr><tr><th scope="row">built</th><td>April 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-sites" data-id="16" data-cat="sites" data-no="06" data-size="small" data-shape="port" data-w="340" data-h="230">
+          <p class="kicker">Websites · No. 06</p>
+          <p class="tag">film</p>
+          <h3 class="name long">A documentary site</h3>
+          <p class="line">The site for a feature documentary. My own.</p>
+          <p class="say">The site for a feature documentary. My own.</p>
+          <p class="num">thehddenpeople.film</p>
+          <p class="bar"><span class="fig">thehddenpeople.film</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">The site for a feature documentary. My own.</p>
+            <table class="kv"><tr><th scope="row">address</th><td>thehddenpeople.film</td></tr><tr><th scope="row">built</th><td>February 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-sites" data-id="17" data-cat="sites" data-no="04" data-size="small" data-w="320" data-h="210">
+          <p class="kicker">Websites · No. 04</p>
+          <p class="tag">wine</p>
+          <h3 class="name long">A gallery site</h3>
+          <p class="line">Diagrams and visuals for a winery wastewater company.</p>
+          <p class="say">Diagrams and visuals for a winery wastewater company.</p>
+          <p class="num">static · fast</p>
+          <p class="bar"><span class="fig">Static</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Diagrams and visuals for a winery wastewater company.</p>
+            <table class="kv"><tr><th scope="row">build</th><td>static</td></tr><tr><th scope="row">built</th><td>January 2026</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-research" data-id="18" data-cat="research" data-no="02" data-size="heavy" data-w="400" data-h="260">
+          <p class="kicker">Research · Tool No. 02</p>
+          <p class="tag">photo search</p>
+          <h3 class="name">Antonia</h3>
+          <p class="line">A search engine for 2,310,904 photos. Type what you want, get the pictures.</p>
+          <p class="say">Finds the photo you’re thinking of. Type what’s in it; it brings the picture.</p>
+          <p class="num">2,310,904 images</p>
+          <p class="bar"><span class="fig">2.3 million photos</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">A search engine that understands what is in a picture, built on an image-and-text model so you can search by description instead of by filename.</p>
+            <table class="kv"><tr><th scope="row">photos indexed</th><td>2,310,904, in 14 collections</td></tr><tr><th scope="row">categories</th><td>113, assigned across the whole library in 74.7 seconds</td></tr><tr><th scope="row">checked by hand</th><td>565 results reviewed; 75% clean, 16% partial, every miss written down</td></tr><tr><th scope="row">built</th><td>April 2025, roughly 35 to 45 hours; image assembly ongoing</td></tr><tr><th scope="row">runs on</th><td>Python, SigLIP, FAISS, Flask; your machine, nothing leaves it</td></tr></table>
+            <p class="plain">Plainly: five years ago this was a research project. Now it runs on an iMac.</p>
+          </div>
+        </article>
+
+        <article class="card cat-research" data-id="19" data-cat="research" data-no="19" data-size="heavy" data-shape="port" data-w="380" data-h="250">
+          <p class="kicker">Research · Tool No. 19</p>
+          <p class="tag">archive</p>
+          <h3 class="name long">HDDEN Archive</h3>
+          <p class="line">Indexes every document, image, and clip on a Mac. Nothing leaves.</p>
+          <p class="say">Finds any document, picture, or clip on a Mac. Nothing leaves the machine.</p>
+          <p class="num">89 revisions · desktop app</p>
+          <p class="bar"><span class="fig">Built in 15 hours</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Indexes every document, image, and clip on a Mac. Nothing leaves.</p>
+            <table class="kv"><tr><th scope="row">revisions</th><td>89</td></tr><tr><th scope="row">runs on</th><td>a desktop app on the Mac; nothing leaves it</td></tr><tr><th scope="row">built</th><td>October 2026, 15 hours</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-research" data-id="20" data-cat="research" data-no="12" data-size="standard" data-w="340" data-h="230">
+          <p class="kicker">Research · Tool No. 12</p>
+          <p class="tag">fact check</p>
+          <h3 class="name">Fact Check</h3>
+          <p class="line">Checks a script’s historical claims against a library of PDFs.</p>
+          <p class="say">Checks a script’s historical claims against a library of PDFs.</p>
+          <p class="num">keyword + meaning</p>
+          <p class="bar"><span class="fig">Keyword + meaning</span></p>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Checks a script’s historical claims against a library of PDFs.</p>
+            <table class="kv"><tr><th scope="row">search</th><td>keyword + meaning</td></tr></table>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="21" data-cat="tools" data-no="21" data-size="standard" data-w="380" data-h="240">
+          <p class="kicker">Tools · Tool No. 21</p>
+          <p class="tag">farm</p>
+          <h3 class="name long">Farmers markets</h3>
+          <p class="line">Every certified farmers market in five counties on one map, with hours and season.</p>
+          <p class="say">Every farmers market in five counties, with hours and what’s scheduled this week.</p>
+          <p class="num">55 markets · CDFA list</p>
+          <a class="bar" href="tools/markets/"><span class="fig">55 markets, five counties</span></a>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Every California Certified Farmers' Market in Napa, Sonoma, Marin, Mendocino and Lake counties on one map, with each market's days, hours, and season, and what is scheduled this week. Hours change; the market's own site wins.</p>
+            <table class="kv"><tr><th scope="row">markets</th><td>55: Napa 8, Sonoma 24, Marin 14, Mendocino 6, Lake 3</td></tr><tr><th scope="row">source</th><td>CDFA certified farmers' market list, as of October 1, 2026</td></tr><tr><th scope="row">checked</th><td>weekly against the CDFA list; changes go to Jay, never straight to the page</td></tr><tr><th scope="row">built</th><td>October 2026</td></tr></table>
+            <p class="p"><a href="tools/markets/">Open the map</a></p>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="22" data-cat="tools" data-no="22" data-size="standard" data-w="380" data-h="240">
+          <p class="kicker">Tools · Tool No. 22</p>
+          <p class="tag">calendar</p>
+          <h3 class="name long">Big days calendar</h3>
+          <p class="line">Events, holidays, school breaks, harvest, and the week’s weather, day by day.</p>
+          <p class="say">The eight weeks ahead in wine country: events, holidays, school breaks, harvest, and the week’s weather, day by day.</p>
+          <p class="num">listed, not scored</p>
+          <a class="bar" href="tools/bigdays/"><span class="fig">Eight weeks, day by day</span></a>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">An eight-week calendar of events, holidays and three-day weekends, school breaks, harvest season, and a seven-day weather line. Public calendars, listed, not scored.</p>
+            <table class="kv"><tr><th scope="row">events</th><td>13 listed: 7 with published dates; 6 tentative, dates not yet published (sources page only)</td></tr><tr><th scope="row">school breaks</th><td>San Francisco, Oakland, and San Jose Unified, 2026-27</td></tr><tr><th scope="row">weather</th><td>National Weather Service, Napa area and Santa Rosa area</td></tr><tr><th scope="row">built</th><td>November 2026</td></tr></table>
+            <p class="p"><a href="tools/bigdays/">Open the calendar</a></p>
+          </div>
+        </article>
+
+        <article class="card cat-tools" data-id="23" data-cat="tools" data-no="23" data-size="standard" data-w="380" data-h="240">
+          <p class="kicker">Tools · Tool No. 23</p>
+          <p class="tag">restaurants</p>
+          <h3 class="name long">Restaurant Month</h3>
+          <p class="line">Restaurant Month offers from across Napa and Sonoma, in one place.</p>
+          <p class="say">Restaurant Month offers from across Napa and Sonoma, in one place, with a Book link that goes to the restaurant, not to us.</p>
+          <p class="num">Napa: January 1 to 31, 2027</p>
+          <a class="bar" href="tools/restaurant-month/"><span class="fig">Napa: Jan 1 to 31, 2027</span></a>
+          <p class="place">Manufactured in Knights Valley since 2024</p>
+          <div class="hood" hidden>
+            <p class="p">Napa Valley Restaurant Month and Sonoma County Restaurant Week on one filterable page. Each offer in the restaurant's own words, and a Book link that goes to the booking link the restaurant lists. Nothing is booked here, and the list cannot prove it has every participant.</p>
+            <table class="kv"><tr><th scope="row">Napa 2027</th><td>January 1 to 31, from Visit Napa Valley; participants not yet listed</td></tr><tr><th scope="row">Sonoma 2027</th><td>dates to be announced</td></tr><tr><th scope="row">last season</th><td>133 Sonoma County Restaurant Week participants, 2026, for reference</td></tr><tr><th scope="row">built</th><td>November 2026</td></tr></table>
+            <p class="p"><a href="tools/restaurant-month/">Open the list</a></p>
+          </div>
+        </article>
+
+        <div class="count" id="count" aria-live="polite"></div>
+      </div>
+
+      <div class="foot">
+        <div id="list-wrap" hidden>Prefer a list? <a href="#built" id="list-link">Same cards, in rows.</a></div>
+        <div class="hint" id="pile-hint" hidden>drag to move · click to open · shuffle re-deals · play steps through · tidy makes a grid · phones get the stack</div>
+      </div>
+    </section>
+
+    <section class="block" id="live" aria-labelledby="live-title">
+      <h2 id="live-title">Live tools</h2>
+      <div class="live">
+        <p class="status">in progress</p>
+        <h3>Smoke watch</h3>
+        <p>Will smoke reach your patio this weekend? One plain answer per zip code.</p>
+        <p class="sources">Open-Meteo · NWS · NIFC</p>
+      </div>
+    </section>
+
+    <section class="block" id="worked-with" aria-labelledby="worked-title">
+      <h2 id="worked-title">Who I have worked with</h2>
+      <ul class="clients">
+        <li>A family-owned hotel group with properties in Belize, Guatemala, and Italy</li>
+        <li>A mobile wine-services company in Sonoma County</li>
+        <li>A winery wastewater treatment company</li>
+        <li>An art-book publisher in London</li>
+        <li>A film director</li>
+        <li>My own feature documentary</li>
+      </ul>
+    </section>
+
+    <section class="block" id="starters" aria-labelledby="starters-title">
+      <h2 id="starters-title">Starters</h2>
+      <p class="section-note range-intro">Any job, <span class="mono">$200</span> to <span class="mono">$15,000</span>.</p>
+      <ol class="starters">
+        <li>
+          <h3>Lovable rescue</h3>
+          <p>[one line: what the rescue includes]</p>
+          <p class="price">[YOUR PRICE]</p>
+        </li>
+        <li>
+          <h3>Spreadsheet to tool</h3>
+          <p>[one line: what the tool includes]</p>
+          <p class="price">[YOUR PRICE]</p>
+        </li>
+        <li>
+          <h3>Photo library search</h3>
+          <p>Antonia on your folders.</p>
+          <p class="price">[YOUR PRICE]</p>
+        </li>
+        <li>
+          <h3>Twenty minutes, free</h3>
+          <p><a href="#contact">Book twenty minutes</a></p>
+          <p class="price">Free</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="block" id="not" aria-labelledby="not-title">
+      <h2 id="not-title">What I am not</h2>
+      <ul class="nots">
+        <li>Not an agency.</li>
+        <li>Not a marketplace seller.</li>
+        <li>Not leaving. Here since 2019.</li>
+      </ul>
+    </section>
+
+    <section class="block" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <div class="contact-grid">
+
+        <div class="call">
+          <!-- PHONE: set href="tel:+1707NNNNNNN" -->
+          <a class="big-phone" href="#contact">(707) [YOUR NUMBER]</a>
+          <!-- BOOKING: set href to the Cal.com or Calendly link (PLAN.md section 5, OPEN) -->
+          <a class="btn" id="book-link" href="#contact">Book twenty minutes [booking link]</a>
+        </div>
+
+        <div>
+          <!-- Both forms post to the one endpoint in SITE_CONFIG at the top of site.js.
+               For visitors without JavaScript, put the same URL in action="" on both forms. Until then nothing is sent anywhere useful. -->
+          <noscript><p class="help">[This form is not connected yet. Number pending.]</p></noscript>
+          <form class="intake" id="contact-form" data-intake="contact" action="" method="post" aria-label="Contact form">
+            <input type="hidden" name="form" value="contact">
+            <div class="hp" aria-hidden="true">
+              <label for="c-company-url">Leave this empty</label>
+              <input type="text" id="c-company-url" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="c-name">Name</label>
+              <input type="text" id="c-name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="c-business">Business <span class="opt">(optional)</span></label>
+              <input type="text" id="c-business" name="business" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="c-what">What’s broken, or what you wish existed</label>
+              <textarea id="c-what" name="message" rows="5" required></textarea>
+            </div>
+            <div class="field">
+              <label for="c-reach">Best way to reach you</label>
+              <input type="text" id="c-reach" name="reach" autocomplete="email" required>
+            </div>
+            <div class="form-row">
+              <button class="btn primary" type="submit">Send</button>
+              <p class="form-status" role="status"></p>
+            </div>
+          </form>
+
+          <form class="intake" id="link-form" data-intake="link" action="" method="post">
+            <h3>Paste your Lovable or GitHub link</h3>
+            <input type="hidden" name="form" value="link-intake">
+            <div class="hp" aria-hidden="true">
+              <label for="l-company-url">Leave this empty</label>
+              <input type="text" id="l-company-url" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="l-link">Lovable or GitHub link</label>
+              <input type="url" id="l-link" name="link" inputmode="url" placeholder="https://" required>
+            </div>
+            <div class="field">
+              <label for="l-reach">Best way to reach you</label>
+              <input type="text" id="l-reach" name="reach" autocomplete="email" required>
+            </div>
+            <div class="form-row">
+              <button class="btn primary" type="submit">Send the link</button>
+              <p class="form-status" role="status"></p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-foot">
+    <p>Jay Reed. Knights Valley, Sonoma County. Napa and Sonoma since 2019.</p>
+    <p>No newsletter. No cookies worth mentioning.</p>
+  </footer>
+</div>
+
+<!-- The hood card: opened by a card's H button (or a click on the card). Body is copied from the card's .hood. -->
+<dialog class="open-card" id="open" aria-labelledby="open-name">
+  <div class="hd">
+    <span class="k" id="open-k">Under the hood</span>
+    <button class="open-close" id="open-close" type="button" aria-label="Close">close</button>
+  </div>
+  <div class="open-client" id="open-client"></div>
+  <h2 class="nm" id="open-name"></h2>
+  <div class="open-body" id="open-body"></div>
+  <div class="open-live" id="open-live" aria-live="polite" hidden></div>
+  <a class="open-ask" id="open-ask" href="#contact">Ask me about this one</a>
+</dialog>
+
+<script src="site.js"></script>
+</body>
+</html>

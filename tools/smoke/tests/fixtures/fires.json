@@ -1,0 +1,73 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "GlobalID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "IncidentName",
+   "type": "esriFieldTypeString",
+   "alias": "IncidentName",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "IncidentSize",
+   "type": "esriFieldTypeDouble",
+   "alias": "IncidentSize",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PercentContained",
+   "type": "esriFieldTypeDouble",
+   "alias": "PercentContained",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ModifiedOnDateTime_dt",
+   "type": "esriFieldTypeDate",
+   "alias": "ModifiedOnDateTime_dt",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "IncidentTypeCategory",
+   "type": "esriFieldTypeString",
+   "alias": "IncidentTypeCategory",
+   "sqlType": "sqlTypeOther",
+   "length": 2,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "IncidentName": "COOLEY",
+    "IncidentSize": 1365,
+    "PercentContained": 98,
+    "ModifiedOnDateTime_dt": 1793315351060,
+    "IncidentTypeCategory": "WF"
+   },
+   "geometry": {
+    "x": -123.18806945548242,
+    "y": 38.819726969134884
+   }
+  }
+ ]
+}

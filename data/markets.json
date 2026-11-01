@@ -1,0 +1,2251 @@
+{
+  "schema_version": 1,
+  "source": {
+    "name": "CDFA Certified Farmers' Markets by County",
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "checked": "2026-10-31",
+    "sha256": "846d121f3e38ec1ee5f83c95c2260a6ae3857b11b3ad88d31ba9dc548fb06742"
+  },
+  "county_notes": {
+    "Napa": "Napa County's page lists Long Meadow Ranch; CDFA does not, so it is not included.",
+    "Sonoma": "The Sonoma County page counts Healdsburg Saturday and Tuesday as two markets; CDFA has two Healdsburg rows, kept as two records."
+  },
+  "markets": [
+    {
+      "id": "napa-calistoga",
+      "name": "Calistoga Farmers Market",
+      "county": "Napa",
+      "city": "Calistoga",
+      "address": "1311 Washington Street, Calistoga, 94515",
+      "lat": 38.578902,
+      "lon": -122.580184,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Calistoga Farmers Market",
+        "listed_days": "Sat",
+        "listed_hours": "9am - 1pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "napa-farmstead",
+      "name": "Farmstead Farmers' Market",
+      "county": "Napa",
+      "city": "St. Helena",
+      "address": "738 Main Street @ Charter Oak Ave., St.Helena, 94574",
+      "lat": 38.50102,
+      "lon": -122.46274,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "12:00",
+          "season_start": "11-01",
+          "season_end": "04-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 145 m to Farmstead at Long Meadow Ranch, 738 Main St.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Farmstead Farmers' Market",
+        "listed_days": "Fri",
+        "listed_hours": "8am - 12pm",
+        "listed_months": "Nov - Apr"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "napa-first-thursdays",
+      "name": "First Thursdays Market",
+      "county": "Napa",
+      "city": "Napa",
+      "address": "1268 McKinstry St, First St x Soscol Ave, Napa CA 94559",
+      "lat": 38.303422,
+      "lon": -122.2838,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": [
+            "2026-05-07",
+            "2026-06-04",
+            "2026-07-02"
+          ],
+          "start": "17:00",
+          "end": "20:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "CDFA gives exact dates (May 1 and Oct 9) that fall on the listed weekday in 2025 but not in 2026, so they read as 2025 dates; shown as not yet confirmed for 2026. Downtown Napa Association lists 2026 dates May 7, Jun 4, Jul 2, 5 to 8 pm, at Oxbow Commons, 1268 McKinstry St (checked 2026-11-01); CDFA's May 1 to Oct 9 did not match.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "First Thursdays Market",
+        "listed_days": "1st Thu per month",
+        "listed_hours": "5pm - 8pm",
+        "listed_months": "May 1 - Oct 9"
+      },
+      "schedule_source": "https://donapa.com/first-thursdays/",
+      "schedule_checked": "2026-11-01",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "napa-kaiser",
+      "name": "Kaiser Napa Farmers Market",
+      "county": "Napa",
+      "city": "Napa",
+      "address": "3285 Claremont Way x Permanente Way, Napa",
+      "lat": 38.32157,
+      "lon": -122.302797,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Mon",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "13:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Kaiser Napa Farmers Market",
+        "listed_days": "Mon",
+        "listed_hours": "9:30am-1:30pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "napa-napa",
+      "name": "Napa Farmers Market",
+      "county": "Napa",
+      "city": "Napa",
+      "address": "1100 West Street, x Pearl Street, Napa, 94559",
+      "lat": 38.300172,
+      "lon": -122.284705,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "12:00",
+          "season_start": null,
+          "season_end": null
+        },
+        {
+          "recurrence": "annual_season",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "12:00",
+          "season_start": "04-01",
+          "season_end": "12-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Napa Farmers Market",
+        "listed_days": "Sat & Tue",
+        "listed_hours": "8am - noon",
+        "listed_months": "S-Year Round, T- Apr-Dec"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "napa-yard-plaza",
+      "name": "Napa Yard Plaza",
+      "county": "Napa",
+      "city": "Napa",
+      "address": "585 1st St x Soscol Ave, Napa CA 94559",
+      "lat": 38.301526,
+      "lon": -122.280696,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "14:00",
+          "end": "21:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Napa Yard Plaza",
+        "listed_days": "Thu",
+        "listed_hours": "2pm - 9pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "napa-st-helena",
+      "name": "St. Helena Farmers Market",
+      "county": "Napa",
+      "city": "St. Helena",
+      "address": "Crane Park, 360 Crane Ave., St. Helena, 94574",
+      "lat": 38.492654,
+      "lon": -122.466873,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "07:30",
+          "end": "12:00",
+          "season_start": "05-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "St. Helena Farmers Market",
+        "listed_days": "Fri",
+        "listed_hours": "7:30am - 12pm",
+        "listed_months": "May - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "napa-yountville",
+      "name": "Yountville Certified Farmers' Market",
+      "county": "Napa",
+      "city": "Yountville",
+      "address": "6498 Washington St. x Mulberry St., Yountville CA 94599",
+      "lat": 38.400402,
+      "lon": -122.35956,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "15:00",
+          "season_start": "05-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Yountville Certified Farmers' Market",
+        "listed_days": "Sun",
+        "listed_hours": "8am - 3pm",
+        "listed_months": "May - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-bodega-bay",
+      "name": "Bodega Bay Farmers Market",
+      "county": "Sonoma",
+      "city": "Bodega Bay",
+      "address": "2255 Highway 1 x Bay Hill Road, Bodega Bay, 94923",
+      "lat": 38.3411,
+      "lon": -123.05051,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "14:00",
+          "season_start": "05-25",
+          "season_end": "10-26"
+        }
+      ],
+      "exceptions": [],
+      "website": "https://bodegabaycommunitycenter.org/farmers-market/",
+      "instagram": null,
+      "notes": "CDFA gives exact dates (May 25 and Oct 26) that fall on the listed weekday in 2025 but not in 2026, so they read as 2025 dates; shown as not yet confirmed for 2026. Pin checked 2026-11-01 against OpenStreetMap: moved about 210 m west to the mapped Bodega Bay Farmers Market, 2255 Coast Hwy. The Bodega Bay Community Center page gives Sundays about 10 am to 2 pm, from the Sunday of Memorial Day weekend through the end of October, with no year stated (checked 2026-11-01); still not confirmed for 2026.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Bodega Bay Farmers Market",
+        "listed_days": "Sun",
+        "listed_hours": "10am - 2pm",
+        "listed_months": "May 25 - Oct 26"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2025-12-31",
+      "season_year_inferred": true,
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "sonoma-cloverdale",
+      "name": "Cloverdale Certified Farmers Market",
+      "county": "Sonoma",
+      "city": "Cloverdale",
+      "address": "Cloverdale Plaza 122 N Cloverdale Blvd., Cloverdale 95425",
+      "lat": 38.806231,
+      "lon": -123.017692,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "13:00",
+          "season_start": "04-12",
+          "season_end": "11-22"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": "cloverdalefarmersmarket",
+      "notes": "CDFA gives exact dates (April 12 and Nov 22) that fall on the listed weekday in 2022 but not in 2026, so they read as 2022 dates; shown as not yet confirmed for 2026. The market's Instagram gives Sundays 9:30 am to 1 pm, April 12 to November 22, 2026 (post date unknown; checked 2026-11-01). CDFA lists Tuesday; both dates are Sundays in 2026, so the CDFA weekday looks wrong.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Cloverdale Certified Farmers Market",
+        "listed_days": "Tue",
+        "listed_hours": "9:30am - 1pm",
+        "listed_months": "April 12 - Nov 22"
+      },
+      "schedule_source": "https://www.instagram.com/cloverdalefarmersmarket/",
+      "schedule_checked": "2026-11-01",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "sonoma-cotati",
+      "name": "Cotati Community Farmers' Market",
+      "county": "Sonoma",
+      "city": "Cotati",
+      "address": "La Plaza Park - W. Sierra and Old Redwood Hwy, Cotati, 94931",
+      "lat": 38.326074,
+      "lon": -122.706908,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:30",
+          "end": "19:30",
+          "season_start": "06-01",
+          "season_end": "09-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Cotati Community Farmers' Market",
+        "listed_days": "Wed",
+        "listed_hours": "4:30pm - 7:30pm",
+        "listed_months": "Jun - Sep"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-forestville",
+      "name": "Forestville Certified Farmers' Market",
+      "county": "Sonoma",
+      "city": "Forestville",
+      "address": "6990 Front St. at 2nd St., Forestville, 95436",
+      "lat": 38.473857,
+      "lon": -122.892842,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:30",
+          "end": "20:00",
+          "season_start": "06-02",
+          "season_end": "09-11"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "CDFA's June 2 is not a Friday in 2026 (Sep 11 is); read as 2026 season bounds. Confirm the 2027 season.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Forestville Certified Farmers' Market",
+        "listed_days": "Fri",
+        "listed_hours": "4:30 - 8:00pm",
+        "listed_months": "June 2 - Sep 11"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-glen-ellen",
+      "name": "Glen Ellen Farmers Market",
+      "county": "Sonoma",
+      "city": "Glen Ellen",
+      "address": "11700 Dunbar Rd x Henno Rd and Vintage Ln, Glen Ellen CA 95442",
+      "lat": 38.387566,
+      "lon": -122.526415,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "14:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Glen Ellen Farmers Market",
+        "listed_days": "Sun",
+        "listed_hours": "10am - 2pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-guerneville",
+      "name": "Guerneville Certified Farmers Market",
+      "county": "Sonoma",
+      "city": "Guerneville",
+      "address": "16290 Fifth St x Church St, Guerneville CA 95446",
+      "lat": 38.503764,
+      "lon": -122.998803,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "15:00",
+          "end": "19:00",
+          "season_start": "06-01",
+          "season_end": "08-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Guerneville Certified Farmers Market",
+        "listed_days": "Thu",
+        "listed_hours": "3pm - 7pm",
+        "listed_months": "Jun - Aug"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-healdsburg-saturday",
+      "name": "Healdsburg Certifed Farmers' Market-Saturday",
+      "county": "Sonoma",
+      "city": "Healdsburg",
+      "address": "West Plaza Parking Lot North & Vine Streets, Healdsburg, 95448",
+      "lat": 38.61151,
+      "lon": -122.87326,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:30",
+          "end": "12:00",
+          "season_start": "04-01",
+          "season_end": "09-30"
+        },
+        {
+          "recurrence": "annual_season",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:30",
+          "end": "12:00",
+          "season_start": "04-01",
+          "season_end": "09-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Both CDFA Healdsburg rows list Saturday and Tuesday; the Sonoma County page counts Healdsburg Saturday and Tuesday as two markets. Kept one record per CDFA row; confirm which days run at which location.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Healdsburg Certifed Farmers' Market-Saturday",
+        "listed_days": "Sat / Tue",
+        "listed_hours": "8:30am - noon",
+        "listed_months": "Apr - Sep"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-healdsburg",
+      "name": "Healdsburg Certified Farmers Market",
+      "county": "Sonoma",
+      "city": "Healdsburg",
+      "address": "Healdsburg Plaza, Healdsburg, 95448",
+      "lat": 38.611252,
+      "lon": -122.869597,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:30",
+          "end": "12:00",
+          "season_start": "04-01",
+          "season_end": "12-31"
+        },
+        {
+          "recurrence": "annual_season",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "13:00",
+          "season_start": "05-01",
+          "season_end": "09-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Both CDFA Healdsburg rows list Saturday and Tuesday; the Sonoma County page counts Healdsburg Saturday and Tuesday as two markets. Kept one record per CDFA row; confirm which days run at which location.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Healdsburg Certified Farmers Market",
+        "listed_days": "Sat / Tue",
+        "listed_hours": "8:30am - 12pm / 9am - 1pm",
+        "listed_months": "Apr - Dec / May - Sep"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-oakmont",
+      "name": "Oakmont Certified Farmers' Market",
+      "county": "Sonoma",
+      "city": "Santa Rosa",
+      "address": "Parking Lot @ Oakmont Dr. and White Oak Dr., Santa Rosa, 95409",
+      "lat": 38.440976,
+      "lon": -122.604207,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "12:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Oakmont Certified Farmers' Market",
+        "listed_days": "Sat",
+        "listed_hours": "9am - 12pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-occidental",
+      "name": "Occidental Community Farmers' Market",
+      "county": "Sonoma",
+      "city": "Occidental",
+      "address": "3611 Bohemian Hwy, Main St x Second St, Occidental CA 95465",
+      "lat": 38.404859,
+      "lon": -122.947583,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:00",
+          "end": "20:00",
+          "season_start": "05-28",
+          "season_end": "10-29"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Occidental Community Farmers' Market",
+        "listed_days": "Thurs",
+        "listed_hours": "4 - 8pm",
+        "listed_months": "May 28 - Oct 29"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-petaluma-evening",
+      "name": "Petaluma Evening Farmers' Market",
+      "county": "Sonoma",
+      "city": "Petaluma",
+      "address": "175 Fairgrounds Dr. Petaluma 94952",
+      "lat": 38.241685,
+      "lon": -122.630699,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:00",
+          "end": "20:00",
+          "season_start": "07-01",
+          "season_end": "09-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Petaluma Evening Farmers' Market",
+        "listed_days": "Thur",
+        "listed_hours": "4 - 8pm",
+        "listed_months": "Jul - Sep"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-petaluma-kaiser",
+      "name": "Petaluma Kaiser Farmers' Market",
+      "county": "Sonoma",
+      "city": "Petaluma",
+      "address": "3900 Lakeville Hwy x Pineview Way, Petaluma CA 94954",
+      "lat": 38.22994,
+      "lon": -122.58348,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "14:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 1.9 km east to Kaiser Permanente Petaluma, 3900 Lakeville Hwy.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Petaluma Kaiser Farmers' Market",
+        "listed_days": "Thurs",
+        "listed_hours": "10am - 2pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-petaluma-walnut-park",
+      "name": "Petaluma Walnut Park Farmers' Market",
+      "county": "Sonoma",
+      "city": "Petaluma",
+      "address": "Walnut Park Located at 4th and D St., Petaluma, 94952",
+      "lat": 38.231825,
+      "lon": -122.637289,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "14:00",
+          "end": "17:00",
+          "season_start": "05-02",
+          "season_end": "11-21"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Petaluma Walnut Park Farmers' Market",
+        "listed_days": "Sat",
+        "listed_hours": "2- 5pm",
+        "listed_months": "May 2 - Nov 21"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-rohnert-park",
+      "name": "Rohnert Park Farmers' Market",
+      "county": "Sonoma",
+      "city": "Rohnert Park",
+      "address": "500 City Center Drive at Lynn Conde Way, Rohnert Park, 94928",
+      "lat": 38.349743,
+      "lon": -122.704144,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "17:00",
+          "end": "20:00",
+          "season_start": "06-01",
+          "season_end": "08-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Rohnert Park Farmers' Market",
+        "listed_days": "Fri",
+        "listed_hours": "5-8 pm",
+        "listed_months": "Jun - Aug"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-santa-rosa-community",
+      "name": "Santa Rosa Community Farmers' Market",
+      "county": "Sonoma",
+      "city": "Santa Rosa",
+      "address": "1501 Farmers Lane, between Hown Ave. & Bennett Valley Rd., Santa Rosa, 95405",
+      "lat": 38.434179,
+      "lon": -122.687981,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        },
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:30",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Santa Rosa Community Farmers' Market",
+        "listed_days": "Wed & Sat",
+        "listed_hours": "W-9am - 1pm, S-8:30a - 1pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-santa-rosa-downtown",
+      "name": "Santa Rosa Downtown Farmers' Market",
+      "county": "Sonoma",
+      "city": "Santa Rosa",
+      "address": "50 Courthouse Square, Santa Rosa CA 95404, 4th x 3rd St",
+      "lat": 38.440457,
+      "lon": -122.713998,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "11:00",
+          "end": "14:30",
+          "season_start": "07-12",
+          "season_end": "09-20"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Santa Rosa Downtown Farmers' Market",
+        "listed_days": "Sun",
+        "listed_hours": "11am - 2:30pm",
+        "listed_months": "July 12 - Sep 20"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-santa-rosa-kaiser",
+      "name": "Santa Rosa Kaiser Farmers Market",
+      "county": "Sonoma",
+      "city": "Santa Rosa",
+      "address": "401 Bicentennial Way x Mendocino Ave., Santa Rosa CA 95403",
+      "lat": 38.471,
+      "lon": -122.726,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "13:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 1.1 km north to 401 Bicentennial Way (Kaiser campus; lot within about 100 m).",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Santa Rosa Kaiser Farmers Market",
+        "listed_days": "Tue",
+        "listed_hours": "9:30am - 1:30pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-santa-rosa-original",
+      "name": "Santa Rosa Original Certified Farmers Market",
+      "county": "Sonoma",
+      "city": "Santa Rosa",
+      "address": "50 Mark West Springs Rd., Santa Rosa, 95403",
+      "lat": 38.49304,
+      "lon": -122.74931,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:30",
+          "end": "13:00",
+          "season_start": "05-01",
+          "season_end": "12-31"
+        },
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:30",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 380 m south to the Luther Burbank Center, 50 Mark West Springs Rd (large campus; lot not confirmed).",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Santa Rosa Original Certified Farmers Market",
+        "listed_days": "Wed/Sat",
+        "listed_hours": "8:30am - 1pm",
+        "listed_months": "May-Dec/Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-santa-rosa-original-wic",
+      "name": "Santa Rosa Original Certified Farmers Market - WIC Satellite",
+      "county": "Sonoma",
+      "city": "Santa Rosa",
+      "address": "WIC office parking lot, 1450 Guerneville Road at Steele Lane, Santa Rosa, 95401",
+      "lat": 38.45665,
+      "lon": -122.7347,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "12:00",
+          "season_start": "08-01",
+          "season_end": "08-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 210 m to 1450 Guerneville Rd (OSM ZIP 95403).",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Santa Rosa Original Certified Farmers Market - WIC Satellite",
+        "listed_days": "Thu",
+        "listed_hours": "9am - noon",
+        "listed_months": "August"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-sebastopol",
+      "name": "Sebastopol Certified Farmers' Market",
+      "county": "Sonoma",
+      "city": "Sebastopol",
+      "address": "6901 McKinley @ Petaluma Avenue Sebastopol, 95472",
+      "lat": 38.403553,
+      "lon": -122.823508,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "13:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Sebastopol Certified Farmers' Market",
+        "listed_days": "Sun.",
+        "listed_hours": "9am - 1:30pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-sonoma-valley",
+      "name": "Sonoma Valley Certified Farmers' Market",
+      "county": "Sonoma",
+      "city": "Sonoma",
+      "address": "284 First Street West x Spain Street, Sonoma, 95476",
+      "lat": 38.295282,
+      "lon": -122.458303,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "12:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Sonoma Valley Certified Farmers' Market",
+        "listed_days": "Fri",
+        "listed_hours": "9am - 12:30pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-sonoma-tuesday-night",
+      "name": "Sonoma's Tuesday Night Farmers Market",
+      "county": "Sonoma",
+      "city": "Sonoma",
+      "address": "#1 The Plaza, at Broadway St. and Napa St., Sonoma, 95476",
+      "lat": 38.292006,
+      "lon": -122.457777,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "17:00",
+          "end": "20:00",
+          "season_start": "05-05",
+          "season_end": "09-08"
+        }
+      ],
+      "exceptions": [],
+      "website": "https://www.sonomastuesdaynightmarket.com",
+      "instagram": null,
+      "notes": "CDFA gives exact dates (May 6 and Sep 30) that fall on the listed weekday in 2025 but not in 2026, so they read as 2025 dates; shown as not yet confirmed for 2026. The market's site gives Tuesdays, May through September 8, 2026, 5 to 8 pm (checked 2026-11-01). May 5 is the first Tuesday in May; a City of Sonoma page cited for \"May 5\" and for 4:30 to 7:30 pm in September could not be read.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Sonoma's Tuesday Night Farmers Market",
+        "listed_days": "Tue",
+        "listed_hours": "5pm - 8pm",
+        "listed_months": "May 6 - Sep 30"
+      },
+      "schedule_source": "https://www.sonomastuesdaynightmarket.com",
+      "schedule_checked": "2026-11-01",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "sonoma-petaluma-east-side",
+      "name": "The Petaluma East Side Farmers' Market",
+      "county": "Sonoma",
+      "city": "Petaluma",
+      "address": "Lucchesi Park, 320 N McDowell Blvd. x E Madison, Petaluma, 94954",
+      "lat": 38.251999,
+      "lon": -122.630749,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "13:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "The Petaluma East Side Farmers' Market",
+        "listed_days": "Tue",
+        "listed_hours": "9:30am - 1:30pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sonoma-windsor",
+      "name": "Windsor Certified Farmers' Market",
+      "county": "Sonoma",
+      "city": "Windsor",
+      "address": "Market St. & 701 McClelland Dr., Windsor, 95492",
+      "lat": 38.548326,
+      "lon": -122.81373,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "12:30",
+          "season_start": "04-12",
+          "season_end": "12-06"
+        },
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "17:00",
+          "end": "20:00",
+          "season_start": "06-04",
+          "season_end": "08-27"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Windsor Certified Farmers' Market",
+        "listed_days": "Sun & Thurs",
+        "listed_hours": "9:30AM-12:30PM; 5PM-8PM",
+        "listed_months": "April 12 - Dec 6; June 4 - Aug 27"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-corte-madera",
+      "name": "Corte Madera Farmers Market",
+      "county": "Marin",
+      "city": "Corte Madera",
+      "address": "100 Corte Madera Town Center @ Hwy 101, Corte Madera, 94925",
+      "lat": 37.9272,
+      "lon": -122.51579,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "12:00",
+          "end": "17:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 350 m to the mapped Corte Madera Town Center (market lot not confirmed).",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Corte Madera Farmers Market",
+        "listed_days": "Wed.",
+        "listed_hours": "12pm - 5pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-downtown-novato",
+      "name": "Downtown Novato Community Farmers' Markets",
+      "county": "Marin",
+      "city": "Novato",
+      "address": "1707 Grant Ave., behind the CVS on 7th St. near Novato Blvd., Novato, 94945",
+      "lat": 38.109156,
+      "lon": -122.578582,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:00",
+          "end": "20:00",
+          "season_start": "05-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Downtown Novato Community Farmers' Markets",
+        "listed_days": "Tue",
+        "listed_hours": "4-8 pm",
+        "listed_months": "May - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-fairfax",
+      "name": "Fairfax Community Farmers' Market",
+      "county": "Marin",
+      "city": "Fairfax",
+      "address": "Bolinas Park, 124 Bolinas Rd. at Elsie Ln., Fairfax, 94930",
+      "lat": 37.985227,
+      "lon": -122.590429,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:00",
+          "end": "20:00",
+          "season_start": "05-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Fairfax Community Farmers' Market",
+        "listed_days": "Wed",
+        "listed_hours": "4-8 pm",
+        "listed_months": "May - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-kaiser-san-rafael",
+      "name": "Kaiser San Rafael Park Farmers Market",
+      "county": "Marin",
+      "city": "San Rafael",
+      "address": "1650 Los Gamos Dr x Lucas Valley Dr, San Rafael CA 94903",
+      "lat": 38.02125,
+      "lon": -122.54147,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "14:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 150 m to Kaiser Permanente San Rafael Park, 1650 Los Gamos Dr.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Kaiser San Rafael Park Farmers Market",
+        "listed_days": "Fri",
+        "listed_hours": "9:30am - 2pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-country-mart",
+      "name": "Marin Country Mart Farmers' Market",
+      "county": "Marin",
+      "city": "Larkspur",
+      "address": "Larkspur Landing Circle & Sir Francis Drake Blvd., Larkspur, 94939",
+      "lat": 37.945429,
+      "lon": -122.507563,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "14:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Marin Country Mart Farmers' Market",
+        "listed_days": "Sat.",
+        "listed_hours": "9am - 2pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-mill-valley",
+      "name": "Mill Valley Farmers Market",
+      "county": "Marin",
+      "city": "Mill Valley",
+      "address": "CVS Parking Lot, 759 E. Blithedale Ave., Near Ashford Ave., Mill Valley, 94941",
+      "lat": 37.903043,
+      "lon": -122.524111,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "14:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Mill Valley Farmers Market",
+        "listed_days": "Fri",
+        "listed_hours": "9:30am - 2:30pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-novato-hamilton",
+      "name": "Novato Hamilton Landing Farmers' Market",
+      "county": "Marin",
+      "city": "Novato",
+      "address": "Hamilton Landing between Hangar 6 & 7, Novato 94949",
+      "lat": 38.058045,
+      "lon": -122.515034,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "14:00",
+          "season_start": "06-03",
+          "season_end": "11-18"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "CDFA gives exact dates (June 3 and Nov 18) that fall on the listed weekday in 2021 but not in 2026, so they read as 2021 dates; shown as not yet confirmed for 2026. Operator ACE Farmers Markets (ilovefarmersmarkets.org) lists Tuesdays 10 am to 2 pm, \"June 4 through November 26\", no year, footer 2025; those dates are not Tuesdays in 2026, so not confirmed (checked 2026-11-01).",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Novato Hamilton Landing Farmers' Market",
+        "listed_days": "Thurs",
+        "listed_hours": "10am - 2pm",
+        "listed_months": "June 3 - Nov 18"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2021-12-31",
+      "season_year_inferred": true,
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "marin-point-reyes",
+      "name": "Point Reyes Farmers Market",
+      "county": "Marin",
+      "city": "Point Reyes Station",
+      "address": "11250 CA-1, Second St & Shoreline Hwy, Point Reyes, 94956",
+      "lat": 38.067943,
+      "lon": -122.805698,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "14:00",
+          "season_start": "05-01",
+          "season_end": "09-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Point Reyes Farmers Market",
+        "listed_days": "Sat",
+        "listed_hours": "9am - 2pm",
+        "listed_months": "May - Sept"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-san-rafael-summer",
+      "name": "San Rafael Summer Market",
+      "county": "Marin",
+      "city": "San Rafael",
+      "address": "4th Street between B-D, San Rafael, 94901",
+      "lat": 37.973529,
+      "lon": -122.532019,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "confirm_each_year",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": [
+            "2026-05-15",
+            "2026-06-12",
+            "2026-07-10",
+            "2026-08-14",
+            "2026-09-11"
+          ],
+          "start": "16:00",
+          "end": "21:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "CDFA lists the dates without a year or weekday. In 2026 they are all Fridays (in 2025 all Thursdays); read as 2026.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "San Rafael Summer Market",
+        "listed_days": "5/15, 6/12, 7/10, 8/14, 9/11",
+        "listed_hours": "4pm-9pm",
+        "listed_months": "May-Sept"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": "2026-12-31",
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-sausalito-art-harbor",
+      "name": "Sausalito Art & Harbor Days",
+      "county": "Marin",
+      "city": "Sausalito",
+      "address": "1 Tracy Way Promenade, Bridgeway x Anchor, Sausalito CA 94965",
+      "lat": 37.856488,
+      "lon": -122.479866,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "17:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Sausalito Art & Harbor Days",
+        "listed_days": "Sat",
+        "listed_hours": "10am - 5pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-sausalito",
+      "name": "Sausalito Certified Farmers Market",
+      "county": "Marin",
+      "city": "Sausalito",
+      "address": "1610 Bridgeway at Napa St x Bee St, Sausalito CA 94965",
+      "lat": 37.860933,
+      "lon": -122.488617,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "17:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Sausalito Certified Farmers Market",
+        "listed_days": "Sun",
+        "listed_hours": "8am-5pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-strawberry-village",
+      "name": "Strawberry Village Farmers Market",
+      "county": "Marin",
+      "city": "Mill Valley",
+      "address": "800 Redwood Hwy, Mill Valley 94941",
+      "lat": 37.89459,
+      "lon": -122.515911,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "14:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Strawberry Village Farmers Market",
+        "listed_days": "Tue",
+        "listed_hours": "10 am - 2:30 pm",
+        "listed_months": "Year-Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-sunday-marin",
+      "name": "Sunday Marin Farmers Market",
+      "county": "Marin",
+      "city": "San Rafael",
+      "address": "3501 Civic Center Dr., at Peter Behr Dr., San Rafael, 94903",
+      "lat": 37.998943,
+      "lon": -122.530283,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Sunday Marin Farmers Market",
+        "listed_days": "Sun",
+        "listed_hours": "8am - 1pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "marin-thursday-marin",
+      "name": "Thursday Marin Market",
+      "county": "Marin",
+      "city": "San Rafael",
+      "address": "10 Avenue of the Flags, San Rafael CA 94903",
+      "lat": 38.000993,
+      "lon": -122.535262,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "08:00",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Thursday Marin Market",
+        "listed_days": "Thu",
+        "listed_hours": "8am - 1pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mendocino-fort-bragg",
+      "name": "Fort Bragg Certified Farmers Market",
+      "county": "Mendocino",
+      "city": "Fort Bragg",
+      "address": "400 Block of N. Franklin, Fort Bragg, 95437",
+      "lat": 39.445549,
+      "lon": -123.804463,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "14:00",
+          "end": "17:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Fort Bragg Certified Farmers Market",
+        "listed_days": "Wed.",
+        "listed_hours": "2 - 5pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mendocino-laytonville",
+      "name": "Laytonville Certified Farmers' Market",
+      "county": "Mendocino",
+      "city": "Laytonville",
+      "address": "Harwood Hall, 4400 Willis, Harwood & Willis, Laytonville, 95454",
+      "lat": 39.680454,
+      "lon": -123.483025,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Mon",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "14:30",
+          "end": "17:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "CDFA lists 4400 Willis; the pin uses 44400 Willis Ave, Laytonville, which the Census geocoder knows. Pin checked 2026-11-01: OpenStreetMap gives the hall's address as 44400 Willis Ave (CDFA lists 4400).",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Laytonville Certified Farmers' Market",
+        "listed_days": "Mon",
+        "listed_hours": "2:30 - 5:30pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mendocino-mendocino",
+      "name": "Mendocino Certified Farmers Market",
+      "county": "Mendocino",
+      "city": "Mendocino",
+      "address": "Howard St. & Main St., Mendocino, 95460",
+      "lat": 39.306466,
+      "lon": -123.797593,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Fri",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "12:00",
+          "end": "14:00",
+          "season_start": "05-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Mendocino Certified Farmers Market",
+        "listed_days": "Fri.",
+        "listed_hours": "noon - 2pm",
+        "listed_months": "May - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mendocino-redwood-valley",
+      "name": "Redwood Valley Farmers Market",
+      "county": "Mendocino",
+      "city": "Redwood Valley",
+      "address": "Lions Club Park, 8920 East Road, Redwood Valley, 95470",
+      "lat": 39.270489,
+      "lon": -123.205562,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Sun",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:30",
+          "end": "12:30",
+          "season_start": "06-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Redwood Valley Farmers Market",
+        "listed_days": "Sun.",
+        "listed_hours": "9:30am - 12:30pm",
+        "listed_months": "Jun - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mendocino-ukiah",
+      "name": "Ukiah Certified Farmers' Market",
+      "county": "Mendocino",
+      "city": "Ukiah",
+      "address": "Alex Plaza at School St., Ukiah, 95482",
+      "lat": 39.14852,
+      "lon": -123.2078,
+      "geo_source": "manual",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "09:00",
+          "end": "12:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "Pin checked 2026-11-01 against OpenStreetMap: moved about 190 m to Alex R. Thomas Jr. Plaza.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Ukiah Certified Farmers' Market",
+        "listed_days": "Sat.",
+        "listed_hours": "9am- Noon",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mendocino-willits",
+      "name": "Willits Certified Farmers Market",
+      "county": "Mendocino",
+      "city": "Willits",
+      "address": "Main & W. Mendocino, Willits, 95490",
+      "lat": 39.411289,
+      "lon": -123.354513,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Thu",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "15:00",
+          "end": "17:30",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Willits Certified Farmers Market",
+        "listed_days": "Thu",
+        "listed_hours": "3 - 5:30pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "lake-clearlake",
+      "name": "Clearlake Certified Farmers Market",
+      "county": "Lake",
+      "city": "Clearlake",
+      "address": "Austin Park 14077 Lakeshore Dr. x Division, Clearlake CA 95422",
+      "lat": 38.960905,
+      "lon": -122.649618,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "13:00",
+          "season_start": "04-01",
+          "season_end": "10-31"
+        },
+        {
+          "recurrence": "annual_season",
+          "weekday": "Wed",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "16:30",
+          "end": "19:30",
+          "season_start": "04-01",
+          "season_end": "10-31"
+        },
+        {
+          "recurrence": "annual_season",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "13:00",
+          "season_start": "04-01",
+          "season_end": "10-31"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": "CDFA lists 'Wed & Sat, 10am - 1pm; 4:30 - 7:30pm'. Read here as two windows on Wednesday and the morning window on Saturday; the listing could also mean Wednesday morning and Saturday evening. Confirm with the market.",
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Clearlake Certified Farmers Market",
+        "listed_days": "Wed & Sat",
+        "listed_hours": "10am - 1pm; 4:30 - 7:30pm",
+        "listed_months": "Apr - Oct"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "lake-finley-mercantile",
+      "name": "Saturday Market at the Mercantile",
+      "county": "Lake",
+      "city": "Finley",
+      "address": "4350 Thomas Dr., Finley, 95435, HWY 29 near Finley between Lakeport and Kelseyville",
+      "lat": 38.992859,
+      "lon": -122.875435,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "year_round",
+          "weekday": "Sat",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "13:00",
+          "season_start": null,
+          "season_end": null
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Saturday Market at the Mercantile",
+        "listed_days": "Sat",
+        "listed_hours": "10am - 1pm",
+        "listed_months": "Year Round"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "lake-lakeport-library-park",
+      "name": "Tuesday Market at Library Park",
+      "county": "Lake",
+      "city": "Lakeport",
+      "address": "200 Park St., Lakeport, 95453",
+      "lat": 39.042344,
+      "lon": -122.914058,
+      "geo_source": "census",
+      "sessions": [
+        {
+          "recurrence": "annual_season",
+          "weekday": "Tue",
+          "nth_of_month": null,
+          "dates": null,
+          "start": "10:00",
+          "end": "13:00",
+          "season_start": "05-01",
+          "season_end": "09-30"
+        }
+      ],
+      "exceptions": [],
+      "website": null,
+      "instagram": null,
+      "notes": null,
+      "source": {
+        "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+        "as_of": "2026-10-01",
+        "listed_name": "Tuesday Market at Library Park",
+        "listed_days": "Tue",
+        "listed_hours": "10am - 1pm",
+        "listed_months": "May - Sep"
+      },
+      "schedule_source": "cdfa",
+      "schedule_checked": "2026-10-31",
+      "schedule_valid_through": null,
+      "season_year_inferred": false,
+      "last_checked": "2026-10-31"
+    }
+  ]
+}

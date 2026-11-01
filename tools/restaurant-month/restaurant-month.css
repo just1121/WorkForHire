@@ -1,0 +1,120 @@
+/* Restaurant Month. House register: cream ground, ink, Fraunces / Source Sans 3 / JetBrains Mono.
+   Text colors on the ground are 4.5:1 or better: ink 17.9, mute 6.9, link 10.4, accent 6.1. */
+:root {
+  --ground: #FDFCF9;
+  --ink: #161614;
+  --mute: #595955;
+  --rule: #E2DFD5;
+  --panel: #FFFEFA;
+  --link: #24405E;
+  --focus: #9A4A2B;
+  --accent: #9A4A2B;
+  --napa: #6B2737;   /* white on it 10.9 */
+  --sonoma: #24405E; /* white on it 10.4 */
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Source Sans 3', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+/* Without JavaScript only the static list for the current state and the footer show. */
+html:not(.js) .js-only { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 17px/1.5 var(--sans); }
+a { color: var(--link); }
+a:hover { color: var(--ink); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.skip { position: absolute; left: -9999px; top: 0; }
+.skip:focus { left: 16px; top: 8px; background: var(--ink); color: var(--ground); padding: 6px 10px; z-index: 2000; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 48px; }
+.top { padding: 24px 0 8px; border-bottom: 1px solid var(--rule); }
+.back { margin: 0 0 12px; font: 500 13px/1.4 var(--mono); }
+.back a { display: inline-flex; align-items: center; min-height: 44px; }
+h1 { font: 700 clamp(32px, 6vw, 52px)/1.05 var(--serif); margin: 0 0 8px; letter-spacing: -0.01em; }
+.lede { margin: 0 0 12px; font-size: 19px; }
+.as-of { font: 500 14px/1.4 var(--mono); color: var(--accent); }
+h2 { font: 700 26px/1.2 var(--serif); margin: 32px 0 8px; }
+h3 { font: 700 18px/1.3 var(--sans); margin: 0 0 4px; }
+
+/* ---- Promotion sections */
+.series { padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+.dates { margin: 0; font: 500 16px/1.4 var(--mono); }
+.countdown { margin: 4px 0 0; font-weight: 600; }
+.banner { margin: 0; padding: 10px 14px; background: var(--panel); border: 1px solid var(--ink); font-weight: 600; }
+.series .label { margin: 16px 0 8px; font: 600 14px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--mute); }
+.empty { color: var(--mute); }
+
+.entries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.entries--ref { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.entry { background: var(--panel); border: 1px solid var(--rule); padding: 14px 16px; }
+.entry--ref { padding: 10px 12px; }
+.entry--ref h3 { font-size: 16px; }
+.where { margin: 2px 0 6px; font-size: 15px; color: var(--mute); }
+.offers { list-style: none; margin: 6px 0; padding: 0; font-size: 15px; }
+.offers li { padding: 6px 0; border-top: 1px solid var(--rule); }
+.offers li:first-child { border-top: 0; }
+.offers .price { font: 700 15px/1.3 var(--mono); margin-right: 8px; }
+.offers .meal { font-weight: 600; margin-right: 6px; }
+.offers .meal::after { content: ":"; }
+.offers .desc { white-space: pre-line; }
+.offers .when { display: block; font-size: 14px; color: var(--accent); font-weight: 600; }
+.offers .ended { color: var(--mute); text-decoration: line-through; }
+.offers .match { display: block; font: 600 13px/1.4 var(--mono); color: var(--ink); }
+.offers .match::before { content: "\2713  "; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.links { margin: 6px 0 0; font-size: 15px; }
+.links a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; }
+.leaflet-bar a { width: 44px !important; height: 44px !important; line-height: 44px !important; }
+.links a.book { font-weight: 700; }
+.stale { font-size: 14px; font-weight: 600; color: var(--accent); margin: 6px 0 0; }
+.address { font-size: 15px; }
+
+/* ---- Active: filters, map, list */
+.filters { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; padding: 12px 14px; background: var(--panel); border: 1px solid var(--rule); margin-bottom: 16px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field label { font-weight: 600; font-size: 15px; }
+.field select { font: inherit; padding: 6px 8px; min-height: 44px; border: 1px solid var(--mute); background: #FFFFFF; color: var(--ink); }
+.field--check { flex-direction: row; align-items: center; gap: 8px; min-height: 44px; padding: 0 8px 0 0; font-weight: 600; font-size: 15px; cursor: pointer; }
+.field--check input { width: 20px; height: 20px; margin: 0; accent-color: var(--ink); }
+.map-help { margin: 0 0 8px; color: var(--mute); font-size: 15px; }
+.map { height: 480px; border: 1px solid var(--ink); background: #EEECE4; }
+.map-unavailable { padding: 12px; border: 1px solid var(--rule); background: var(--panel); }
+.list-count { color: var(--mute); font-size: 15px; margin: 10px 0; }
+
+/* Pins: a letter on a shape (N circle, S square), so the promotion never rests on color alone.
+   The 44px box is the transparent hit area; the visible shape inside it is smaller. */
+.pin { display: grid !important; place-items: center; background: none; border: 0; cursor: pointer; }
+.pin-glyph {
+  display: grid; place-items: center; width: 26px; height: 26px;
+  border: 2px solid #FFFFFF; box-shadow: 0 1px 4px rgba(20,20,18,0.45);
+  color: #FFFFFF; font: 700 13px/1 var(--mono);
+}
+.pin--napa .pin-glyph { background: var(--napa); border-radius: 50%; }
+.pin--sonoma .pin-glyph { background: var(--sonoma); border-radius: 3px; }
+.pin:focus-visible { outline: 3px solid var(--ink); outline-offset: -4px; }
+
+/* ---- Dialog */
+.dialog { border: 1.5px solid var(--ink); background: var(--panel); color: var(--ink); padding: 0; width: min(560px, calc(100vw - 32px)); max-height: calc(100vh - 32px); }
+.dialog::backdrop { background: rgba(22,22,20,0.45); }
+.dialog-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; padding: 16px 18px 0; }
+.dialog-head h2 { margin: 0; font-size: 24px; }
+.dialog-close { font: 600 15px/1 var(--sans); padding: 10px 14px; min-height: 44px; min-width: 44px; border: 1px solid var(--ink); background: var(--ground); color: var(--ink); cursor: pointer; }
+#dlg-body { padding: 8px 18px 18px; }
+#dlg-body .entry { border: 0; padding: 0; background: none; }
+
+/* ---- Footer */
+.foot { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 15px; color: var(--mute); }
+.foot p { margin: 4px 0; }
+
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  .map { height: 360px; }
+  .entries, .entries--ref { grid-template-columns: 1fr; }
+  .filters { flex-direction: column; align-items: stretch; }
+}
+
+/* "subject to change" line (Jay, 2026-11-01); visible with and without JavaScript */
+.change-note { margin: 16px 0 0; font-size: 15px; color: #595955; }

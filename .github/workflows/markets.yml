@@ -1,0 +1,102 @@
+# Farmers market map: weekly check of the CDFA certified farmers' market list. Spec: tools/MARKETS.md.
+# Reads only. Never edits data/markets.json or the page and never commits; when something needs review
+# it opens ONE issue (or comments on the one already open, found by exact title). No keys, no LLM.
+# On push and pull request (data or tools/markets changed) it runs the tests and the inline check only.
+# Note: GitHub disables scheduled workflows after 60 days without repository activity; the page's
+# 45-day "confirm hours" line is the guard.
+name: Markets check
+
+on:
+  schedule:
+    - cron: "41 15 * * 1"   # Mondays 15:41 UTC (morning in California); off the top of the hour
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/markets.json"
+      - "tools/markets/**"
+      - ".github/workflows/markets.yml"
+  pull_request:
+    paths:
+      - "data/markets.json"
+      - "tools/markets/**"
+      - ".github/workflows/markets.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: markets-check-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ISSUE_TITLE: "Markets: CDFA list needs review"
+      ISSUE_LABEL: markets-check
+      WATCH: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Test (offline fixtures)
+        run: python -m unittest discover -s tools/markets/tests -t . -v
+
+      - name: Test markets.js (Node, no packages)
+        if: always()
+        run: node --test tools/markets/tests/markets.test.js
+
+      - name: Page matches data (inlined block)
+        if: always()
+        run: python tools/markets/inline.py --check
+
+      # The PDF watch runs even when a test above failed (if: always()), so a broken test never hides a
+      # CDFA change. pypdf is allowed for this job only, pinned to the version that wrote
+      # cdfa-snapshot.txt, since layout extraction can shift between releases.
+      - name: Install pypdf
+        if: always() && env.WATCH == 'true'
+        run: python -m pip install --quiet "pypdf==6.16.1"
+
+      - name: Check CDFA list
+        id: check
+        if: always() && env.WATCH == 'true'
+        run: |
+          python tools/markets/cdfa_check.py \
+            --report "$RUNNER_TEMP/cdfa-report.json" \
+            --issue-body "$RUNNER_TEMP/cdfa-issue.md"
+          {
+            echo "### CDFA check"
+            echo '```json'
+            cat "$RUNNER_TEMP/cdfa-report.json"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Log extraction and verification
+        if: always() && env.WATCH == 'true'
+        run: |
+          echo "extraction ok: ${{ steps.check.outputs.extraction_ok }}"
+          echo "verification ok: ${{ steps.check.outputs.verification_ok }}"
+
+      - name: Open or update the review issue
+        if: always() && env.WATCH == 'true' && steps.check.outputs.problem == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh label create "$ISSUE_LABEL" --color C2A26B --description "Weekly CDFA market list check" 2>/dev/null || true
+          existing=$(gh issue list --state open --limit 100 --json number,title \
+            --jq '.[] | select(.title == env.ISSUE_TITLE) | .number' | head -1)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file "$RUNNER_TEMP/cdfa-issue.md"
+            echo "commented on issue #$existing"
+          else
+            gh issue create --title "$ISSUE_TITLE" --label "$ISSUE_LABEL" --body-file "$RUNNER_TEMP/cdfa-issue.md"
+          fi

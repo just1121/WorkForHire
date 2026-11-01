@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "years": [
+      2026,
+      2027
+    ],
+    "generated_by": "python3 tools/bigdays/bigdays.py --emit-holidays 2026 2027",
+    "counts": "U.S. federal holidays (5 U.S.C. 6103) plus California's Cesar Chavez Day (March 31, Gov. Code 6700) and the day after Thanksgiving (Gov. Code 19853).",
+    "observed_rule": "Federal: Saturday holidays are observed the Friday before, Sunday holidays the Monday after. California holidays: Sunday is observed the Monday after; Saturday is not moved (the day after Thanksgiving is always a Friday).",
+    "three_day_weekend_rule": "An observed holiday on a Monday makes Saturday, Sunday and Monday a holiday weekend; on a Friday, Friday, Saturday and Sunday. Thanksgiving week: Thursday through Sunday (the day after Thanksgiving is a California holiday). Other midweek holidays make none."
+  },
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "kind": "federal",
+      "date": "2026-01-01",
+      "observed": "2026-01-01"
+    },
+    {
+      "name": "Martin Luther King Jr. Day",
+      "kind": "federal",
+      "date": "2026-01-19",
+      "observed": "2026-01-19"
+    },
+    {
+      "name": "Washington's Birthday",
+      "kind": "federal",
+      "date": "2026-02-16",
+      "observed": "2026-02-16"
+    },
+    {
+      "name": "Cesar Chavez Day",
+      "kind": "california",
+      "date": "2026-03-31",
+      "observed": "2026-03-31"
+    },
+    {
+      "name": "Memorial Day",
+      "kind": "federal",
+      "date": "2026-05-25",
+      "observed": "2026-05-25"
+    },
+    {
+      "name": "Juneteenth",
+      "kind": "federal",
+      "date": "2026-06-19",
+      "observed": "2026-06-19"
+    },
+    {
+      "name": "Independence Day",
+      "kind": "federal",
+      "date": "2026-07-04",
+      "observed": "2026-07-03"
+    },
+    {
+      "name": "Labor Day",
+      "kind": "federal",
+      "date": "2026-09-07",
+      "observed": "2026-09-07"
+    },
+    {
+      "name": "Columbus Day",
+      "kind": "federal",
+      "date": "2026-10-12",
+      "observed": "2026-10-12"
+    },
+    {
+      "name": "Veterans Day",
+      "kind": "federal",
+      "date": "2026-11-11",
+      "observed": "2026-11-11"
+    },
+    {
+      "name": "Thanksgiving Day",
+      "kind": "federal",
+      "date": "2026-11-26",
+      "observed": "2026-11-26"
+    },
+    {
+      "name": "Day after Thanksgiving",
+      "kind": "california",
+      "date": "2026-11-27",
+      "observed": "2026-11-27"
+    },
+    {
+      "name": "Christmas Day",
+      "kind": "federal",
+      "date": "2026-12-25",
+      "observed": "2026-12-25"
+    },
+    {
+      "name": "New Year's Day",
+      "kind": "federal",
+      "date": "2027-01-01",
+      "observed": "2027-01-01"
+    },
+    {
+      "name": "Martin Luther King Jr. Day",
+      "kind": "federal",
+      "date": "2027-01-18",
+      "observed": "2027-01-18"
+    },
+    {
+      "name": "Washington's Birthday",
+      "kind": "federal",
+      "date": "2027-02-15",
+      "observed": "2027-02-15"
+    },
+    {
+      "name": "Cesar Chavez Day",
+      "kind": "california",
+      "date": "2027-03-31",
+      "observed": "2027-03-31"
+    },
+    {
+      "name": "Memorial Day",
+      "kind": "federal",
+      "date": "2027-05-31",
+      "observed": "2027-05-31"
+    },
+    {
+      "name": "Juneteenth",
+      "kind": "federal",
+      "date": "2027-06-19",
+      "observed": "2027-06-18"
+    },
+    {
+      "name": "Independence Day",
+      "kind": "federal",
+      "date": "2027-07-04",
+      "observed": "2027-07-05"
+    },
+    {
+      "name": "Labor Day",
+      "kind": "federal",
+      "date": "2027-09-06",
+      "observed": "2027-09-06"
+    },
+    {
+      "name": "Columbus Day",
+      "kind": "federal",
+      "date": "2027-10-11",
+      "observed": "2027-10-11"
+    },
+    {
+      "name": "Veterans Day",
+      "kind": "federal",
+      "date": "2027-11-11",
+      "observed": "2027-11-11"
+    },
+    {
+      "name": "Thanksgiving Day",
+      "kind": "federal",
+      "date": "2027-11-25",
+      "observed": "2027-11-25"
+    },
+    {
+      "name": "Day after Thanksgiving",
+      "kind": "california",
+      "date": "2027-11-26",
+      "observed": "2027-11-26"
+    },
+    {
+      "name": "Christmas Day",
+      "kind": "federal",
+      "date": "2027-12-25",
+      "observed": "2027-12-24"
+    },
+    {
+      "name": "New Year's Day",
+      "kind": "federal",
+      "date": "2028-01-01",
+      "observed": "2027-12-31"
+    }
+  ],
+  "three_day_weekends": [
+    {
+      "holiday": "Martin Luther King Jr. Day",
+      "dates": [
+        "2026-01-17",
+        "2026-01-18",
+        "2026-01-19"
+      ]
+    },
+    {
+      "holiday": "Washington's Birthday",
+      "dates": [
+        "2026-02-14",
+        "2026-02-15",
+        "2026-02-16"
+      ]
+    },
+    {
+      "holiday": "Memorial Day",
+      "dates": [
+        "2026-05-23",
+        "2026-05-24",
+        "2026-05-25"
+      ]
+    },
+    {
+      "holiday": "Juneteenth",
+      "dates": [
+        "2026-06-19",
+        "2026-06-20",
+        "2026-06-21"
+      ]
+    },
+    {
+      "holiday": "Independence Day",
+      "dates": [
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-05"
+      ]
+    },
+    {
+      "holiday": "Labor Day",
+      "dates": [
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07"
+      ]
+    },
+    {
+      "holiday": "Columbus Day",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ]
+    },
+    {
+      "holiday": "Day after Thanksgiving",
+      "dates": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ]
+    },
+    {
+      "holiday": "Christmas Day",
+      "dates": [
+        "2026-12-25",
+        "2026-12-26",
+        "2026-12-27"
+      ]
+    },
+    {
+      "holiday": "New Year's Day",
+      "dates": [
+        "2027-01-01",
+        "2027-01-02",
+        "2027-01-03"
+      ]
+    },
+    {
+      "holiday": "Martin Luther King Jr. Day",
+      "dates": [
+        "2027-01-16",
+        "2027-01-17",
+        "2027-01-18"
+      ]
+    },
+    {
+      "holiday": "Washington's Birthday",
+      "dates": [
+        "2027-02-13",
+        "2027-02-14",
+        "2027-02-15"
+      ]
+    },
+    {
+      "holiday": "Memorial Day",
+      "dates": [
+        "2027-05-29",
+        "2027-05-30",
+        "2027-05-31"
+      ]
+    },
+    {
+      "holiday": "Juneteenth",
+      "dates": [
+        "2027-06-18",
+        "2027-06-19",
+        "2027-06-20"
+      ]
+    },
+    {
+      "holiday": "Independence Day",
+      "dates": [
+        "2027-07-03",
+        "2027-07-04",
+        "2027-07-05"
+      ]
+    },
+    {
+      "holiday": "Labor Day",
+      "dates": [
+        "2027-09-04",
+        "2027-09-05",
+        "2027-09-06"
+      ]
+    },
+    {
+      "holiday": "Columbus Day",
+      "dates": [
+        "2027-10-09",
+        "2027-10-10",
+        "2027-10-11"
+      ]
+    },
+    {
+      "holiday": "Day after Thanksgiving",
+      "dates": [
+        "2027-11-25",
+        "2027-11-26",
+        "2027-11-27",
+        "2027-11-28"
+      ]
+    },
+    {
+      "holiday": "Christmas Day",
+      "dates": [
+        "2027-12-24",
+        "2027-12-25",
+        "2027-12-26"
+      ]
+    },
+    {
+      "holiday": "New Year's Day",
+      "dates": [
+        "2027-12-31",
+        "2028-01-01",
+        "2028-01-02"
+      ]
+    }
+  ]
+}

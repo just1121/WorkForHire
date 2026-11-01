@@ -1,0 +1,163 @@
+# CDFA certified farmers' market list: the five counties, as extracted by cdfa_check.py.
+# Written by hand with --write-snapshot after data/markets.json is brought up to date.
+# sha256: 846d121f3e38ec1ee5f83c95c2260a6ae3857b11b3ad88d31ba9dc548fb06742
+# as_of: October 1, 2026
+# counts: Napa=8 Sonoma=24 Marin=14 Mendocino=6 Lake=3
+## Napa
+1311 W ashington Street, Calistoga, 9am - Year
+Napa Calistoga Farmers Market 94515 Ed Smith Sat 1pm Round (707) 486-2098
+738 Main Street @ Charter Oak Jess 8am - Nov -
+Napa Farmstead Farmers' Market Ave., St.Helena, 94574 Arnsteen Fri 12pm Apr (707) 963-4555
+1st
+Thu
+1268 McKinstry St, First St x Soscol Cara Mae per 5pm - May 1 -
+Napa First Thursdays Market Ave, Napa CA 94559 W ooledge month 8pm Oct 9 (707) 501-3087
+3285 Claremont W ay x Joseph 9:30am- Year-
+Napa Kaiser Napa Farmers Market Permanente W ay, Napa Gaude Mon 1:30pm Round (415) 996-8179
+S-Year
+Round,
+1100 W est Street, x Pearl Street, Sat & 8am - T- Apr-
+Napa Napa Farmers Market Napa, 94559 Mimi Adams Tue noon Dec (707) 501-3087
+585 1st St x Soscol Ave, Napa CA Edward 2pm - Year-
+Napa Napa Yard Plaza 94559 Zawada Thu 9pm Round (925) 605-6119
+Crane Park, 360 Crane Ave., St. 7:30am - May -
+Napa St. Helena Farmers Market Helena, 94574 Ed Smith Fri 12pm Oct (707) 486-2099
+Yountville Certified Farmers' 6498 W ashington St. x Mulberry John 8am - May -
+Napa Market St., Yountville CA 94599 Gallardo Sun 3pm Oct (949) 842-9789
+## Sonoma
+2255 Highway 1 x Bay Hill Road, Diana 10am - May 25 -
+Sonoma Bodega Bay Farmers Market Bodega Bay, 94923 Bundy Sun 2pm Oct 26 (707) 875-9609
+County Market Name Market Location Manager D a ys Hours Months Market Phone
+Name
+Cloverdale Certified Farmers Cloverdale Plaza 122 N Cloverdale Dennis 9:30am - April 12 -
+Sonoma Market Blvd., Cloverdale 95425 Dunn Tue 1pm Nov 22 (707) 481-6800
+Cotati Community Farmers' La Plaza Park - W . Sierra and Old 4:30pm - Jun -
+Sonoma Market Redwood Hwy, Cotati, 94931 Kelly Smith W ed 7:30pm Sep (415) 999-5635
+Forestville Certified Farmers' 6990 Front St. at 2nd St., W endy 4:30 - June 2 -
+Sonoma Market Forestville, 95436 Flowers Fri 8:00pm Sep 11 (707) 481-3565
+11700 Dunbar Rd x Henno Rd and Shannon 10am - Year-
+Sonoma Glen Ellen Farmers Market Vintage Ln, Glen Ellen CA 95442 Beck Sun 2pm Round (707) 996-3849
+Guerneville Certified Farmers 16290 Fifth St x Church St, 3pm - Jun -
+Sonoma Market Guerneville CA 95446 Pegi Ball Thu 7pm Aug (707) 481-6800
+Healdsburg Certifed Farmers' W est Plaza Parking Lot North & Sat / 8:30am - Apr -
+Sonoma Market-Saturday Vine Streets, Healdsburg, 95448 Janet Ciel Tue noon Sep (707) 824-8717
+8:30am - Apr -
+12pm / Dec /
+Healdsburg Certified Farmers Healdsburg Plaza, Healdsburg, Sat / 9am - May -
+Sonoma Market 95448 Janet Ciel Tue 1pm Sep (707) 824-8717
+Oakmont Certified Farmers' Parking Lot @ Oakmont Dr. and 9am - Year
+Sonoma Market W hite Oak Dr., Santa Rosa, 95409 Hilda Swartz Sat 12pm Round (707) 538-7023
+Occidental Community 3611 Bohemian Hwy, Main St x May 28 -
+Sonoma Farmers' Market Second St, Occidental CA 95465 Eli Klaraman Thurs 4 - 8pm Oct 29 (707) 241-3574
+Petaluma Evening Farmers' 175 Fairgrounds Dr. Petaluma
+Sonoma Market 94952 Karen Marks Thur 4 - 8pm Jul - Sep (415) 999-5635
+Petaluma Kaiser Farmers' 3900 Lakeville Hwy x Pineview Ahmad 10am - Year-
+Sonoma Market W ay, Petaluma CA 94954 Baratti Thurs 2pm Round (415) 996-8179
+Petaluma W alnut Park W alnut Park Located at 4th and D May 2 -
+Sonoma Farmers' Market St., Petaluma, 94952 Karen Marks Sat 2- 5pm Nov 21 (415) 999-5635
+County Market Name Market Location Manager D a ys Hours Months Market Phone
+Name
+500 City Center Drive at Lynn Jun -
+Sonoma Rohnert Park Farmers' Market Conde W ay, Rohnert Park, 94928 Karen Marks Fri 5-8 pm Aug (415) 999-5635
+W -9am -
+1501 Farmers Lane, between Hown 1pm, S-
+Santa Rosa Community Ave. & Bennett Valley Rd., Santa W ed 8:30a - Year
+Sonoma Farmers' Market Rosa, 95405 Jim Fenton & Sat 1pm Round (415) 755-7581
+Santa Rosa Downtown 50 Courthouse Square, Santa Rosa Althea 11am - July 12 -
+Sonoma Farmers' Market CA 95404, 4th x 3rd St Armada Sun 2:30pm Sep 20 (707) 321-1207
+Santa Rosa Kaiser Farmers 401 Bicentennial W ay x Mendocino Joesph 9:30am - Year
+Sonoma Market Ave., Santa Rosa CA 95403 Gaude Tue 1:30pm Round (415) 996-8179
+May-
+Santa Rosa Original Certified 50 Mark W est Springs Rd., Santa W ed/ 8:30am - Dec/Yea
+Sonoma Farmers Market Rosa, 95403 Pegi Ball Sat 1pm r Round (707) 596-8553
+Santa Rosa Original Certified W IC office parking lot, 1450
+Farmers Market - W IC Guerneville Road at Steele Lane, 9am -
+Sonoma Satellite Santa Rosa, 95401 Pegi Ball Thu noon August (707) 481-6800
+Sebastopol Certified Farmers' 6901 McKinley @ Petaluma Barbara 9am - Year
+Sonoma Market Avenue Sebastopol, 95472 Hom Sun. 1:30pm Round (707) 328-9950
+9am -
+Sonoma Valley Certified 284 First Street W est x Spain 12:30p Year
+Sonoma Farmers' Market Street, Sonoma, 95476 Melissa Lely Fri m Round (209) 480-9048
+Sonoma's Tuesday Night #1 The Plaza, at Broadway St. and Jerry 5pm - May 6 -
+Sonoma Farmers Market Napa St., Sonoma, 95476 W heeler Tue 8pm Sep 30 (707) 974-0216
+Lucchesi Park, 320 N McDowell
+The Petaluma East Side Blvd. x E Madison, Petaluma, 9:30am - Year-
+Sonoma Farmers' Market 94954 Kelly Smith Tue 1:30pm Round (415) 999-5635
+County Market Name Market Location Manager D a ys Hours Months Market Phone
+Name
+9:30AM- April 12 -
+12:30P Dec 6;
+W indsor Certified Farmers' Market St. & 701 McClelland Dr., Sun & M; 5PM- June 4 -
+Sonoma Market W indsor, 95492 Tina Castelli Thurs 8PM Aug 27 (707) 246-6741
+Simba's
+Kaiser Modesto Farmers Heirloom 9:30am - Year
+## Marin
+100 Corte Madera Town Center @ 12pm - Year
+Marin Corte Madera Farmers Market Hwy 101, Corte Madera, 94925 Lynn Bagley W ed. 5pm Round (415) 577-2539
+1707 Grant Ave., behind the CVS
+Downtown Novato Community on 7th St. near Novato Blvd., May -
+Marin Farmers' Markets Novato, 94945 Karen Marks Tue 4-8 pm Oct (415) 999-5635
+Fairfax Community Farmers' Bolinas Park, 124 Bolinas Rd. at May -
+Marin Market Elsie Ln., Fairfax, 94930 Karen Marks W ed 4-8 pm Oct (415) 342-3952
+Kaiser San Rafael Park 1650 Los Gamos Dr x Lucas Valley Ahmad 9:30am - Year-
+Marin Farmers Market Dr, San Rafael CA 94903 Baratti Fri 2pm Round (415) 996-8179
+Larkspur Landing Circle & Sir
+Marin Country Mart Farmers' Francis Drake Blvd., Larkspur, Diana 9am - Year-
+Marin Market 94939 Rodgers Sat. 2pm Round (310) 433-1305
+CVS Parking Lot, 759 E. Blithedale
+Ave., Near Ashford Ave., Mill 9:30am - Year
+Marin Mill Valley Farmers Market Valley, 94941 Lynn Bagley Fri 2:30pm Round (415) 577-2539
+County Market Name Market Location Manager D a ys Hours Months Market Phone
+Name
+Heather
+Novato Hamilton Landing Hamilton Landing between Hangar Stuckenbrok 10am - June 3 -
+Marin Farmers' Market 6 & 7, Novato 94949 er Thurs 2pm Nov 18 (415) 999-5635
+11250 CA-1, Second St & Brittany 9am - May -
+Marin Point Reyes Farmers Market Shoreline Hwy, Point Reyes, 94956 Panela Sat 2pm Sept (415) 472-6100
+5/15,6
+/12,7/
+4th Street between B-D, San Elizabeth 10,8/1 4pm- May-
+Marin San Rafael Summer Market Rafael, 94901 Gonzalez 4,9/11 9pm Sept (415) 712-0357
+1 Tracy W ay Promenade,
+Bridgeway x Anchor, Sausalito CA Edward 10am - Year-
+Marin Sausalito Art & Harbor Days 94965 Zawada Sat 5pm Round (925) 605-6119
+Sausalito Certified Farmers 1610 Bridgeway at Napa St x Bee 8am- Year-
+Marin Market St, Sausalito CA 94965 Ed Smith Sun 5pm Round (707) 486-2099
+Strawberry Village Farmers 800 Redwood Hwy, Mill Valley 10 am - Year-
+Marin Market 94941 Lynn Bagley Tue 2:30 pm Round (415) 577-2539
+3501 Civic Center Dr., at Peter Darien 8am - Year
+Marin Sunday Marin Farmers Market Behr Dr., San Rafael, 94903 Malekos Sun 1pm Round (415) 472-6100
+10 Avenue of the Flags, San Rafael 8am - Year
+Marin Thursday Marin Market CA 94903 Zoe Kalbag Thu 1pm Round (415) 472-6100
+Lauren
+5029 Stroming Rd x 6th St, Schottenfeld- 3pm - Year-
+## Mendocino
+Fort Bragg Certified Farmers 400 Block of N. Franklin, Fort Julie Year
+Mendocino Market Bragg, 95437 Apostolu W ed. 2 - 5pm Round (707) 357-6035
+Harwood Hall, 4400 W illis,
+Laytonville Certified Farmers' Harwood & W illis, Laytonville, Gloria 2:30 - Year
+Mendocino Market 95454 Harrison Mon 5:30pm Round (707) 560-4938
+Mendocino Certified Farmers Howard St. & Main St., Mendocino, Julie noon - May -
+Mendocino Market 95460 Apostolu Fri. 2pm Oct (707) 357-6035
+County Market Name Market Location Manager D a ys Hours Months Market Phone
+Name
+9:30am -
+Redwood Valley Farmers Lions Club Park, 8920 East Road, Amanda 12:30p Jun -
+Mendocino Market Redwood Valley, 95470 Fairall Sun. m Oct (707) 391-7416
+Ukiah Certified Farmers' Alex Plaza at School St., Ukiah, Gloria 9am- Year
+Mendocino Market 95482 Harrison Sat. Noon Round (707) 380-9988
+W illits Certified Farmers Main & W . Mendocino, W illits, Michael 3 - Year
+Mendocino Market 95490 Foley Thu 5:30pm Round (707) 510-7473
+Kind Neighbor Farmers' 847 W Childs Ave x N St, Merced Rocio 8am - May 28 -
+## Lake
+10am -
+1pm;
+Clearlake Certified Farmers Austin Park 14077 Lakeshore Dr. x Elizabeth W ed 4:30 - Apr -
+Lake Market Division, Clearlake CA 95422 Kelly & Sat 7:30pm Oct (707) 350-5683
+4350 Thomas Dr., Finley, 95435, Cornelia
+Saturday Market at the HW Y 29 near Finley between Sieber- 10am - Year
+Lake Mercantile Lakeport and Kelseyville Davis Sat 1pm Round (707) 263-6076
+Cornelia
+Tuesday Market at Library Sieber- 10am - May -
+Lake Park 200 Park St., Lakeport, 95453 Davis Tue 1pm Sep (707) 263-6076
+Historic Susanville Farmer's South Gay Street, from Main to Shelby 8am - Jun -

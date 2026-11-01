@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "school_year": "2026-27",
+    "last_reviewed": "2026-11-01",
+    "note": "Only these districts, from each district's own published calendar. Los Angeles Unified is left out: lausd.org refused automated requests (HTTP 403) on 2026-11-01 and no third-party copy is used."
+  },
+  "districts": [
+    {
+      "id": "SFUSD",
+      "name": "San Francisco Unified",
+      "calendar_title": "SFUSD School Holiday Calendar 2026-2027",
+      "source_url": "https://www.sfusd.edu/sites/default/files/2026-08/New%20SFUSD-Holiday-Calendar-2026-2027.pdf",
+      "last_checked": "2026-11-01",
+      "breaks": [
+        { "kind": "thanksgiving", "tag": "SFUSD Thanksgiving break", "district_label": "Fall Recess", "start": "2026-11-23", "end": "2026-11-27" },
+        { "kind": "winter", "tag": "SFUSD winter break", "district_label": "Winter Recess", "start": "2026-12-21", "end": "2027-01-01" },
+        { "kind": "spring", "tag": "SFUSD spring break", "district_label": "Spring Recess", "start": "2027-03-26", "end": "2027-04-02" }
+      ]
+    },
+    {
+      "id": "OUSD",
+      "name": "Oakland Unified",
+      "calendar_title": "OUSD 2026-27 School Calendar",
+      "source_url": "https://www.ousd.org/fs/resource-manager/view/7a9327b9-4301-4796-9750-3e8cf058f763",
+      "last_checked": "2026-11-01",
+      "breaks": [
+        { "kind": "thanksgiving", "tag": "OUSD Thanksgiving break", "district_label": "Thanksgiving Break", "start": "2026-11-23", "end": "2026-11-27" },
+        { "kind": "winter", "tag": "OUSD winter break", "district_label": "Winter Break", "start": "2026-12-21", "end": "2027-01-04" },
+        { "kind": "spring", "tag": "OUSD spring break", "district_label": "Spring Break", "start": "2027-03-29", "end": "2027-04-02" }
+      ]
+    },
+    {
+      "id": "SJUSD",
+      "name": "San Jose Unified",
+      "calendar_title": "SJUSD 2026-2027 Student Calendar",
+      "source_url": "https://www.sjusd.org/fs/resource-manager/view/570d295b-315c-4fcf-ba30-68f358ea9c24",
+      "last_checked": "2026-11-01",
+      "breaks": [
+        { "kind": "thanksgiving", "tag": "SJUSD Thanksgiving break", "district_label": "Thanksgiving recess", "start": "2026-11-25", "end": "2026-11-27" },
+        { "kind": "winter", "tag": "SJUSD winter break", "district_label": "New Year recess", "start": "2026-12-21", "end": "2027-01-01" },
+        { "kind": "winter", "tag": "SJUSD February break", "district_label": "Winter recess", "start": "2027-02-15", "end": "2027-02-19" },
+        { "kind": "spring", "tag": "SJUSD spring break", "district_label": "Spring recess", "start": "2027-04-05", "end": "2027-04-09" }
+      ]
+    }
+  ]
+}

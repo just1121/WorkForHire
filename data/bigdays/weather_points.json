@@ -1,0 +1,9 @@
+{
+  "source": "National Weather Service, api.weather.gov (public domain)",
+  "heat_threshold_f": 95,
+  "days": 7,
+  "points": {
+    "napa": { "label": "Napa area", "place": "City of Napa", "lat": 38.2975, "lon": -122.2869 },
+    "sonoma": { "label": "Santa Rosa area", "place": "City of Santa Rosa", "lat": 38.4404, "lon": -122.7141 }
+  }
+}

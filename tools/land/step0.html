@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Land use step 0: browser lookup test</title><link rel="icon" href="data:,">
+<!-- Gate test for tools/LAND-USE.md step (0). Not linked from the site. Proves, from a browser on this origin:
+     (a) Census Geocoder by JSONP, (b) Soil Data Access map unit key at a point, (c) that unit's components.
+     The address below is a public building; this page sends it to the Census Bureau and the point to USDA, nothing else. -->
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:720px;margin:24px auto;padding:0 16px;background:#FDFCF9;color:#161614}
+label,input,button{font:inherit}input{width:100%;min-height:44px;padding:8px}button{min-height:44px;margin-top:8px;padding:0 16px}
+pre{white-space:pre-wrap;border:1px solid #161614;padding:12px}</style></head>
+<body><h1>Land use step 0: browser lookup test</h1>
+<form id="f"><label for="addr">Address in Sonoma County</label>
+<input id="addr" value="575 Administration Dr, Santa Rosa, CA 95403"><button type="submit">Run the three checks</button></form>
+<pre id="out" role="status" aria-live="polite">Not run yet.</pre>
+<script>
+var out = document.getElementById('out'), R = window.__step0 = { a: null, b: null, c: null, notes: [] };
+function log(s) { out.textContent += '\n' + s; }
+function sda(q) {  // Soil Data Access tabular service; a CORS failure shows up as a rejected fetch
+  return fetch('https://SDMDataAccess.sc.egov.usda.gov/Tabular/post.rest', { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query: q, format: 'JSON+COLUMNNAME' })
+  }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+}
+function geocode(addr) {  // (a) JSONP: the Census Geocoder sends no CORS headers
+  return new Promise(function (ok, fail) {
+    var cb = 'step0cb' + Date.now(), s = document.createElement('script'), t = setTimeout(function () { fail(new Error('timeout')); }, 15000);
+    window[cb] = function (d) { clearTimeout(t); delete window[cb]; s.remove(); ok(d); };
+    s.onerror = function () { clearTimeout(t); fail(new Error('script load failed')); };
+    s.src = 'https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?benchmark=Public_AR_Current&format=jsonp&callback=' + cb + '&address=' + encodeURIComponent(addr);
+    document.head.appendChild(s);
+  });
+}
+document.getElementById('f').addEventListener('submit', function (e) {
+  e.preventDefault(); out.textContent = 'Running from ' + location.origin + ' ...'; R.a = R.b = R.c = null;
+  geocode(document.getElementById('addr').value).then(function (d) {
+    var m = d.result && d.result.addressMatches && d.result.addressMatches[0];
+    if (!m) throw new Error('no address match');
+    R.a = { pass: true, lon: m.coordinates.x, lat: m.coordinates.y, matched: m.matchedAddress };
+    log('(a) PASS geocode: ' + m.matchedAddress + ' at ' + m.coordinates.y.toFixed(5) + ', ' + m.coordinates.x.toFixed(5));
+    return sda("SELECT * FROM SDA_Get_Mukey_from_intersection_with_WktWgs84('point(" + m.coordinates.x + ' ' + m.coordinates.y + ")')");
+  }, function (err) { R.a = { pass: false, error: String(err) }; log('(a) FAIL geocode: ' + err); throw err; })
+  .then(function (j) {
+    var rows = j.Table || [], mukey = rows.length > 1 ? rows[1][0] : null;  // row 0 holds column names
+    if (!mukey) throw new Error('no map unit at this point');
+    R.b = { pass: true, mukey: mukey }; log('(b) PASS map unit key: ' + mukey);
+    return sda('SELECT TOP 3 compname, comppct_r, drainagecl, slope_l, slope_h, irrcapcl, nirrcapcl FROM component WHERE mukey = ' + Number(mukey) + ' ORDER BY comppct_r DESC');
+  }, function (err) { if (R.a && R.a.pass && !R.b) { R.b = { pass: false, error: String(err) }; log('(b) FAIL map unit key: ' + err); } throw err; })
+  .then(function (j) {
+    var rows = (j.Table || []).slice(1);
+    if (!rows.length) throw new Error('no components returned');
+    R.c = { pass: true, components: rows }; log('(c) PASS components: ' + rows.map(function (r) { return r[0] + ' ' + r[1] + '%, ' + r[2] + ', slope ' + r[3] + '-' + r[4] + ', class ' + (r[5] || '-') + '/' + r[6]; }).join('; '));
+    log('All three passed from ' + location.origin + '.');
+  }, function (err) { if (R.b && R.b.pass && !R.c) { R.c = { pass: false, error: String(err) }; log('(c) FAIL components: ' + err); } });
+});
+</script></body></html>

@@ -1,0 +1,149 @@
+# Big days calendar: daily National Weather Service fetch into data/bigdays/weather.json.
+# Spec: tools/BUSY-DAYS.md. No keys, no LLM. Set the repository variable BIGDAYS_CONTACT (or reuse
+# SMOKE_WATCH_CONTACT) under Settings > Secrets and variables > Actions > Variables: a contact string for
+# the User-Agent the National Weather Service asks for.
+# The calendar data (events, holidays, school breaks) is hand-maintained and inlined by hand with
+# tools/bigdays/inline.py; this job never edits it. On push and pull request it runs the tests and the
+# inline check only.
+# Note: GitHub disables scheduled workflows after 60 days without repository activity; the page treats a
+# weather file older than 48 hours as "no forecast available", so a stopped job fails safe.
+name: Big days
+
+on:
+  schedule:
+    - cron: "23 13 * * *"   # daily 13:23 UTC (early morning in California, after the NWS morning update)
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/bigdays/**"
+      - "tools/bigdays/**"
+      - ".github/workflows/bigdays.yml"
+  pull_request:
+    paths:
+      - "data/bigdays/**"
+      - "tools/bigdays/**"
+      - ".github/workflows/bigdays.yml"
+
+permissions:
+  contents: write
+  issues: write     # one issue when the weather refresh fails or is refused
+
+concurrency:
+  group: bigdays-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      FETCH: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0   # the reduction check compares against the base commit's page
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Test (offline fixtures)
+        run: python -m unittest discover -s tools/bigdays/tests -t . -v
+
+      - name: Test bigdays.js (Node, no packages)
+        run: node --test tools/bigdays/tests/bigdays.test.js
+
+      - name: Page matches data (inlined block and sources page)
+        run: python tools/bigdays/inline.py --check
+
+      # The data rule: compare against the page as published BEFORE this change (the base branch for a
+      # pull request, the previous commit for a push), not the page in this checkout, which a change
+      # could have re-inlined with --allow-removals. A confirmed removal is merged by hand on review.
+      - name: No unexpected reduction against the published page
+        if: github.event_name == 'push' || github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || github.event.before }}
+        run: |
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            echo "::warning title=Big days reduction check skipped::No previous commit to compare against (first push or a forced push). Check data/bigdays for removed events or breaks by hand."
+            exit 0
+          fi
+          if git show "$BASE:tools/bigdays/index.html" > "$RUNNER_TEMP/base.html" 2>/dev/null; then
+            python tools/bigdays/validate.py --baseline "$RUNNER_TEMP/base.html"
+          else
+            echo "::warning title=Big days reduction check skipped::No tools/bigdays/index.html at $BASE to compare against."
+          fi
+
+      - name: Fetch
+        if: env.FETCH == 'true'
+        env:
+          BIGDAYS_CONTACT: ${{ vars.BIGDAYS_CONTACT }}
+          SMOKE_WATCH_CONTACT: ${{ vars.SMOKE_WATCH_CONTACT }}
+        run: python tools/bigdays/fetch_weather.py
+
+      # Commit when the periods changed, or once 20 hours have passed as a heartbeat so the page never
+      # reaches its 48-hour mark on a quiet stretch. Timestamps alone are not a change.
+      - name: Decide whether to commit
+        id: decide
+        if: env.FETCH == 'true'
+        run: |
+          python - <<'PY'
+          import datetime as dt, json, os, subprocess
+          def strip(d):
+              d = dict(d); d.pop("generated_at", None)
+              d["points"] = {k: {kk: vv for kk, vv in v.items() if kk != "updated"} for k, v in d.get("points", {}).items()}
+              return d
+          new = json.load(open("data/bigdays/weather.json"))
+          try:
+              old = json.loads(subprocess.run(["git", "show", "HEAD:data/bigdays/weather.json"], capture_output=True, check=True, text=True).stdout)
+          except Exception:
+              old = None
+          commit = old is None or strip(old) != strip(new)
+          if not commit:
+              last = dt.datetime.fromisoformat(old["generated_at"].replace("Z", "+00:00"))
+              commit = dt.datetime.now(dt.timezone.utc) - last >= dt.timedelta(hours=20)
+          print("commit" if commit else "no change worth a commit")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("commit=%s\n" % ("true" if commit else "false"))
+          PY
+
+      - name: Commit and push
+        if: env.FETCH == 'true' && steps.decide.outputs.commit == 'true'
+        run: |
+          git config user.name "bigdays[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/bigdays/weather.json
+          git commit -m "Big days: refresh weather"
+          for i in 1 2 3; do
+            git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep $((i * 10))
+          done
+          echo "push failed after 3 tries" >&2
+          exit 1
+
+      # The data rule (PLAN.md 12:20): an empty or invalid weather file is never published; the run fails
+      # instead and this step opens ONE issue for review (or comments on the open one).
+      - name: Flag for review
+        if: failure() && env.FETCH == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Big days: weather refresh failed or was refused"
+          body="Run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID} failed (a test, the inline check, the NWS fetch, or the push; see the run log), so data/bigdays/weather.json was not refreshed. The last good file stays; the page shows \"no forecast available\" once it is 48 hours old."
+          # exact title match on open issues (not the search index, which lags)
+          num=$(gh issue list --state open --limit 200 --json number,title \
+                --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ -n "$num" ]; then
+            # one comment per 24 hours at most, timed from this workflow's own last comment
+            # (github-actions[bot]), so a human comment on the issue never suppresses or triggers one
+            last=$(gh api "repos/${GITHUB_REPOSITORY}/issues/${num}/comments" --paginate \
+                   --jq '.[] | select(.user.login == "github-actions[bot]") | .created_at' | tail -1)
+            if [ -z "$last" ] || [ $(( $(date -u +%s) - $(date -u -d "$last" +%s) )) -ge 86400 ]; then
+              gh issue comment "$num" --body "$body"
+            fi
+          else
+            gh issue create --title "$title" --body "$body"
+          fi

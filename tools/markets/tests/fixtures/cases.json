@@ -1,0 +1,1184 @@
+{
+ "_about": "Shared schedule cases for tests/test_markets.py and tests/markets.test.js. Dates and times are America/Los_Angeles.",
+ "markets": {
+  "first-thursdays": {
+   "id": "first-thursdays",
+   "name": "First Thursdays",
+   "county": "Napa",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "confirm_each_year",
+     "weekday": "Thu",
+     "nth_of_month": 1,
+     "dates": null,
+     "start": "17:00",
+     "end": "20:00",
+     "season_start": "05-01",
+     "season_end": "10-09"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": "2026-12-31",
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "date-list": {
+   "id": "date-list",
+   "name": "Date List",
+   "county": "Marin",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "confirm_each_year",
+     "weekday": "Fri",
+     "nth_of_month": null,
+     "dates": [
+      "2026-05-15",
+      "2026-06-12",
+      "2026-07-10",
+      "2026-08-14",
+      "2026-09-11"
+     ],
+     "start": "16:00",
+     "end": "21:00",
+     "season_start": null,
+     "season_end": null
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": "2026-12-31",
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "two-seasons": {
+   "id": "two-seasons",
+   "name": "Two Seasons",
+   "county": "Napa",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "year_round",
+     "weekday": "Sat",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "08:00",
+     "end": "12:00",
+     "season_start": null,
+     "season_end": null
+    },
+    {
+     "recurrence": "annual_season",
+     "weekday": "Tue",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "08:00",
+     "end": "12:00",
+     "season_start": "04-01",
+     "season_end": "12-31"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": null,
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "exact-season": {
+   "id": "exact-season",
+   "name": "Exact Season",
+   "county": "Napa",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "confirm_each_year",
+     "weekday": "Thu",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "16:00",
+     "end": "20:00",
+     "season_start": "05-01",
+     "season_end": "10-09"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": "2026-12-31",
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "two-windows": {
+   "id": "two-windows",
+   "name": "Two Windows",
+   "county": "Lake",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "annual_season",
+     "weekday": "Wed",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "10:00",
+     "end": "13:00",
+     "season_start": "04-01",
+     "season_end": "10-31"
+    },
+    {
+     "recurrence": "annual_season",
+     "weekday": "Wed",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "16:30",
+     "end": "19:30",
+     "season_start": "04-01",
+     "season_end": "10-31"
+    },
+    {
+     "recurrence": "annual_season",
+     "weekday": "Sat",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "10:00",
+     "end": "13:00",
+     "season_start": "04-01",
+     "season_end": "10-31"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": null,
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "exception": {
+   "id": "exception",
+   "name": "Exception",
+   "county": "Sonoma",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "year_round",
+     "weekday": "Sat",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "09:00",
+     "end": "13:00",
+     "season_start": null,
+     "season_end": null
+    }
+   ],
+   "exceptions": [
+    {
+     "date": "2026-11-28",
+     "status": "closed",
+     "note": "Closed for the holiday weekend.",
+     "source": "cdfa"
+    },
+    {
+     "date": "2026-12-05",
+     "status": "moved",
+     "note": "Moved to the north lot for the parade.",
+     "source": "cdfa"
+    }
+   ],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": null,
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "expired": {
+   "id": "expired",
+   "name": "Expired",
+   "county": "Sonoma",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "confirm_each_year",
+     "weekday": "Sun",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "10:00",
+     "end": "14:00",
+     "season_start": "05-25",
+     "season_end": "10-26"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": "2025-12-31",
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "wrap": {
+   "id": "wrap",
+   "name": "Wrap",
+   "county": "Mendocino",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "annual_season",
+     "weekday": "Fri",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "08:00",
+     "end": "12:00",
+     "season_start": "11-01",
+     "season_end": "04-30"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": null,
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "saturday": {
+   "id": "saturday",
+   "name": "Saturday",
+   "county": "Napa",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "year_round",
+     "weekday": "Sat",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "08:00",
+     "end": "12:00",
+     "season_start": null,
+     "season_end": null
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": null,
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  },
+  "mixed-expired": {
+   "id": "mixed-expired",
+   "name": "Mixed Expired",
+   "county": "Napa",
+   "city": "Napa",
+   "address": "Fixture address",
+   "lat": 38.3,
+   "lon": -122.3,
+   "geo_source": "manual",
+   "sessions": [
+    {
+     "recurrence": "year_round",
+     "weekday": "Mon",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "09:00",
+     "end": "12:00",
+     "season_start": null,
+     "season_end": null
+    },
+    {
+     "recurrence": "confirm_each_year",
+     "weekday": "Sun",
+     "nth_of_month": null,
+     "dates": null,
+     "start": "10:00",
+     "end": "14:00",
+     "season_start": "05-25",
+     "season_end": "10-26"
+    }
+   ],
+   "exceptions": [],
+   "website": null,
+   "instagram": null,
+   "notes": null,
+   "source": {
+    "url": "https://www.cdfa.ca.gov/is/docs/CurrentMrktsCounty.pdf",
+    "as_of": "2026-10-01",
+    "listed_name": "Fixture"
+   },
+   "schedule_source": "cdfa",
+   "schedule_checked": "2026-10-31",
+   "schedule_valid_through": "2025-12-31",
+   "season_year_inferred": false,
+   "last_checked": "2026-10-31"
+  }
+ },
+ "occurs": [
+  [
+   "first-thursdays",
+   "2026-05-07",
+   1,
+   "first Thursday in season"
+  ],
+  [
+   "first-thursdays",
+   "2026-05-14",
+   0,
+   "second Thursday"
+  ],
+  [
+   "first-thursdays",
+   "2026-05-28",
+   0,
+   "fourth Thursday"
+  ],
+  [
+   "first-thursdays",
+   "2026-10-01",
+   1,
+   "first Thursday of October, before Oct 9"
+  ],
+  [
+   "first-thursdays",
+   "2026-11-05",
+   0,
+   "first Thursday, out of season"
+  ],
+  [
+   "first-thursdays",
+   "2026-04-02",
+   0,
+   "first Thursday, before season"
+  ],
+  [
+   "first-thursdays",
+   "2027-05-06",
+   0,
+   "past schedule_valid_through"
+  ],
+  [
+   "date-list",
+   "2026-05-15",
+   1,
+   "listed date"
+  ],
+  [
+   "date-list",
+   "2026-05-22",
+   0,
+   "Friday not in the list"
+  ],
+  [
+   "date-list",
+   "2026-09-11",
+   1,
+   "last listed date"
+  ],
+  [
+   "date-list",
+   "2027-05-14",
+   0,
+   "past schedule_valid_through"
+  ],
+  [
+   "two-seasons",
+   "2026-01-10",
+   1,
+   "Saturday in January (year-round)"
+  ],
+  [
+   "two-seasons",
+   "2026-01-06",
+   0,
+   "Tuesday in January (Tue season is Apr to Dec)"
+  ],
+  [
+   "two-seasons",
+   "2026-04-07",
+   1,
+   "first Tuesday of the Tue season"
+  ],
+  [
+   "two-seasons",
+   "2026-03-31",
+   0,
+   "Tuesday the day before the Tue season"
+  ],
+  [
+   "two-seasons",
+   "2026-12-29",
+   1,
+   "last Tuesday of the year"
+  ],
+  [
+   "exact-season",
+   "2026-04-30",
+   0,
+   "Thursday the day before May 1"
+  ],
+  [
+   "exact-season",
+   "2026-05-07",
+   1,
+   "first Thursday inside May 1 to Oct 9"
+  ],
+  [
+   "exact-season",
+   "2026-10-08",
+   1,
+   "last Thursday inside"
+  ],
+  [
+   "exact-season",
+   "2026-10-15",
+   0,
+   "Thursday after Oct 9"
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   2,
+   "Wednesday with two windows"
+  ],
+  [
+   "two-windows",
+   "2026-07-04",
+   1,
+   "Saturday"
+  ],
+  [
+   "two-windows",
+   "2026-11-04",
+   0,
+   "Wednesday out of season"
+  ],
+  [
+   "exception",
+   "2026-11-28",
+   0,
+   "closed exception on a scheduled Saturday"
+  ],
+  [
+   "exception",
+   "2026-12-05",
+   1,
+   "moved exception still runs that day"
+  ],
+  [
+   "exception",
+   "2026-11-21",
+   1,
+   "ordinary Saturday"
+  ],
+  [
+   "expired",
+   "2025-06-01",
+   1,
+   "inside its valid year"
+  ],
+  [
+   "expired",
+   "2026-06-07",
+   0,
+   "past schedule_valid_through"
+  ],
+  [
+   "wrap",
+   "2026-12-25",
+   1,
+   "Friday in December, season wraps the year"
+  ],
+  [
+   "wrap",
+   "2027-01-01",
+   1,
+   "Friday January 1, across the year end"
+  ],
+  [
+   "wrap",
+   "2026-04-24",
+   1,
+   "last Friday in April"
+  ],
+  [
+   "wrap",
+   "2026-05-01",
+   0,
+   "Friday May 1, out of season"
+  ],
+  [
+   "wrap",
+   "2026-10-30",
+   0,
+   "Friday October 30, out of season"
+  ]
+ ],
+ "state": [
+  [
+   "first-thursdays",
+   "2026-05-07",
+   "16:00",
+   "today",
+   "before the session"
+  ],
+  [
+   "first-thursdays",
+   "2026-05-07",
+   "20:00",
+   "season",
+   "session ended at 20:00; next is June 4"
+  ],
+  [
+   "first-thursdays",
+   "2026-05-02",
+   "10:00",
+   "week",
+   "first Thursday is five days out"
+  ],
+  [
+   "first-thursdays",
+   "2026-05-15",
+   "10:00",
+   "season",
+   "in season, next first Thursday is June 4"
+  ],
+  [
+   "first-thursdays",
+   "2026-10-31",
+   "10:00",
+   "closed",
+   "after Oct 9, valid through year end"
+  ],
+  [
+   "first-thursdays",
+   "2027-05-06",
+   "10:00",
+   "unconfirmed",
+   "past schedule_valid_through"
+  ],
+  [
+   "date-list",
+   "2026-05-10",
+   "10:00",
+   "week",
+   "May 15 is five days out"
+  ],
+  [
+   "date-list",
+   "2026-06-01",
+   "10:00",
+   "season",
+   "between listed dates"
+  ],
+  [
+   "date-list",
+   "2026-09-12",
+   "10:00",
+   "closed",
+   "after the last listed date"
+  ],
+  [
+   "date-list",
+   "2026-01-15",
+   "10:00",
+   "closed",
+   "before the first listed date"
+  ],
+  [
+   "date-list",
+   "2027-05-14",
+   "10:00",
+   "unconfirmed",
+   "next year, not yet confirmed"
+  ],
+  [
+   "two-seasons",
+   "2026-01-05",
+   "10:00",
+   "week",
+   "Saturday is in the week"
+  ],
+  [
+   "two-seasons",
+   "2026-01-10",
+   "11:59",
+   "today",
+   "Saturday morning"
+  ],
+  [
+   "exact-season",
+   "2026-04-28",
+   "10:00",
+   "closed",
+   "season opens May 1 but Thursday Apr 30 is outside it"
+  ],
+  [
+   "exact-season",
+   "2026-05-01",
+   "10:00",
+   "week",
+   "Thursday May 7 is six days out"
+  ],
+  [
+   "exact-season",
+   "2026-10-09",
+   "10:00",
+   "season",
+   "last day of season, no Thursday left"
+  ],
+  [
+   "exact-season",
+   "2026-10-10",
+   "10:00",
+   "closed",
+   "day after season ends"
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   "11:00",
+   "today",
+   "first window"
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   "14:00",
+   "today",
+   "between windows; second still ahead"
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   "19:30",
+   "week",
+   "both windows over; Saturday ahead"
+  ],
+  [
+   "two-windows",
+   "2026-10-31",
+   "13:00",
+   "season",
+   "last day of the season, its last session over"
+  ],
+  [
+   "two-windows",
+   "2026-11-01",
+   "10:00",
+   "closed",
+   "day after the season"
+  ],
+  [
+   "two-windows",
+   "2026-10-31",
+   "12:59",
+   "today",
+   "last minute of the season's last session"
+  ],
+  [
+   "exception",
+   "2026-11-28",
+   "08:00",
+   "season",
+   "closed today; next Saturday is seven days out"
+  ],
+  [
+   "exception",
+   "2026-11-22",
+   "08:00",
+   "season",
+   "only Saturday in the window is closed"
+  ],
+  [
+   "exception",
+   "2026-12-05",
+   "08:00",
+   "season",
+   "moved: not scheduled today at the regular hours; next Saturday is seven days out"
+  ],
+  [
+   "exception",
+   "2026-11-30",
+   "08:00",
+   "season",
+   "the only Saturday in the window is moved"
+  ],
+  [
+   "expired",
+   "2026-06-07",
+   "10:00",
+   "unconfirmed",
+   "would be a market day, but not confirmed"
+  ],
+  [
+   "expired",
+   "2025-06-01",
+   "10:00",
+   "today",
+   "inside its valid year"
+  ],
+  [
+   "expired",
+   "2025-11-15",
+   "10:00",
+   "closed",
+   "after the season, still inside valid year"
+  ],
+  [
+   "wrap",
+   "2026-12-29",
+   "10:00",
+   "week",
+   "Friday January 1 is in the week across the year end"
+  ],
+  [
+   "wrap",
+   "2026-10-27",
+   "10:00",
+   "closed",
+   "season opens Nov 1; Friday Oct 30 is outside it"
+  ],
+  [
+   "wrap",
+   "2026-06-15",
+   "10:00",
+   "closed",
+   "summer"
+  ],
+  [
+   "saturday",
+   "2026-10-31",
+   "11:59",
+   "today",
+   "a minute before the end"
+  ],
+  [
+   "saturday",
+   "2026-10-31",
+   "12:00",
+   "season",
+   "end time passed; next Saturday is seven days out"
+  ],
+  [
+   "saturday",
+   "2026-10-30",
+   "23:59",
+   "week",
+   "Saturday tomorrow"
+  ],
+  [
+   "mixed-expired",
+   "2026-06-02",
+   "10:00",
+   "week",
+   "the year-round Monday still counts"
+  ],
+  [
+   "wrap",
+   "2026-11-01",
+   "10:00",
+   "week",
+   "Friday Nov 6 is five days out"
+  ]
+ ],
+ "scheduled_now": [
+  [
+   "two-windows",
+   "2026-07-01",
+   "11:00",
+   true
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   "14:00",
+   false
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   "16:30",
+   true
+  ],
+  [
+   "two-windows",
+   "2026-07-01",
+   "19:30",
+   false
+  ],
+  [
+   "saturday",
+   "2026-10-31",
+   "07:59",
+   false
+  ],
+  [
+   "saturday",
+   "2026-10-31",
+   "08:00",
+   true
+  ],
+  [
+   "exception",
+   "2026-11-28",
+   "10:00",
+   false
+  ],
+  [
+   "exception",
+   "2026-12-05",
+   "10:00",
+   false
+  ]
+ ],
+ "la_now": [
+  [
+   "2026-03-08T09:59:00Z",
+   "2026-03-08",
+   "01:59",
+   "last minute of PST before spring forward"
+  ],
+  [
+   "2026-03-08T10:00:00Z",
+   "2026-03-08",
+   "03:00",
+   "first minute of PDT"
+  ],
+  [
+   "2026-11-01T06:59:00Z",
+   "2026-10-31",
+   "23:59",
+   "Saturday night, PDT"
+  ],
+  [
+   "2026-11-01T08:30:00Z",
+   "2026-11-01",
+   "01:30",
+   "first 1:30, PDT"
+  ],
+  [
+   "2026-11-01T09:30:00Z",
+   "2026-11-01",
+   "01:30",
+   "second 1:30, PST"
+  ],
+  [
+   "2027-01-01T07:59:00Z",
+   "2026-12-31",
+   "23:59",
+   "New Year's Eve in California, already 2027 in UTC"
+  ],
+  [
+   "2027-01-01T08:00:00Z",
+   "2027-01-01",
+   "00:00",
+   "midnight PST"
+  ],
+  [
+   "2026-10-31T19:00:00Z",
+   "2026-10-31",
+   "12:00",
+   "noon PDT"
+  ]
+ ],
+ "words": [
+  [
+   {
+    "recurrence": "year_round",
+    "weekday": "Sat",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "08:00",
+    "end": "12:00",
+    "season_start": null,
+    "season_end": null
+   },
+   null,
+   "Saturdays, 8 am to noon, year-round"
+  ],
+  [
+   {
+    "recurrence": "annual_season",
+    "weekday": "Tue",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "08:00",
+    "end": "12:00",
+    "season_start": "04-01",
+    "season_end": "12-31"
+   },
+   null,
+   "Tuesdays, 8 am to noon, April through December"
+  ],
+  [
+   {
+    "recurrence": "confirm_each_year",
+    "weekday": "Thu",
+    "nth_of_month": 1,
+    "dates": null,
+    "start": "17:00",
+    "end": "20:00",
+    "season_start": "05-01",
+    "season_end": "10-09"
+   },
+   "2025-12-31",
+   "First Thursday of the month, 5 pm to 8 pm, May 1 to October 9, 2025"
+  ],
+  [
+   {
+    "recurrence": "confirm_each_year",
+    "weekday": "Fri",
+    "nth_of_month": null,
+    "dates": [
+     "2026-05-15",
+     "2026-06-12",
+     "2026-07-10",
+     "2026-08-14",
+     "2026-09-11"
+    ],
+    "start": "16:00",
+    "end": "21:00",
+    "season_start": null,
+    "season_end": null
+   },
+   "2026-12-31",
+   "4 pm to 9 pm on May 15, June 12, July 10, August 14 and September 11, 2026"
+  ],
+  [
+   {
+    "recurrence": "annual_season",
+    "weekday": "Wed",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "16:30",
+    "end": "19:30",
+    "season_start": "04-01",
+    "season_end": "10-31"
+   },
+   null,
+   "Wednesdays, 4:30 pm to 7:30 pm, April through October"
+  ],
+  [
+   {
+    "recurrence": "annual_season",
+    "weekday": "Fri",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "08:00",
+    "end": "12:00",
+    "season_start": "11-01",
+    "season_end": "04-30"
+   },
+   null,
+   "Fridays, 8 am to noon, November through April"
+  ],
+  [
+   {
+    "recurrence": "annual_season",
+    "weekday": "Thu",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "09:00",
+    "end": "12:00",
+    "season_start": "08-01",
+    "season_end": "08-31"
+   },
+   null,
+   "Thursdays, 9 am to noon, August"
+  ],
+  [
+   {
+    "recurrence": "annual_season",
+    "weekday": "Sun",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "09:30",
+    "end": "12:30",
+    "season_start": "02-01",
+    "season_end": "02-28"
+   },
+   null,
+   "Sundays, 9:30 am to 12:30 pm, February"
+  ],
+  [
+   {
+    "recurrence": "year_round",
+    "weekday": "Mon",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "00:00",
+    "end": "23:59",
+    "season_start": null,
+    "season_end": null
+   },
+   null,
+   "Mondays, 12 am to 11:59 pm, year-round"
+  ],
+  [
+   {
+    "recurrence": "confirm_each_year",
+    "weekday": "Tue",
+    "nth_of_month": null,
+    "dates": null,
+    "start": "09:30",
+    "end": "13:00",
+    "season_start": "04-12",
+    "season_end": "11-22"
+   },
+   "2022-12-31",
+   "Tuesdays, 9:30 am to 1 pm, April 12 to November 22 (year not given by CDFA)",
+   true
+  ],
+  [
+   {
+    "recurrence": "confirm_each_year",
+    "weekday": "Fri",
+    "nth_of_month": null,
+    "dates": [
+     "2026-05-15",
+     "2026-06-12",
+     "2026-07-10",
+     "2026-08-14",
+     "2026-09-11"
+    ],
+    "start": "16:00",
+    "end": "21:00",
+    "season_start": null,
+    "season_end": null
+   },
+   "2026-12-31",
+   "4 pm to 9 pm on May 15, June 12, July 10, August 14 and September 11 (year not given by CDFA)",
+   true
+  ]
+ ],
+ "stale": [
+  [
+   "2026-09-16",
+   "2026-10-31",
+   false
+  ],
+  [
+   "2026-09-15",
+   "2026-10-31",
+   true
+  ],
+  [
+   "2026-12-20",
+   "2027-01-05",
+   false
+  ],
+  [
+   null,
+   "2026-10-31",
+   true
+  ]
+ ]
+}

@@ -1,0 +1,15 @@
+# The public repo carries the site only. Planning and workshop files stay in
+# this folder and never go into git (Jay, 2026-11-01).
+CLAUDE.md
+PLAN.md
+reference/
+.claude/
+tools/audit/
+tools/*.md
+tools/REVIEW*.md
+tools/*/BUILD-NOTES.md
+
+# local clutter
+.DS_Store
+__pycache__/
+*.pyc
