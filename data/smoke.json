@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T19:50:25Z",
+  "generated_at": "2026-11-02T00:44:58Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -18,28 +18,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-01T19:50:26Z",
+      "fetched_at": "2026-11-02T00:44:59Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-01T19:50:26Z",
+      "fetched_at": "2026-11-02T00:45:00Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-01T19:50:31Z",
+      "fetched_at": "2026-11-02T00:45:09Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-01T19:50:27Z",
+      "fetched_at": "2026-11-02T00:45:00Z",
       "error": null
     }
   ],
@@ -49,21 +49,14 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 39,
+      "aqi": 42,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 29,
-        "bearing": "E",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 39",
+      "now": "Clear. AQI 42",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the W at 2 mph; the Nissan Fire (2 acres), 29 miles E, is not upwind this weekend.",
+      "why": "Wind from the W at 5 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -71,21 +64,14 @@
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 39,
+      "aqi": 42,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 25,
-        "bearing": "NE",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 39",
+      "now": "Clear. AQI 42",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the S at 3 mph; the Nissan Fire (2 acres), 25 miles NE, is not upwind this weekend.",
+      "why": "Wind from the W at 6 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -93,21 +79,14 @@
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 39,
+      "aqi": 42,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 25,
-        "bearing": "NE",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 39",
+      "now": "Clear. AQI 42",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the W at 3 mph; the Nissan Fire (2 acres), 25 miles NE, is not upwind this weekend.",
+      "why": "Wind from the SE at 3 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -115,21 +94,14 @@
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 39,
+      "aqi": 42,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 29,
-        "bearing": "NE",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 39",
+      "now": "Clear. AQI 42",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the W at 3 mph; the Nissan Fire (2 acres), 29 miles NE, is not upwind this weekend.",
+      "why": "Wind from the SW at 7 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -137,21 +109,14 @@
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
-      "aqi": 39,
+      "aqi": 42,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 34,
-        "bearing": "NE",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 39",
+      "now": "Clear. AQI 42",
       "weekend": "Some haze likely Sun",
-      "why": "Wind from the S at 6 mph; the Nissan Fire (2 acres), 34 miles NE, is not upwind this weekend.",
+      "why": "Wind from the W at 8 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -159,21 +124,14 @@
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 21,
+      "aqi": 38,
       "band": "good",
-      "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 44,
-        "bearing": "E",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "weekend_band": "good",
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 21",
-      "weekend": "Some haze likely Sun",
-      "why": "Wind from the SW at 1 mph; the Nissan Fire (2 acres), 44 miles E, is not upwind this weekend.",
+      "now": "Clear. AQI 38",
+      "weekend": "Clear",
+      "why": "Wind from the W at 5 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -181,21 +139,14 @@
       "zip": "95404",
       "lat": 38.44,
       "lon": -122.714,
-      "aqi": 35,
+      "aqi": 36,
       "band": "good",
       "weekend_band": "good",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 39,
-        "bearing": "NE",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 35",
+      "now": "Clear. AQI 36",
       "weekend": "Clear",
-      "why": "Wind from the W at 3 mph; the Nissan Fire (2 acres), 39 miles NE, is not upwind this weekend.",
+      "why": "Wind from the SW at 6 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -203,21 +154,14 @@
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 21,
+      "aqi": 38,
       "band": "good",
-      "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 46,
-        "bearing": "E",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "weekend_band": "good",
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 21",
-      "weekend": "Some haze likely Sun",
-      "why": "Wind from the W at 4 mph; the Nissan Fire (2 acres), 46 miles E, is not upwind this weekend.",
+      "now": "Clear. AQI 38",
+      "weekend": "Clear",
+      "why": "Wind from the W at 6 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -225,14 +169,14 @@
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 26,
+      "aqi": 36,
       "band": "good",
       "weekend_band": "good",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 26",
+      "now": "Clear. AQI 36",
       "weekend": "Clear",
-      "why": "Wind from the NW at 7 mph; no active fires within 50 miles.",
+      "why": "Wind from the NW at 9 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -240,21 +184,14 @@
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 21,
+      "aqi": 38,
       "band": "good",
-      "weekend_band": "moderate",
-      "fire": {
-        "name": "NISSAN",
-        "miles": 31,
-        "bearing": "E",
-        "upwind": false,
-        "acres": 2,
-        "contained": null
-      },
+      "weekend_band": "good",
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 21",
-      "weekend": "Some haze likely Sun",
-      "why": "Wind from the N at 7 mph; the Nissan Fire (2 acres), 31 miles E, is not upwind this weekend.",
+      "now": "Clear. AQI 38",
+      "weekend": "Clear",
+      "why": "Wind from the SW at 4 mph; no active fires within 50 miles.",
       "sources_failed": []
     }
   ]
