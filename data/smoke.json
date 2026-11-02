@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-02T11:06:29Z",
+  "generated_at": "2026-11-02T21:42:33Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-02T11:06:30Z",
+      "fetched_at": "2026-11-02T21:42:34Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-02T11:06:30Z",
+      "fetched_at": "2026-11-02T21:42:34Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-02T11:06:35Z",
+      "fetched_at": "2026-11-02T21:42:38Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-02T11:06:31Z",
+      "fetched_at": "2026-11-02T21:42:35Z",
       "error": null
     }
   ],
@@ -53,11 +53,18 @@
       "aqi": 36,
       "band": "good",
       "weekend_band": null,
-      "fire": null,
+      "fire": {
+        "name": "FOOTHILL",
+        "miles": 43,
+        "bearing": "N",
+        "upwind": false,
+        "acres": 0.5,
+        "contained": null
+      },
       "warnings": [],
       "now": "Clear. AQI 36",
       "weekend": "No forecast yet",
-      "why": "Wind from the SW at 2 mph; no active fires within 50 miles.",
+      "why": "Wind from the E at 5 mph; the Foothill Fire (1 acres), 43 miles N, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -72,7 +79,7 @@
       "warnings": [],
       "now": "Clear. AQI 36",
       "weekend": "No forecast yet",
-      "why": "Wind from the N at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 7 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -87,7 +94,7 @@
       "warnings": [],
       "now": "Clear. AQI 36",
       "weekend": "No forecast yet",
-      "why": "Wind from the NW at 5 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 8 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -102,7 +109,7 @@
       "warnings": [],
       "now": "Clear. AQI 36",
       "weekend": "No forecast yet",
-      "why": "Wind from the SE at 2 mph; no active fires within 50 miles.",
+      "why": "Wind from the SW at 6 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -117,7 +124,7 @@
       "warnings": [],
       "now": "Clear. AQI 36",
       "weekend": "No forecast yet",
-      "why": "Wind from the NW at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 5 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -125,14 +132,21 @@
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 22,
+      "aqi": 26,
       "band": "good",
       "weekend_band": null,
-      "fire": null,
+      "fire": {
+        "name": "FOOTHILL",
+        "miles": 37,
+        "bearing": "N",
+        "upwind": false,
+        "acres": 0.5,
+        "contained": null
+      },
       "warnings": [],
-      "now": "Clear. AQI 22",
+      "now": "Clear. AQI 26",
       "weekend": "No forecast yet",
-      "why": "Wind from the N at 4 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 8 mph; the Foothill Fire (1 acres), 37 miles N, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -140,14 +154,14 @@
       "zip": "95404",
       "lat": 38.44,
       "lon": -122.714,
-      "aqi": 27,
+      "aqi": 36,
       "band": "good",
       "weekend_band": null,
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 27",
+      "now": "Clear. AQI 36",
       "weekend": "No forecast yet",
-      "why": "Wind from the NW at 2 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 7 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -155,14 +169,21 @@
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 22,
+      "aqi": 26,
       "band": "good",
       "weekend_band": null,
-      "fire": null,
+      "fire": {
+        "name": "FOOTHILL",
+        "miles": 31,
+        "bearing": "N",
+        "upwind": false,
+        "acres": 0.5,
+        "contained": null
+      },
       "warnings": [],
-      "now": "Clear. AQI 22",
+      "now": "Clear. AQI 26",
       "weekend": "No forecast yet",
-      "why": "Wind from the NW at 5 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 8 mph; the Foothill Fire (1 acres), 31 miles N, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -170,14 +191,21 @@
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 20,
+      "aqi": 26,
       "band": "good",
       "weekend_band": null,
-      "fire": null,
+      "fire": {
+        "name": "FOOTHILL",
+        "miles": 25,
+        "bearing": "N",
+        "upwind": false,
+        "acres": 0.5,
+        "contained": null
+      },
       "warnings": [],
-      "now": "Clear. AQI 20",
+      "now": "Clear. AQI 26",
       "weekend": "No forecast yet",
-      "why": "Wind from the NW at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 9 mph; the Foothill Fire (1 acres), 25 miles N, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -185,14 +213,21 @@
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 22,
+      "aqi": 26,
       "band": "good",
       "weekend_band": null,
-      "fire": null,
+      "fire": {
+        "name": "FOOTHILL",
+        "miles": 31,
+        "bearing": "NW",
+        "upwind": false,
+        "acres": 0.5,
+        "contained": null
+      },
       "warnings": [],
-      "now": "Clear. AQI 22",
+      "now": "Clear. AQI 26",
       "weekend": "No forecast yet",
-      "why": "Wind from the W at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 6 mph; the Foothill Fire (1 acres), 31 miles NW, is not upwind this weekend.",
       "sources_failed": []
     }
   ]
