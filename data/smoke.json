@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T23:23:59Z",
+  "generated_at": "2026-11-04T06:22:20Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-03T23:24:00Z",
+      "fetched_at": "2026-11-04T06:22:21Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-03T23:24:01Z",
+      "fetched_at": "2026-11-04T06:22:22Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-03T23:24:03Z",
+      "fetched_at": "2026-11-04T06:22:24Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-03T23:24:01Z",
+      "fetched_at": "2026-11-04T06:22:22Z",
       "error": null
     }
   ],
@@ -50,21 +50,14 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 54,
+      "aqi": 53,
       "band": "moderate",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "FOOTHILL",
-        "miles": 43,
-        "bearing": "N",
-        "upwind": false,
-        "acres": 0.5,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 54",
+      "now": "A little haze. AQI 53",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the E at 5 mph; the Foothill Fire (1 acres), 43 miles N, is not upwind this weekend.",
+      "why": "Wind from the SE at 4 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -72,14 +65,14 @@
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 54,
+      "aqi": 53,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 54",
+      "now": "A little haze. AQI 53",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the S at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the W at 5 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -87,14 +80,14 @@
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 54,
+      "aqi": 53,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 54",
+      "now": "A little haze. AQI 53",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the S at 5 mph; no active fires within 50 miles.",
+      "why": "Wind from the NW at 9 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -102,14 +95,14 @@
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 54,
+      "aqi": 53,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 54",
+      "now": "A little haze. AQI 53",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 1 mph; no active fires within 50 miles.",
+      "why": "Wind from the NW at 6 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -117,14 +110,14 @@
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
-      "aqi": 54,
+      "aqi": 53,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 54",
+      "now": "A little haze. AQI 53",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the E at 5 mph; no active fires within 50 miles.",
+      "why": "Calm wind; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -132,21 +125,14 @@
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 27,
+      "aqi": 29,
       "band": "good",
       "weekend_band": "good",
-      "fire": {
-        "name": "FOOTHILL",
-        "miles": 37,
-        "bearing": "N",
-        "upwind": false,
-        "acres": 0.5,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 27",
+      "now": "Clear. AQI 29",
       "weekend": "Clear",
-      "why": "Wind from the E at 7 mph; the Foothill Fire (1 acres), 37 miles N, is not upwind this weekend.",
+      "why": "Calm wind; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -154,14 +140,14 @@
       "zip": "95404",
       "lat": 38.44,
       "lon": -122.714,
-      "aqi": 53,
-      "band": "moderate",
+      "aqi": 50,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "Clear. AQI 50",
       "weekend": "Some haze likely Sat",
-      "why": "Wind from the E at 6 mph; no active fires within 50 miles.",
+      "why": "Wind from the E at 4 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -169,21 +155,14 @@
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 27,
+      "aqi": 29,
       "band": "good",
       "weekend_band": "good",
-      "fire": {
-        "name": "FOOTHILL",
-        "miles": 31,
-        "bearing": "N",
-        "upwind": false,
-        "acres": 0.5,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 27",
+      "now": "Clear. AQI 29",
       "weekend": "Clear",
-      "why": "Wind from the SE at 7 mph; the Foothill Fire (1 acres), 31 miles N, is not upwind this weekend.",
+      "why": "Wind from the NW at 3 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -191,21 +170,14 @@
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 32,
+      "aqi": 30,
       "band": "good",
       "weekend_band": "good",
-      "fire": {
-        "name": "FOOTHILL",
-        "miles": 25,
-        "bearing": "N",
-        "upwind": false,
-        "acres": 0.5,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 32",
+      "now": "Clear. AQI 30",
       "weekend": "Clear",
-      "why": "Wind from the SE at 4 mph; the Foothill Fire (1 acres), 25 miles N, is not upwind this weekend.",
+      "why": "Wind from the SE at 3 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -213,21 +185,14 @@
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 27,
+      "aqi": 29,
       "band": "good",
       "weekend_band": "good",
-      "fire": {
-        "name": "FOOTHILL",
-        "miles": 31,
-        "bearing": "NW",
-        "upwind": false,
-        "acres": 0.5,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 27",
+      "now": "Clear. AQI 29",
       "weekend": "Clear",
-      "why": "Wind from the NE at 3 mph; the Foothill Fire (1 acres), 31 miles NW, is not upwind this weekend.",
+      "why": "Wind from the W at 3 mph; no active fires within 50 miles.",
       "sources_failed": []
     }
   ]
