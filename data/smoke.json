@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-06T06:44:54Z",
+  "generated_at": "2026-11-06T16:45:37Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-06T06:44:54Z",
+      "fetched_at": "2026-11-06T16:45:37Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-06T06:44:55Z",
+      "fetched_at": "2026-11-06T16:45:38Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-06T06:44:57Z",
+      "fetched_at": "2026-11-06T16:45:41Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-06T06:44:55Z",
+      "fetched_at": "2026-11-06T16:45:38Z",
       "error": null
     }
   ],
@@ -50,14 +50,14 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 30,
+      "aqi": 47,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 30",
+      "now": "Clear. AQI 47",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the W at 7 mph; no active fires within 50 miles.",
+      "why": "Wind from the NW at 2 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -65,14 +65,14 @@
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 30,
+      "aqi": 47,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 30",
+      "now": "Clear. AQI 47",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the NW at 4 mph; no active fires within 50 miles.",
+      "why": "Calm wind; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -80,14 +80,14 @@
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 30,
+      "aqi": 47,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 30",
+      "now": "Clear. AQI 47",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the W at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 4 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -95,14 +95,14 @@
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 30,
+      "aqi": 47,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 30",
+      "now": "Clear. AQI 47",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the W at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 2 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -110,14 +110,14 @@
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
-      "aqi": 30,
+      "aqi": 47,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 30",
+      "now": "Clear. AQI 47",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the E at 4 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 1 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -125,12 +125,12 @@
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 34,
+      "aqi": 20,
       "band": "good",
       "weekend_band": "good",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 34",
+      "now": "Clear. AQI 20",
       "weekend": "Clear",
       "why": "Wind from the NE at 2 mph; no active fires within 50 miles.",
       "sources_failed": []
@@ -147,7 +147,7 @@
       "warnings": [],
       "now": "Clear. AQI 29",
       "weekend": "Some haze likely Sat",
-      "why": "Wind from the NW at 2 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 1 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -155,14 +155,14 @@
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 34,
+      "aqi": 20,
       "band": "good",
       "weekend_band": "good",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 34",
+      "now": "Clear. AQI 20",
       "weekend": "Clear",
-      "why": "Wind from the W at 6 mph; no active fires within 50 miles.",
+      "why": "Wind from the NW at 3 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -170,7 +170,7 @@
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 33,
+      "aqi": 20,
       "band": "good",
       "weekend_band": "good",
       "fire": {
@@ -182,9 +182,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 33",
+      "now": "Clear. AQI 20",
       "weekend": "Clear",
-      "why": "Wind from the NW at 4 mph; the Ericson Fire (0 acres), 47 miles N, is not upwind this weekend.",
+      "why": "Wind from the W at 2 mph; the Ericson Fire (0 acres), 47 miles N, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -192,12 +192,12 @@
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 34,
+      "aqi": 20,
       "band": "good",
       "weekend_band": "good",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 34",
+      "now": "Clear. AQI 20",
       "weekend": "Clear",
       "why": "Calm wind; no active fires within 50 miles.",
       "sources_failed": []
