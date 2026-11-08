@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T18:05:40Z",
+  "generated_at": "2026-11-08T18:24:25Z",
   "source": "National Weather Service, api.weather.gov",
   "heat_threshold_f": 95,
   "points": {
@@ -10,177 +10,39 @@
       "lon": -122.2869,
       "ok": true,
       "forecast_url": "https://api.weather.gov/gridpoints/MTR/94,127/forecast",
-      "updated": "2026-11-07T16:22:08+00:00",
+      "updated": "2026-11-08T16:42:15+00:00",
       "periods": [
         {
-          "startTime": "2026-11-07T09:00:00-08:00",
-          "endTime": "2026-11-07T18:00:00-08:00",
+          "startTime": "2026-11-08T09:00:00-08:00",
+          "endTime": "2026-11-08T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 72,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny"
         },
         {
-          "startTime": "2026-11-07T18:00:00-08:00",
-          "endTime": "2026-11-08T06:00:00-08:00",
+          "startTime": "2026-11-08T18:00:00-08:00",
+          "endTime": "2026-11-09T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 45,
+          "temperature": 47,
           "temperatureUnit": "F",
           "shortForecast": "Areas Of Fog"
         },
         {
-          "startTime": "2026-11-08T06:00:00-08:00",
-          "endTime": "2026-11-08T18:00:00-08:00",
+          "startTime": "2026-11-09T06:00:00-08:00",
+          "endTime": "2026-11-09T18:00:00-08:00",
           "isDaytime": true,
-          "temperature": 71,
+          "temperature": 73,
           "temperatureUnit": "F",
           "shortForecast": "Areas Of Fog then Partly Sunny"
         },
         {
-          "startTime": "2026-11-08T18:00:00-08:00",
-          "endTime": "2026-11-09T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 46,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog"
-        },
-        {
-          "startTime": "2026-11-09T06:00:00-08:00",
-          "endTime": "2026-11-09T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 72,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog then Mostly Sunny"
-        },
-        {
           "startTime": "2026-11-09T18:00:00-08:00",
           "endTime": "2026-11-10T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 46,
+          "temperature": 45,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear then Patchy Fog"
-        },
-        {
-          "startTime": "2026-11-10T06:00:00-08:00",
-          "endTime": "2026-11-10T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 74,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog then Sunny"
-        },
-        {
-          "startTime": "2026-11-10T18:00:00-08:00",
-          "endTime": "2026-11-11T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 47,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear then Areas Of Fog"
-        },
-        {
-          "startTime": "2026-11-11T06:00:00-08:00",
-          "endTime": "2026-11-11T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 72,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog then Sunny"
-        },
-        {
-          "startTime": "2026-11-11T18:00:00-08:00",
-          "endTime": "2026-11-12T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 47,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy then Slight Chance Light Rain"
-        },
-        {
-          "startTime": "2026-11-12T06:00:00-08:00",
-          "endTime": "2026-11-12T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 68,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog"
-        },
-        {
-          "startTime": "2026-11-12T18:00:00-08:00",
-          "endTime": "2026-11-13T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 46,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Light Rain"
-        },
-        {
-          "startTime": "2026-11-13T06:00:00-08:00",
-          "endTime": "2026-11-13T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 66,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain"
-        },
-        {
-          "startTime": "2026-11-13T18:00:00-08:00",
-          "endTime": "2026-11-14T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 47,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain"
-        }
-      ]
-    },
-    "sonoma": {
-      "label": "Santa Rosa area",
-      "lat": 38.4404,
-      "lon": -122.7141,
-      "ok": true,
-      "forecast_url": "https://api.weather.gov/gridpoints/MTR/81,137/forecast",
-      "updated": "2026-11-07T16:22:08+00:00",
-      "periods": [
-        {
-          "startTime": "2026-11-07T10:00:00-08:00",
-          "endTime": "2026-11-07T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 74,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny"
-        },
-        {
-          "startTime": "2026-11-07T18:00:00-08:00",
-          "endTime": "2026-11-08T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 46,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy then Areas Of Fog"
-        },
-        {
-          "startTime": "2026-11-08T06:00:00-08:00",
-          "endTime": "2026-11-08T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 73,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog then Mostly Cloudy"
-        },
-        {
-          "startTime": "2026-11-08T18:00:00-08:00",
-          "endTime": "2026-11-09T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 46,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy then Areas Of Fog"
-        },
-        {
-          "startTime": "2026-11-09T06:00:00-08:00",
-          "endTime": "2026-11-09T18:00:00-08:00",
-          "isDaytime": true,
-          "temperature": 72,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog then Mostly Sunny"
-        },
-        {
-          "startTime": "2026-11-09T18:00:00-08:00",
-          "endTime": "2026-11-10T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 46,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear then Patchy Fog"
+          "shortForecast": "Patchy Fog"
         },
         {
           "startTime": "2026-11-10T06:00:00-08:00",
@@ -194,9 +56,9 @@
           "startTime": "2026-11-10T18:00:00-08:00",
           "endTime": "2026-11-11T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 47,
+          "temperature": 46,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear then Patchy Fog"
+          "shortForecast": "Mostly Clear then Areas Of Fog"
         },
         {
           "startTime": "2026-11-11T06:00:00-08:00",
@@ -204,23 +66,145 @@
           "isDaytime": true,
           "temperature": 75,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Fog then Mostly Sunny"
+          "shortForecast": "Areas Of Fog then Sunny"
         },
         {
           "startTime": "2026-11-11T18:00:00-08:00",
           "endTime": "2026-11-12T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 48,
+          "temperature": 46,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy then Chance Light Rain"
+          "shortForecast": "Mostly Clear"
         },
         {
           "startTime": "2026-11-12T06:00:00-08:00",
           "endTime": "2026-11-12T18:00:00-08:00",
           "isDaytime": true,
-          "temperature": 69,
+          "temperature": 70,
+          "temperatureUnit": "F",
+          "shortForecast": "Patchy Fog then Mostly Sunny"
+        },
+        {
+          "startTime": "2026-11-12T18:00:00-08:00",
+          "endTime": "2026-11-13T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 46,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy then Patchy Fog"
+        },
+        {
+          "startTime": "2026-11-13T06:00:00-08:00",
+          "endTime": "2026-11-13T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 68,
           "temperatureUnit": "F",
           "shortForecast": "Chance Light Rain"
+        },
+        {
+          "startTime": "2026-11-13T18:00:00-08:00",
+          "endTime": "2026-11-14T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 47,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Light Rain"
+        },
+        {
+          "startTime": "2026-11-14T06:00:00-08:00",
+          "endTime": "2026-11-14T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 66,
+          "temperatureUnit": "F",
+          "shortForecast": "Areas Of Fog"
+        },
+        {
+          "startTime": "2026-11-14T18:00:00-08:00",
+          "endTime": "2026-11-15T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 48,
+          "temperatureUnit": "F",
+          "shortForecast": "Light Rain Likely"
+        }
+      ]
+    },
+    "sonoma": {
+      "label": "Santa Rosa area",
+      "lat": 38.4404,
+      "lon": -122.7141,
+      "ok": true,
+      "forecast_url": "https://api.weather.gov/gridpoints/MTR/81,137/forecast",
+      "updated": "2026-11-08T16:42:15+00:00",
+      "periods": [
+        {
+          "startTime": "2026-11-08T10:00:00-08:00",
+          "endTime": "2026-11-08T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 74,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Sunny"
+        },
+        {
+          "startTime": "2026-11-08T18:00:00-08:00",
+          "endTime": "2026-11-09T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 48,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Cloudy then Patchy Fog"
+        },
+        {
+          "startTime": "2026-11-09T06:00:00-08:00",
+          "endTime": "2026-11-09T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 74,
+          "temperatureUnit": "F",
+          "shortForecast": "Patchy Fog then Partly Sunny"
+        },
+        {
+          "startTime": "2026-11-09T18:00:00-08:00",
+          "endTime": "2026-11-10T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 46,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear then Areas Of Fog"
+        },
+        {
+          "startTime": "2026-11-10T06:00:00-08:00",
+          "endTime": "2026-11-10T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 77,
+          "temperatureUnit": "F",
+          "shortForecast": "Areas Of Fog then Sunny"
+        },
+        {
+          "startTime": "2026-11-10T18:00:00-08:00",
+          "endTime": "2026-11-11T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 46,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear then Patchy Fog"
+        },
+        {
+          "startTime": "2026-11-11T06:00:00-08:00",
+          "endTime": "2026-11-11T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 78,
+          "temperatureUnit": "F",
+          "shortForecast": "Patchy Fog then Sunny"
+        },
+        {
+          "startTime": "2026-11-11T18:00:00-08:00",
+          "endTime": "2026-11-12T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 47,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy"
+        },
+        {
+          "startTime": "2026-11-12T06:00:00-08:00",
+          "endTime": "2026-11-12T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 71,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny then Slight Chance Light Rain"
         },
         {
           "startTime": "2026-11-12T18:00:00-08:00",
@@ -228,23 +212,39 @@
           "isDaytime": false,
           "temperature": 47,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain"
+          "shortForecast": "Slight Chance Light Rain"
         },
         {
           "startTime": "2026-11-13T06:00:00-08:00",
           "endTime": "2026-11-13T18:00:00-08:00",
           "isDaytime": true,
-          "temperature": 67,
+          "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog"
+          "shortForecast": "Chance Light Rain"
         },
         {
           "startTime": "2026-11-13T18:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 46,
+          "temperature": 47,
           "temperatureUnit": "F",
           "shortForecast": "Chance Light Rain"
+        },
+        {
+          "startTime": "2026-11-14T06:00:00-08:00",
+          "endTime": "2026-11-14T18:00:00-08:00",
+          "isDaytime": true,
+          "temperature": 66,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Light Rain"
+        },
+        {
+          "startTime": "2026-11-14T18:00:00-08:00",
+          "endTime": "2026-11-15T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 47,
+          "temperatureUnit": "F",
+          "shortForecast": "Light Rain Likely"
         }
       ]
     }
