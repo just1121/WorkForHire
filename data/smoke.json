@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T14:53:02Z",
+  "generated_at": "2026-11-10T21:17:56Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-10T14:53:02Z",
+      "fetched_at": "2026-11-10T21:17:56Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-10T14:53:03Z",
+      "fetched_at": "2026-11-10T21:17:57Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-10T14:53:06Z",
+      "fetched_at": "2026-11-10T21:18:00Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-10T14:53:03Z",
+      "fetched_at": "2026-11-10T21:17:57Z",
       "error": null
     }
   ],
@@ -50,14 +50,14 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 32,
+      "aqi": 27,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 32",
+      "now": "Clear. AQI 27",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the S at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the W at 2 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -65,21 +65,21 @@
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 32,
+      "aqi": 27,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
         "name": "Mile Rock 2",
         "miles": 50,
         "bearing": "S",
-        "upwind": false,
+        "upwind": true,
         "acres": 0.02,
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 32",
+      "now": "Clear. AQI 27",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Calm wind; the Mile Rock 2 Fire (0 acres), 50 miles S, is not upwind this weekend.",
+      "why": "Wind from the SE at 2 mph; the Mile Rock 2 Fire (0 acres), 50 miles S, is upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -87,7 +87,7 @@
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 32,
+      "aqi": 27,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
@@ -99,9 +99,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 32",
+      "now": "Clear. AQI 27",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the W at 4 mph; the Mile Rock 2 Fire (0 acres), 43 miles S, is upwind this weekend.",
+      "why": "Wind from the SE at 6 mph; the Mile Rock 2 Fire (0 acres), 43 miles S, is upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -109,21 +109,21 @@
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 32,
+      "aqi": 27,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
         "name": "Mile Rock 2",
         "miles": 37,
         "bearing": "S",
-        "upwind": false,
+        "upwind": true,
         "acres": 0.02,
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 32",
+      "now": "Clear. AQI 27",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the NW at 2 mph; the Mile Rock 2 Fire (0 acres), 37 miles S, is not upwind this weekend.",
+      "why": "Wind from the SW at 4 mph; the Mile Rock 2 Fire (0 acres), 37 miles S, is upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -131,7 +131,7 @@
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
-      "aqi": 32,
+      "aqi": 27,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
@@ -143,9 +143,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 32",
+      "now": "Clear. AQI 27",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the NE at 2 mph; the Mile Rock 2 Fire (0 acres), 35 miles S, is not upwind this weekend.",
+      "why": "Wind from the S at 4 mph; the Mile Rock 2 Fire (0 acres), 35 miles S, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -153,14 +153,14 @@
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 14,
+      "aqi": 21,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 14",
+      "now": "Clear. AQI 21",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the SE at 3 mph; no active fires within 50 miles.",
+      "why": "Wind from the SW at 2 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -168,21 +168,21 @@
       "zip": "95404",
       "lat": 38.44,
       "lon": -122.714,
-      "aqi": 31,
+      "aqi": 21,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
         "name": "Mile Rock 2",
         "miles": 47,
         "bearing": "S",
-        "upwind": false,
+        "upwind": true,
         "acres": 0.02,
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 31",
+      "now": "Clear. AQI 21",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Calm wind; the Mile Rock 2 Fire (0 acres), 47 miles S, is not upwind this weekend.",
+      "why": "Wind from the SW at 4 mph; the Mile Rock 2 Fire (0 acres), 47 miles S, is upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -190,14 +190,14 @@
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 14,
+      "aqi": 21,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 14",
+      "now": "Clear. AQI 21",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the SE at 3 mph; no active fires within 50 miles.",
+      "why": "Calm wind; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -205,14 +205,14 @@
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 15,
+      "aqi": 22,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 15",
+      "now": "Clear. AQI 22",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the NW at 4 mph; no active fires within 50 miles.",
+      "why": "Wind from the S at 2 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -220,14 +220,14 @@
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 14,
+      "aqi": 21,
       "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 14",
+      "now": "Clear. AQI 21",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the SW at 2 mph; no active fires within 50 miles.",
+      "why": "Wind from the SE at 1 mph; no active fires within 50 miles.",
       "sources_failed": []
     }
   ]
