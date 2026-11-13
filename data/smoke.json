@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T10:58:15Z",
+  "generated_at": "2026-11-13T19:42:02Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-13T10:58:15Z",
+      "fetched_at": "2026-11-13T19:42:03Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
       "ok": true,
-      "fetched_at": "2026-11-13T10:58:15Z",
+      "fetched_at": "2026-11-13T19:42:03Z",
       "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-13T10:58:18Z",
+      "fetched_at": "2026-11-13T19:42:06Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-13T10:58:16Z",
+      "fetched_at": "2026-11-13T19:42:03Z",
       "error": null
     }
   ],
@@ -50,8 +50,8 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 53,
-      "band": "moderate",
+      "aqi": 33,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": {
         "name": "MEYER",
@@ -62,9 +62,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "Clear. AQI 33",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the E at 7 mph; the Meyer Fire (0 acres), 47 miles NW, is not upwind this weekend.",
+      "why": "Wind from the W at 18 mph; the Meyer Fire (0 acres), 47 miles NW, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -72,14 +72,14 @@
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 53,
-      "band": "moderate",
+      "aqi": 33,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "Clear. AQI 33",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 6 mph; no active fires within 50 miles.",
+      "why": "Wind from the W at 17 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -87,14 +87,14 @@
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 53,
-      "band": "moderate",
+      "aqi": 33,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "Clear. AQI 33",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 5 mph; no active fires within 50 miles.",
+      "why": "Wind from the SW at 17 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -102,14 +102,14 @@
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 53,
-      "band": "moderate",
+      "aqi": 33,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "Clear. AQI 33",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 5 mph; no active fires within 50 miles.",
+      "why": "Wind from the SW at 16 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -117,14 +117,14 @@
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
-      "aqi": 53,
-      "band": "moderate",
+      "aqi": 33,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "Clear. AQI 33",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 4 mph; no active fires within 50 miles.",
+      "why": "Wind from the W at 12 mph; no active fires within 50 miles.",
       "sources_failed": []
     },
     {
@@ -132,7 +132,7 @@
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 40,
+      "aqi": 36,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
@@ -144,9 +144,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 40",
+      "now": "Clear. AQI 36",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 8 mph; the Meyer Fire (0 acres), 33 miles NW, is not upwind this weekend.",
+      "why": "Wind from the NW at 11 mph; the Meyer Fire (0 acres), 33 miles NW, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -154,8 +154,8 @@
       "zip": "95404",
       "lat": 38.44,
       "lon": -122.714,
-      "aqi": 52,
-      "band": "moderate",
+      "aqi": 37,
+      "band": "good",
       "weekend_band": "moderate",
       "fire": {
         "name": "MEYER",
@@ -166,9 +166,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "A little haze. AQI 52",
+      "now": "Clear. AQI 37",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 9 mph; the Meyer Fire (0 acres), 48 miles NW, is not upwind this weekend.",
+      "why": "Wind from the W at 11 mph; the Meyer Fire (0 acres), 48 miles NW, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -176,7 +176,7 @@
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 40,
+      "aqi": 36,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
@@ -188,9 +188,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 40",
+      "now": "Clear. AQI 36",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the SE at 9 mph; the Meyer Fire (0 acres), 28 miles NW, is not upwind this weekend.",
+      "why": "Wind from the W at 11 mph; the Meyer Fire (0 acres), 28 miles NW, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -198,7 +198,7 @@
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 36,
+      "aqi": 39,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
@@ -210,9 +210,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 36",
+      "now": "Clear. AQI 39",
       "weekend": "Some haze likely Sat",
-      "why": "Wind from the SE at 11 mph; the Meyer Fire (0 acres), 19 miles NW, is not upwind this weekend.",
+      "why": "Wind from the NW at 8 mph; the Meyer Fire (0 acres), 19 miles NW, is not upwind this weekend.",
       "sources_failed": []
     },
     {
@@ -220,7 +220,7 @@
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 40,
+      "aqi": 36,
       "band": "good",
       "weekend_band": "moderate",
       "fire": {
@@ -232,9 +232,9 @@
         "contained": null
       },
       "warnings": [],
-      "now": "Clear. AQI 40",
+      "now": "Clear. AQI 36",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "Wind from the S at 7 mph; the Meyer Fire (0 acres), 40 miles W, is not upwind this weekend.",
+      "why": "Wind from the W at 18 mph; the Meyer Fire (0 acres), 40 miles W, is not upwind this weekend.",
       "sources_failed": []
     }
   ]
