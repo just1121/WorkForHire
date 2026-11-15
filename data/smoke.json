@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T22:24:03Z",
+  "generated_at": "2026-11-15T06:31:46Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-14T22:24:04Z",
+      "fetched_at": "2026-11-15T06:31:47Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
-      "ok": false,
-      "fetched_at": null,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)"
+      "ok": true,
+      "fetched_at": "2026-11-15T06:31:47Z",
+      "error": null
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-14T22:24:39Z",
+      "fetched_at": "2026-11-15T06:31:50Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-14T22:24:35Z",
+      "fetched_at": "2026-11-15T06:31:47Z",
       "error": null
     }
   ],
@@ -50,81 +50,96 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 51,
+      "aqi": 54,
       "band": "moderate",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "MEYER",
-        "miles": 47,
-        "bearing": "NW",
-        "upwind": null,
-        "acres": 0.01,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 51",
+      "now": "A little haze. AQI 54",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; the Meyer Fire (0 acres), 47 miles NW, weekend wind not known yet.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the NE at 2 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "St. Helena",
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 51,
+      "aqi": 54,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 51",
+      "now": "A little haze. AQI 54",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the E at 3 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "Yountville",
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 51,
+      "aqi": 54,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 51",
+      "now": "A little haze. AQI 54",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the S at 3 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "Napa",
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 51,
+      "aqi": 54,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 51",
+      "now": "A little haze. AQI 54",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the W at 2 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "Sonoma",
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
+      "aqi": 54,
+      "band": "moderate",
+      "weekend_band": "moderate",
+      "fire": null,
+      "warnings": [],
+      "now": "A little haze. AQI 54",
+      "weekend": "Some haze likely Sat and Sun",
+      "why": "Wind from the NW at 1 mph; no active fires within 50 miles.",
+      "sources_failed": []
+    },
+    {
+      "name": "Healdsburg",
+      "zip": "95448",
+      "lat": 38.611,
+      "lon": -122.869,
+      "aqi": 38,
+      "band": "good",
+      "weekend_band": "moderate",
+      "fire": null,
+      "warnings": [],
+      "now": "Clear. AQI 38",
+      "weekend": "Some haze likely Sat and Sun",
+      "why": "Wind from the E at 3 mph; no active fires within 50 miles.",
+      "sources_failed": []
+    },
+    {
+      "name": "Santa Rosa",
+      "zip": "95404",
+      "lat": 38.44,
+      "lon": -122.714,
       "aqi": 51,
       "band": "moderate",
       "weekend_band": "moderate",
@@ -132,130 +147,53 @@
       "warnings": [],
       "now": "A little haze. AQI 51",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
-      "sources_failed": [
-        "wind"
-      ]
-    },
-    {
-      "name": "Healdsburg",
-      "zip": "95448",
-      "lat": 38.611,
-      "lon": -122.869,
-      "aqi": 27,
-      "band": "good",
-      "weekend_band": "moderate",
-      "fire": {
-        "name": "MEYER",
-        "miles": 33,
-        "bearing": "NW",
-        "upwind": null,
-        "acres": 0.01,
-        "contained": null
-      },
-      "warnings": [],
-      "now": "Clear. AQI 27",
-      "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; the Meyer Fire (0 acres), 33 miles NW, weekend wind not known yet.",
-      "sources_failed": [
-        "wind"
-      ]
-    },
-    {
-      "name": "Santa Rosa",
-      "zip": "95404",
-      "lat": 38.44,
-      "lon": -122.714,
-      "aqi": 44,
-      "band": "good",
-      "weekend_band": "moderate",
-      "fire": {
-        "name": "MEYER",
-        "miles": 48,
-        "bearing": "NW",
-        "upwind": null,
-        "acres": 0.01,
-        "contained": null
-      },
-      "warnings": [],
-      "now": "Clear. AQI 44",
-      "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; the Meyer Fire (0 acres), 48 miles NW, weekend wind not known yet.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the E at 4 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "Geyserville",
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 27,
+      "aqi": 38,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "MEYER",
-        "miles": 28,
-        "bearing": "NW",
-        "upwind": null,
-        "acres": 0.01,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 27",
+      "now": "Clear. AQI 38",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; the Meyer Fire (0 acres), 28 miles NW, weekend wind not known yet.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the E at 5 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "Cloverdale",
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 29,
+      "aqi": 39,
       "band": "good",
-      "weekend_band": "moderate",
-      "fire": {
-        "name": "MEYER",
-        "miles": 19,
-        "bearing": "NW",
-        "upwind": null,
-        "acres": 0.01,
-        "contained": null
-      },
+      "weekend_band": "good",
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 29",
-      "weekend": "Some haze likely Sat",
-      "why": "No data from Open-Meteo right now; the Meyer Fire (0 acres), 19 miles NW, weekend wind not known yet.",
-      "sources_failed": [
-        "wind"
-      ]
+      "now": "Clear. AQI 39",
+      "weekend": "Clear",
+      "why": "Wind from the SE at 2 mph; no active fires within 50 miles.",
+      "sources_failed": []
     },
     {
       "name": "Middletown",
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 27,
+      "aqi": 38,
       "band": "good",
       "weekend_band": "moderate",
-      "fire": {
-        "name": "MEYER",
-        "miles": 40,
-        "bearing": "W",
-        "upwind": null,
-        "acres": 0.01,
-        "contained": null
-      },
+      "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 27",
+      "now": "Clear. AQI 38",
       "weekend": "Some haze likely Sat and Sun",
-      "why": "No data from Open-Meteo right now; the Meyer Fire (0 acres), 40 miles W, weekend wind not known yet.",
-      "sources_failed": [
-        "wind"
-      ]
+      "why": "Wind from the N at 2 mph; no active fires within 50 miles.",
+      "sources_failed": []
     }
   ]
 }
