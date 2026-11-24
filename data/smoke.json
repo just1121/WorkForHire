@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T02:12:23Z",
+  "generated_at": "2026-11-24T13:41:58Z",
   "timezone": "America/Los_Angeles",
   "weekend": {
     "days": [
@@ -19,28 +19,28 @@
       "id": "aq",
       "name": "Open-Meteo air quality",
       "ok": true,
-      "fetched_at": "2026-11-24T02:12:23Z",
+      "fetched_at": "2026-11-24T13:41:59Z",
       "error": null
     },
     {
       "id": "wind",
       "name": "Open-Meteo forecast",
-      "ok": true,
-      "fetched_at": "2026-11-24T02:12:24Z",
-      "error": null
+      "ok": false,
+      "fetched_at": null,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)"
     },
     {
       "id": "nws",
       "name": "National Weather Service alerts",
       "ok": true,
-      "fetched_at": "2026-11-24T02:12:27Z",
+      "fetched_at": "2026-11-24T13:42:32Z",
       "error": null
     },
     {
       "id": "fires",
       "name": "NIFC current wildland fire incidents",
       "ok": true,
-      "fetched_at": "2026-11-24T02:12:24Z",
+      "fetched_at": "2026-11-24T13:42:30Z",
       "error": null
     }
   ],
@@ -50,150 +50,170 @@
       "zip": "94515",
       "lat": 38.579,
       "lon": -122.58,
-      "aqi": 53,
+      "aqi": 61,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "A little haze. AQI 61",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the E at 4 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "St. Helena",
       "zip": "94574",
       "lat": 38.505,
       "lon": -122.47,
-      "aqi": 53,
+      "aqi": 61,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "A little haze. AQI 61",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the E at 1 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Yountville",
       "zip": "94599",
       "lat": 38.401,
       "lon": -122.361,
-      "aqi": 53,
+      "aqi": 61,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "A little haze. AQI 61",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the SW at 6 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Napa",
       "zip": "94558",
       "lat": 38.297,
       "lon": -122.287,
-      "aqi": 53,
+      "aqi": 61,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "A little haze. AQI 61",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the W at 6 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Sonoma",
       "zip": "95476",
       "lat": 38.292,
       "lon": -122.458,
-      "aqi": 53,
+      "aqi": 61,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 53",
+      "now": "A little haze. AQI 61",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the S at 2 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Healdsburg",
       "zip": "95448",
       "lat": 38.611,
       "lon": -122.869,
-      "aqi": 32,
+      "aqi": 42,
       "band": "good",
-      "weekend_band": "good",
+      "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 32",
-      "weekend": "Clear Sat; no forecast yet for Sun",
-      "why": "Wind from the S at 4 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "now": "Clear. AQI 42",
+      "weekend": "Some haze likely Sat; no forecast yet for Sun",
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Santa Rosa",
       "zip": "95404",
       "lat": 38.44,
       "lon": -122.714,
-      "aqi": 54,
+      "aqi": 55,
       "band": "moderate",
       "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "A little haze. AQI 54",
+      "now": "A little haze. AQI 55",
       "weekend": "Some haze likely Sat; no forecast yet for Sun",
-      "why": "Wind from the SE at 4 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Geyserville",
       "zip": "95441",
       "lat": 38.705,
       "lon": -122.902,
-      "aqi": 32,
+      "aqi": 42,
       "band": "good",
-      "weekend_band": "good",
+      "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 32",
-      "weekend": "Clear Sat; no forecast yet for Sun",
-      "why": "Wind from the SE at 6 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "now": "Clear. AQI 42",
+      "weekend": "Some haze likely Sat; no forecast yet for Sun",
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Cloverdale",
       "zip": "95425",
       "lat": 38.805,
       "lon": -123.017,
-      "aqi": 31,
+      "aqi": 33,
       "band": "good",
-      "weekend_band": "good",
+      "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 31",
-      "weekend": "Clear Sat; no forecast yet for Sun",
-      "why": "Wind from the E at 5 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "now": "Clear. AQI 33",
+      "weekend": "Some haze likely Sat; no forecast yet for Sun",
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     },
     {
       "name": "Middletown",
       "zip": "95461",
       "lat": 38.752,
       "lon": -122.615,
-      "aqi": 32,
+      "aqi": 42,
       "band": "good",
-      "weekend_band": "good",
+      "weekend_band": "moderate",
       "fire": null,
       "warnings": [],
-      "now": "Clear. AQI 32",
-      "weekend": "Clear Sat; no forecast yet for Sun",
-      "why": "Wind from the W at 3 mph; no active fires within 50 miles.",
-      "sources_failed": []
+      "now": "Clear. AQI 42",
+      "weekend": "Some haze likely Sat; no forecast yet for Sun",
+      "why": "No data from Open-Meteo right now; no active fires within 50 miles.",
+      "sources_failed": [
+        "wind"
+      ]
     }
   ]
 }
